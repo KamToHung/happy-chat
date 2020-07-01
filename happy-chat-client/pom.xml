@@ -11,5 +11,11 @@
 
     <artifactId>happy-chat-client</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.happy.chat</groupId>
+            <artifactId>happy-chat-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
