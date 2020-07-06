@@ -3,6 +3,7 @@ package happy.chat.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 public class HappyChatServerApplication {
@@ -10,4 +11,5 @@ public class HappyChatServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(HappyChatServerApplication.class, args);
     }
+
 }

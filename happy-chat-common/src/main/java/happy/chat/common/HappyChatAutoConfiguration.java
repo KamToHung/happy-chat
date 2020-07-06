@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableConfigurationProperties({HappyChatProperties.class})
-@ComponentScan(basePackages =  {"happy.chat.common"})
+@ComponentScan(basePackages =  {"happy.chat"})
 public class HappyChatAutoConfiguration {
 
 
