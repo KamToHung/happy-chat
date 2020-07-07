@@ -31,7 +31,7 @@
         <!-- 实现对 Spring MVC 的自动化配置 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- 健康检测 -->
         <dependency>

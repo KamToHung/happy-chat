@@ -1,0 +1,10 @@
+happy:
+  chat:
+    server:
+      host: 127.0.0.1
+      port: 9090
+    client:
+      # 重连时间间隔,单位秒
+      reconnect-time: 10
+      # 重连次数
+      reconnect-num: 3

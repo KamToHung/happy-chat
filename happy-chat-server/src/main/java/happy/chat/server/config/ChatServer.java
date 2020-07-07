@@ -48,10 +48,10 @@ public class ChatServer {
                 .childOption(ChannelOption.SO_KEEPALIVE, true)
                 .childOption(ChannelOption.TCP_NODELAY, true)
                 .childHandler(serverInitHandler);
-        ChannelFuture future = bootstrap.bind(happyChatProperties.getPort()).sync();
+        ChannelFuture future = bootstrap.bind(happyChatProperties.getServer().getPort()).sync();
         if (future.isSuccess()) {
             this.channel = future.channel();
-            logger.info("快乐聊天服务器启动成功,端口为: " + happyChatProperties.getPort());
+            logger.info("快乐聊天服务器启动成功,端口为: " + happyChatProperties.getServer().getPort());
         }
     }
 
