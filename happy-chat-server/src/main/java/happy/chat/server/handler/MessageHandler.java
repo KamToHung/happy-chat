@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * 信息处理器
+ * 信息handler
  *
  * @author Terry
  */

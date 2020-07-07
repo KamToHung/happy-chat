@@ -7,6 +7,11 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 判断空闲handler
+ *
+ * @author Terry
+ */
 @Component
 public class ChatStateHandler extends IdleStateHandler {
 

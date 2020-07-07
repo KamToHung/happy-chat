@@ -8,6 +8,11 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import org.springframework.stereotype.Component;
 
+/**
+ * 判断是否登录成功handler.判断成功后移出
+ *
+ * @author Terry
+ */
 @Component
 @ChannelHandler.Sharable
 public class AuthHandler extends ChannelInboundHandlerAdapter {

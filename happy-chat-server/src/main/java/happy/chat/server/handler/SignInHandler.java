@@ -14,6 +14,11 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+/**
+ * 登录handler
+ *
+ * @author Terry
+ */
 @Component
 @ChannelHandler.Sharable
 public class SignInHandler extends SimpleChannelInboundHandler<RequestBody.SignIn> {

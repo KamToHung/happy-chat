@@ -10,6 +10,11 @@ import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * handler初始化
+ *
+ * @author Terry
+ */
 @Component
 public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
 

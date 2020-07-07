@@ -7,6 +7,11 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import org.springframework.stereotype.Component;
 
+/**
+ * 心跳判断handler
+ *
+ * @author Terry
+ */
 @Component
 @ChannelHandler.Sharable
 public class HeartbeatHandler extends SimpleChannelInboundHandler<RequestBody.Heartbeat> {

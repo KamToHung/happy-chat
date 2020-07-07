@@ -8,6 +8,11 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import org.springframework.stereotype.Component;
 
+/**
+ * 注销handler
+ *
+ * @author Terry
+ */
 @Component
 @ChannelHandler.Sharable
 public class SignOutHandler extends SimpleChannelInboundHandler<RequestBody.SignOut> {

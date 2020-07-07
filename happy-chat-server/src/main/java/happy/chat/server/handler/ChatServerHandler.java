@@ -16,6 +16,11 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 具体业务handler
+ *
+ * @author Terry
+ */
 @Component
 @ChannelHandler.Sharable
 public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg> {
@@ -38,9 +43,9 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.R
         SERVICE.execute(() -> {
             try {
                 if (command == RequestBody.RequestMsg.Command.MESSAGE) {
-                    messageHandler.channelRead0(ctx, msg.getUserMessage());
+                    messageHandler.channelRead(ctx, msg.getUserMessage());
                 } else if (command == RequestBody.RequestMsg.Command.SIGN_OUT) {
-                    signOutHandler.channelRead0(ctx, msg.getSignOut());
+                    signOutHandler.channelRead(ctx, msg.getSignOut());
                 }
             } catch (Exception e) {
                 logger.error(e.getMessage(), e);
