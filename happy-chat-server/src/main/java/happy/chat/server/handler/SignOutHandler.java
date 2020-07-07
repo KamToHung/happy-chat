@@ -2,6 +2,7 @@ package happy.chat.server.handler;
 
 import happy.chat.common.protobuf.request.RequestBody;
 import happy.chat.common.protobuf.response.ResponseBody;
+import happy.chat.server.util.SessionUtils;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -16,7 +17,8 @@ public class SignOutHandler extends SimpleChannelInboundHandler<RequestBody.Sign
         ResponseBody.SignOut.Builder signOutResponse = ResponseBody.SignOut.newBuilder();
         signOutResponse.setSuccess(true);
         signOutResponse.setReason("退出成功");
-        //TODO 移除用户信息
+        //移除用户信息
+        SessionUtils.delSession(ctx.channel());
         ctx.channel().writeAndFlush(signOutResponse.build());
     }
 

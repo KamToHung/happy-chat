@@ -17,6 +17,15 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
     private ChatStateHandler chatStateHandler;
 
     @Autowired
+    private SignInHandler signInHandler;
+
+    @Autowired
+    private HeartbeatHandler heartbeatHandler;
+
+    @Autowired
+    private AuthHandler authHandler;
+
+    @Autowired
     private ChatServerHandler chatServerHandler;
 
     protected void initChannel(NioSocketChannel ch) throws Exception {
@@ -25,6 +34,9 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
                 .addLast(new ProtobufDecoder(RequestBody.RequestMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
+                .addLast(signInHandler)
+                .addLast(heartbeatHandler)
+                .addLast(authHandler)
                 .addLast(chatServerHandler);
     }
 }
