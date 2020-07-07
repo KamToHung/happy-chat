@@ -1,5 +1,6 @@
 package happy.chat.server.handler;
 
+import happy.chat.common.protobuf.request.RequestBody;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;
@@ -21,7 +22,7 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
     protected void initChannel(NioSocketChannel ch) throws Exception {
         ch.pipeline().addLast(chatStateHandler)
                 .addLast(new ProtobufVarint32FrameDecoder())
-                .addLast(new ProtobufDecoder(HeartBeatRequest.HeartBeat.getDefaultInstance()))
+                .addLast(new ProtobufDecoder(RequestBody.RequestMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
                 .addLast(chatServerHandler);
