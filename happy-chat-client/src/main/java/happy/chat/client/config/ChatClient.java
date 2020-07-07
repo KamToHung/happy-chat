@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class ChatClient {
 
-    private Logger logger = LoggerFactory.getLogger(ChatClient.class);
+    private static final Logger logger = LoggerFactory.getLogger(ChatClient.class);
 
     @Autowired
     private ClientInitHandler clientInitHandler;
@@ -28,7 +28,7 @@ public class ChatClient {
     @Autowired
     private HappyChatProperties happyChatProperties;
 
-    private EventLoopGroup group = new NioEventLoopGroup();
+    private final EventLoopGroup group = new NioEventLoopGroup();
 
     private Channel channel;
 
