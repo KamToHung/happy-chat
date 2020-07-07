@@ -1,6 +1,5 @@
 package happy.chat.server.handler;
 
-import happy.chat.common.protobuf.request.HeartBeatRequest;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;

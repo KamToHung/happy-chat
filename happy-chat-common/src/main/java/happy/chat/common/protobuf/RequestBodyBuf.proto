@@ -1,0 +1,83 @@
+syntax = "proto3";
+package happy.chat.common.protobuf;
+option java_package = "happy.chat.common.protobuf.request";
+option java_outer_classname = "RequestBody";
+
+message RequestMsg {
+
+  enum Command {
+
+    SIGN_IN = 0;
+
+    MESSAGE = 1;
+
+    SIGN_OUT = 2;
+
+    CREATE_GROUP = 3;
+
+    LIST_GROUP_MEMBERS = 4;
+
+    JOIN_GROUP = 5;
+
+    QUIT_GROUP = 6;
+
+    GROUP_MESSAGE = 7;
+
+    HEARTBEAT = 8;
+  }
+  Command command = 1;
+
+  oneof requestBody {
+    SignIn signIn = 2;
+    UserMessage userMessage = 3;
+    SignOut signOut = 4;
+    CreateGroup createGroup = 5;
+    ListGroupMembers listGroupMembers = 6;
+    JoinGroup joinGroup = 7;
+    QuitGroup quitGroup = 8;
+    GroupMessage groupMessage = 9;
+    Heartbeat heartbeat = 10;
+  }
+}
+
+message SignIn {
+  string username = 1;
+  string password = 2;
+}
+
+message UserMessage {
+  string toUserId = 1;
+  string message = 2;
+}
+
+message SignOut {
+
+}
+
+message CreateGroup {
+  repeated string userIds = 1;
+}
+
+message ListGroupMembers {
+  string groupId = 1;
+}
+
+message JoinGroup {
+  string groupId = 1;
+}
+
+
+message QuitGroup {
+  string groupId = 1;
+}
+
+message GroupMessage {
+  string toGroupId = 1;
+  string message = 2;
+}
+
+message Heartbeat {
+
+}
+
+
