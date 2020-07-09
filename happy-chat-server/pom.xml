@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.happy.chat</groupId>
             <artifactId>happy-chat-common</artifactId>
-            <version>1.0.0</version>
+            <version>${happyChatCommon.version}</version>
         </dependency>
     </dependencies>
 </project>

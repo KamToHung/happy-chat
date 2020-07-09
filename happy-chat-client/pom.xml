@@ -8,14 +8,35 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <version>1.0.0</version>
     <artifactId>happy-chat-client</artifactId>
+
 
     <dependencies>
         <dependency>
             <groupId>com.happy.chat</groupId>
             <artifactId>happy-chat-common</artifactId>
-            <version>1.0.0</version>
+            <version>${happyChatCommon.version}</version>
+        </dependency>
+        <!-- 实现对 Spring MVC 的自动化配置 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
