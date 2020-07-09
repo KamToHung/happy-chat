@@ -1,6 +1,5 @@
 package happy.chat.client.config;
 
-import com.google.common.util.concurrent.Futures;
 import happy.chat.client.handler.ClientInitHandler;
 import happy.chat.common.HappyChatProperties;
 import io.netty.bootstrap.Bootstrap;
