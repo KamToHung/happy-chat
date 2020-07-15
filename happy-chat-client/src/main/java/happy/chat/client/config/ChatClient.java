@@ -91,15 +91,9 @@ public class ChatClient {
      *
      * @param channel
      */
-    private static void login(Channel channel, Scanner scanner) {
-        logger.info("开始登录,请输入用户名:");
-        RequestBody.RequestMsg.SignIn.Builder signInBuilder = RequestBody.RequestMsg.SignIn.newBuilder();
-        signInBuilder.setUsername(scanner.nextLine());
-        logger.info("请输入密码:");
-        signInBuilder.setPassword(scanner.nextLine());
-        RequestBody.RequestMsg.Builder builder = RequestBody.RequestMsg.newBuilder();
-        builder.setSignIn(signInBuilder);
-        channel.writeAndFlush(builder.build());
+    private void login(Channel channel, Scanner scanner) {
+        BaseCommand command = commandInfo.getCommand(RequestBody.RequestMsg.Command.SIGN_IN_VALUE);
+        command.exec(channel, scanner);
     }
 
     private void order(Channel channel, Scanner scanner) {
