@@ -38,62 +38,62 @@ message ResponseMsg {
     GroupMessage groupMessage = 9;
     Heartbeat heartbeat = 10;
   }
-}
 
-message SignIn {
-  string userId = 1;
-  string username = 2;
-  bool success = 3;
-  string reason = 4;
-}
+  message SignIn {
+    string userId = 1;
+    string username = 2;
+    bool success = 3;
+    string reason = 4;
+  }
 
-message UserMessage {
-  string fromUserId = 1;
-  string fromUsername = 2;
-  string message = 3;
-}
+  message UserMessage {
+    string fromUserId = 1;
+    string fromUsername = 2;
+    string message = 3;
+  }
 
-message SignOut {
-  bool success = 1;
-  string reason = 2;
-}
+  message SignOut {
+    bool success = 1;
+    string reason = 2;
+  }
 
-message CreateGroup {
-  bool success = 1;
-  string groupId = 2;
-  repeated string usernameList = 3;
-}
+  message CreateGroup {
+    bool success = 1;
+    string groupId = 2;
+    repeated string usernameList = 3;
+  }
 
-message ListGroupMembers {
-  string groupId = 1;
-  repeated UserInfo userInfo = 2;
-}
+  message ListGroupMembers {
+    string groupId = 1;
+    repeated UserInfo userInfo = 2;
+  }
 
-message UserInfo {
-  string userId = 1;
-  string username = 2;
-}
-
-
-message JoinGroup {
-  bool success = 1;
-  string groupId = 2;
-  string reason = 3;
-}
+  message UserInfo {
+    string userId = 1;
+    string username = 2;
+  }
 
 
-message QuitGroup {
-  bool success = 1;
-  string groupId = 2;
-  string reason = 3;
-}
+  message JoinGroup {
+    bool success = 1;
+    string groupId = 2;
+    string reason = 3;
+  }
 
-message GroupMessage {
-  string fromGroupId = 1;
-  UserInfo userInfo = 2;
-  string message = 3;
-}
 
-message Heartbeat {
+  message QuitGroup {
+    bool success = 1;
+    string groupId = 2;
+    string reason = 3;
+  }
 
+  message GroupMessage {
+    string fromGroupId = 1;
+    UserInfo userInfo = 2;
+    string message = 3;
+  }
+
+  message Heartbeat {
+
+  }
 }

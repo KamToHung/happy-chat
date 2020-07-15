@@ -14,10 +14,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ChannelHandler.Sharable
-public class HeartbeatHandler extends SimpleChannelInboundHandler<RequestBody.Heartbeat> {
+public class HeartbeatHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg.Heartbeat> {
 
-    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.Heartbeat heartbeatRequest) throws Exception {
-        ResponseBody.Heartbeat.Builder heartbeatResponse = ResponseBody.Heartbeat.newBuilder();
+    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg.Heartbeat heartbeatRequest) throws Exception {
+        ResponseBody.ResponseMsg.Heartbeat.Builder heartbeatResponse = ResponseBody.ResponseMsg.Heartbeat.newBuilder();
         ctx.writeAndFlush(heartbeatResponse.build());
     }
 }

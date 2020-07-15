@@ -27,144 +27,144 @@ public final class RequestBody {
      * <code>.happy.chat.common.protobuf.RequestMsg.Command command = 1;</code>
      * @return The command.
      */
-    happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command getCommand();
+    RequestMsg.Command getCommand();
 
     /**
-     * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
      * @return Whether the signIn field is set.
      */
     boolean hasSignIn();
     /**
-     * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
      * @return The signIn.
      */
-    happy.chat.common.protobuf.request.RequestBody.SignIn getSignIn();
+    RequestMsg.SignIn getSignIn();
     /**
-     * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder getSignInOrBuilder();
+    RequestMsg.SignInOrBuilder getSignInOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
      * @return Whether the userMessage field is set.
      */
     boolean hasUserMessage();
     /**
-     * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
      * @return The userMessage.
      */
-    happy.chat.common.protobuf.request.RequestBody.UserMessage getUserMessage();
+    RequestMsg.UserMessage getUserMessage();
     /**
-     * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder getUserMessageOrBuilder();
+    RequestMsg.UserMessageOrBuilder getUserMessageOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
      * @return Whether the signOut field is set.
      */
     boolean hasSignOut();
     /**
-     * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
      * @return The signOut.
      */
-    happy.chat.common.protobuf.request.RequestBody.SignOut getSignOut();
+    RequestMsg.SignOut getSignOut();
     /**
-     * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder getSignOutOrBuilder();
+    RequestMsg.SignOutOrBuilder getSignOutOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
      * @return Whether the createGroup field is set.
      */
     boolean hasCreateGroup();
     /**
-     * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
      * @return The createGroup.
      */
-    happy.chat.common.protobuf.request.RequestBody.CreateGroup getCreateGroup();
+    RequestMsg.CreateGroup getCreateGroup();
     /**
-     * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder getCreateGroupOrBuilder();
+    RequestMsg.CreateGroupOrBuilder getCreateGroupOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
      * @return Whether the listGroupMembers field is set.
      */
     boolean hasListGroupMembers();
     /**
-     * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
      * @return The listGroupMembers.
      */
-    happy.chat.common.protobuf.request.RequestBody.ListGroupMembers getListGroupMembers();
+    RequestMsg.ListGroupMembers getListGroupMembers();
     /**
-     * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder getListGroupMembersOrBuilder();
+    RequestMsg.ListGroupMembersOrBuilder getListGroupMembersOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
      * @return Whether the joinGroup field is set.
      */
     boolean hasJoinGroup();
     /**
-     * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
      * @return The joinGroup.
      */
-    happy.chat.common.protobuf.request.RequestBody.JoinGroup getJoinGroup();
+    RequestMsg.JoinGroup getJoinGroup();
     /**
-     * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder getJoinGroupOrBuilder();
+    RequestMsg.JoinGroupOrBuilder getJoinGroupOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
      * @return Whether the quitGroup field is set.
      */
     boolean hasQuitGroup();
     /**
-     * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
      * @return The quitGroup.
      */
-    happy.chat.common.protobuf.request.RequestBody.QuitGroup getQuitGroup();
+    RequestMsg.QuitGroup getQuitGroup();
     /**
-     * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder getQuitGroupOrBuilder();
+    RequestMsg.QuitGroupOrBuilder getQuitGroupOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
      * @return Whether the groupMessage field is set.
      */
     boolean hasGroupMessage();
     /**
-     * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
      * @return The groupMessage.
      */
-    happy.chat.common.protobuf.request.RequestBody.GroupMessage getGroupMessage();
+    RequestMsg.GroupMessage getGroupMessage();
     /**
-     * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder getGroupMessageOrBuilder();
+    RequestMsg.GroupMessageOrBuilder getGroupMessageOrBuilder();
 
     /**
-     * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
      * @return Whether the heartbeat field is set.
      */
     boolean hasHeartbeat();
     /**
-     * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
      * @return The heartbeat.
      */
-    happy.chat.common.protobuf.request.RequestBody.Heartbeat getHeartbeat();
+    RequestMsg.Heartbeat getHeartbeat();
     /**
-     * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
      */
-    happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder getHeartbeatOrBuilder();
+    RequestMsg.HeartbeatOrBuilder getHeartbeatOrBuilder();
 
-    public happy.chat.common.protobuf.request.RequestBody.RequestMsg.RequestBodyCase getRequestBodyCase();
+    public RequestMsg.RequestBodyCase getRequestBodyCase();
   }
   /**
    * Protobuf type {@code happy.chat.common.protobuf.RequestMsg}
@@ -182,14 +182,14 @@ public final class RequestBody {
       command_ = 0;
     }
 
-    @java.lang.Override
+    @Override
     @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
+    protected Object newInstance(
         UnusedPrivateParameter unused) {
       return new RequestMsg();
     }
 
-    @java.lang.Override
+    @Override
     public final com.google.protobuf.UnknownFieldSet
     getUnknownFields() {
       return this.unknownFields;
@@ -200,7 +200,7 @@ public final class RequestBody {
         throws com.google.protobuf.InvalidProtocolBufferException {
       this();
       if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
+        throw new NullPointerException();
       }
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
@@ -219,126 +219,126 @@ public final class RequestBody {
               break;
             }
             case 18: {
-              happy.chat.common.protobuf.request.RequestBody.SignIn.Builder subBuilder = null;
+              SignIn.Builder subBuilder = null;
               if (requestBodyCase_ == 2) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_).toBuilder();
+                subBuilder = ((SignIn) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.SignIn.parser(), extensionRegistry);
+                  input.readMessage(SignIn.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_);
+                subBuilder.mergeFrom((SignIn) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 2;
               break;
             }
             case 26: {
-              happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder subBuilder = null;
+              UserMessage.Builder subBuilder = null;
               if (requestBodyCase_ == 3) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_).toBuilder();
+                subBuilder = ((UserMessage) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.UserMessage.parser(), extensionRegistry);
+                  input.readMessage(UserMessage.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_);
+                subBuilder.mergeFrom((UserMessage) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 3;
               break;
             }
             case 34: {
-              happy.chat.common.protobuf.request.RequestBody.SignOut.Builder subBuilder = null;
+              SignOut.Builder subBuilder = null;
               if (requestBodyCase_ == 4) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_).toBuilder();
+                subBuilder = ((SignOut) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.SignOut.parser(), extensionRegistry);
+                  input.readMessage(SignOut.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_);
+                subBuilder.mergeFrom((SignOut) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 4;
               break;
             }
             case 42: {
-              happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder subBuilder = null;
+              CreateGroup.Builder subBuilder = null;
               if (requestBodyCase_ == 5) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_).toBuilder();
+                subBuilder = ((CreateGroup) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.CreateGroup.parser(), extensionRegistry);
+                  input.readMessage(CreateGroup.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_);
+                subBuilder.mergeFrom((CreateGroup) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 5;
               break;
             }
             case 50: {
-              happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder subBuilder = null;
+              ListGroupMembers.Builder subBuilder = null;
               if (requestBodyCase_ == 6) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_).toBuilder();
+                subBuilder = ((ListGroupMembers) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.parser(), extensionRegistry);
+                  input.readMessage(ListGroupMembers.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_);
+                subBuilder.mergeFrom((ListGroupMembers) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 6;
               break;
             }
             case 58: {
-              happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder subBuilder = null;
+              JoinGroup.Builder subBuilder = null;
               if (requestBodyCase_ == 7) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_).toBuilder();
+                subBuilder = ((JoinGroup) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.JoinGroup.parser(), extensionRegistry);
+                  input.readMessage(JoinGroup.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_);
+                subBuilder.mergeFrom((JoinGroup) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 7;
               break;
             }
             case 66: {
-              happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder subBuilder = null;
+              QuitGroup.Builder subBuilder = null;
               if (requestBodyCase_ == 8) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_).toBuilder();
+                subBuilder = ((QuitGroup) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.QuitGroup.parser(), extensionRegistry);
+                  input.readMessage(QuitGroup.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_);
+                subBuilder.mergeFrom((QuitGroup) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 8;
               break;
             }
             case 74: {
-              happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder subBuilder = null;
+              GroupMessage.Builder subBuilder = null;
               if (requestBodyCase_ == 9) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_).toBuilder();
+                subBuilder = ((GroupMessage) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.GroupMessage.parser(), extensionRegistry);
+                  input.readMessage(GroupMessage.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_);
+                subBuilder.mergeFrom((GroupMessage) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 9;
               break;
             }
             case 82: {
-              happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder subBuilder = null;
+              Heartbeat.Builder subBuilder = null;
               if (requestBodyCase_ == 10) {
-                subBuilder = ((happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_).toBuilder();
+                subBuilder = ((Heartbeat) requestBody_).toBuilder();
               }
               requestBody_ =
-                  input.readMessage(happy.chat.common.protobuf.request.RequestBody.Heartbeat.parser(), extensionRegistry);
+                  input.readMessage(Heartbeat.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_);
+                subBuilder.mergeFrom((Heartbeat) requestBody_);
                 requestBody_ = subBuilder.buildPartial();
               }
               requestBodyCase_ = 10;
@@ -365,15 +365,15 @@ public final class RequestBody {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_descriptor;
+      return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_descriptor;
     }
 
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+    @Override
+    protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_fieldAccessorTable
+      return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.RequestMsg.class, happy.chat.common.protobuf.request.RequestBody.RequestMsg.Builder.class);
+              RequestMsg.class, Builder.class);
     }
 
     /**
@@ -460,7 +460,7 @@ public final class RequestBody {
 
       public final int getNumber() {
         if (this == UNRECOGNIZED) {
-          throw new java.lang.IllegalArgumentException(
+          throw new IllegalArgumentException(
               "Can't get the number of an unknown enum value.");
         }
         return value;
@@ -471,7 +471,7 @@ public final class RequestBody {
        * @return The enum associated with the given numeric wire value.
        * @deprecated Use {@link #forNumber(int)} instead.
        */
-      @java.lang.Deprecated
+      @Deprecated
       public static Command valueOf(int value) {
         return forNumber(value);
       }
@@ -510,7 +510,7 @@ public final class RequestBody {
       public final com.google.protobuf.Descriptors.EnumValueDescriptor
           getValueDescriptor() {
         if (this == UNRECOGNIZED) {
-          throw new java.lang.IllegalStateException(
+          throw new IllegalStateException(
               "Can't get the descriptor of an unrecognized enum value.");
         }
         return getDescriptor().getValues().get(ordinal());
@@ -521,7 +521,7 @@ public final class RequestBody {
       }
       public static final com.google.protobuf.Descriptors.EnumDescriptor
           getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.RequestMsg.getDescriptor().getEnumTypes().get(0);
+        return RequestMsg.getDescriptor().getEnumTypes().get(0);
       }
 
       private static final Command[] VALUES = values();
@@ -529,7 +529,7 @@ public final class RequestBody {
       public static Command valueOf(
           com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
         if (desc.getType() != getDescriptor()) {
-          throw new java.lang.IllegalArgumentException(
+          throw new IllegalArgumentException(
             "EnumValueDescriptor is not for this type.");
         }
         if (desc.getIndex() == -1) {
@@ -547,11 +547,5343 @@ public final class RequestBody {
       // @@protoc_insertion_point(enum_scope:happy.chat.common.protobuf.RequestMsg.Command)
     }
 
+    public interface SignInOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.SignIn)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>string username = 1;</code>
+       * @return The username.
+       */
+      String getUsername();
+      /**
+       * <code>string username = 1;</code>
+       * @return The bytes for username.
+       */
+      com.google.protobuf.ByteString
+          getUsernameBytes();
+
+      /**
+       * <code>string password = 2;</code>
+       * @return The password.
+       */
+      String getPassword();
+      /**
+       * <code>string password = 2;</code>
+       * @return The bytes for password.
+       */
+      com.google.protobuf.ByteString
+          getPasswordBytes();
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.SignIn}
+     */
+    public static final class SignIn extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.SignIn)
+        SignInOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use SignIn.newBuilder() to construct.
+      private SignIn(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private SignIn() {
+        username_ = "";
+        password_ = "";
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new SignIn();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private SignIn(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                username_ = s;
+                break;
+              }
+              case 18: {
+                String s = input.readStringRequireUtf8();
+
+                password_ = s;
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                SignIn.class, Builder.class);
+      }
+
+      public static final int USERNAME_FIELD_NUMBER = 1;
+      private volatile Object username_;
+      /**
+       * <code>string username = 1;</code>
+       * @return The username.
+       */
+      @Override
+      public String getUsername() {
+        Object ref = username_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          username_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string username = 1;</code>
+       * @return The bytes for username.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getUsernameBytes() {
+        Object ref = username_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          username_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      public static final int PASSWORD_FIELD_NUMBER = 2;
+      private volatile Object password_;
+      /**
+       * <code>string password = 2;</code>
+       * @return The password.
+       */
+      @Override
+      public String getPassword() {
+        Object ref = password_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          password_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string password = 2;</code>
+       * @return The bytes for password.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getPasswordBytes() {
+        Object ref = password_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          password_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getUsernameBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, username_);
+        }
+        if (!getPasswordBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 2, password_);
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getUsernameBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, username_);
+        }
+        if (!getPasswordBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, password_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof SignIn)) {
+          return super.equals(obj);
+        }
+        SignIn other = (SignIn) obj;
+
+        if (!getUsername()
+            .equals(other.getUsername())) return false;
+        if (!getPassword()
+            .equals(other.getPassword())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + USERNAME_FIELD_NUMBER;
+        hash = (53 * hash) + getUsername().hashCode();
+        hash = (37 * hash) + PASSWORD_FIELD_NUMBER;
+        hash = (53 * hash) + getPassword().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static SignIn parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static SignIn parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static SignIn parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static SignIn parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static SignIn parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static SignIn parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static SignIn parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static SignIn parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static SignIn parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static SignIn parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static SignIn parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static SignIn parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(SignIn prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.SignIn}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.SignIn)
+          SignInOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  SignIn.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.SignIn.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          username_ = "";
+
+          password_ = "";
+
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_descriptor;
+        }
+
+        @Override
+        public SignIn getDefaultInstanceForType() {
+          return SignIn.getDefaultInstance();
+        }
+
+        @Override
+        public SignIn build() {
+          SignIn result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public SignIn buildPartial() {
+          SignIn result = new SignIn(this);
+          result.username_ = username_;
+          result.password_ = password_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof SignIn) {
+            return mergeFrom((SignIn)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(SignIn other) {
+          if (other == SignIn.getDefaultInstance()) return this;
+          if (!other.getUsername().isEmpty()) {
+            username_ = other.username_;
+            onChanged();
+          }
+          if (!other.getPassword().isEmpty()) {
+            password_ = other.password_;
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          SignIn parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (SignIn) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private Object username_ = "";
+        /**
+         * <code>string username = 1;</code>
+         * @return The username.
+         */
+        public String getUsername() {
+          Object ref = username_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            username_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string username = 1;</code>
+         * @return The bytes for username.
+         */
+        public com.google.protobuf.ByteString
+            getUsernameBytes() {
+          Object ref = username_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            username_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string username = 1;</code>
+         * @param value The username to set.
+         * @return This builder for chaining.
+         */
+        public Builder setUsername(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          username_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string username = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearUsername() {
+          
+          username_ = getDefaultInstance().getUsername();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string username = 1;</code>
+         * @param value The bytes for username to set.
+         * @return This builder for chaining.
+         */
+        public Builder setUsernameBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          username_ = value;
+          onChanged();
+          return this;
+        }
+
+        private Object password_ = "";
+        /**
+         * <code>string password = 2;</code>
+         * @return The password.
+         */
+        public String getPassword() {
+          Object ref = password_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            password_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string password = 2;</code>
+         * @return The bytes for password.
+         */
+        public com.google.protobuf.ByteString
+            getPasswordBytes() {
+          Object ref = password_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            password_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string password = 2;</code>
+         * @param value The password to set.
+         * @return This builder for chaining.
+         */
+        public Builder setPassword(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          password_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string password = 2;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearPassword() {
+          
+          password_ = getDefaultInstance().getPassword();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string password = 2;</code>
+         * @param value The bytes for password to set.
+         * @return This builder for chaining.
+         */
+        public Builder setPasswordBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          password_ = value;
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.SignIn)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.SignIn)
+      private static final SignIn DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new SignIn();
+      }
+
+      public static SignIn getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<SignIn>
+          PARSER = new com.google.protobuf.AbstractParser<SignIn>() {
+        @Override
+        public SignIn parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new SignIn(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<SignIn> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<SignIn> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public SignIn getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface UserMessageOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.UserMessage)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>string toUserId = 1;</code>
+       * @return The toUserId.
+       */
+      String getToUserId();
+      /**
+       * <code>string toUserId = 1;</code>
+       * @return The bytes for toUserId.
+       */
+      com.google.protobuf.ByteString
+          getToUserIdBytes();
+
+      /**
+       * <code>string message = 2;</code>
+       * @return The message.
+       */
+      String getMessage();
+      /**
+       * <code>string message = 2;</code>
+       * @return The bytes for message.
+       */
+      com.google.protobuf.ByteString
+          getMessageBytes();
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.UserMessage}
+     */
+    public static final class UserMessage extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.UserMessage)
+        UserMessageOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use UserMessage.newBuilder() to construct.
+      private UserMessage(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private UserMessage() {
+        toUserId_ = "";
+        message_ = "";
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new UserMessage();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private UserMessage(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                toUserId_ = s;
+                break;
+              }
+              case 18: {
+                String s = input.readStringRequireUtf8();
+
+                message_ = s;
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                UserMessage.class, Builder.class);
+      }
+
+      public static final int TOUSERID_FIELD_NUMBER = 1;
+      private volatile Object toUserId_;
+      /**
+       * <code>string toUserId = 1;</code>
+       * @return The toUserId.
+       */
+      @Override
+      public String getToUserId() {
+        Object ref = toUserId_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          toUserId_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string toUserId = 1;</code>
+       * @return The bytes for toUserId.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getToUserIdBytes() {
+        Object ref = toUserId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          toUserId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      public static final int MESSAGE_FIELD_NUMBER = 2;
+      private volatile Object message_;
+      /**
+       * <code>string message = 2;</code>
+       * @return The message.
+       */
+      @Override
+      public String getMessage() {
+        Object ref = message_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          message_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string message = 2;</code>
+       * @return The bytes for message.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getMessageBytes() {
+        Object ref = message_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          message_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getToUserIdBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, toUserId_);
+        }
+        if (!getMessageBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 2, message_);
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getToUserIdBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, toUserId_);
+        }
+        if (!getMessageBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, message_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof UserMessage)) {
+          return super.equals(obj);
+        }
+        UserMessage other = (UserMessage) obj;
+
+        if (!getToUserId()
+            .equals(other.getToUserId())) return false;
+        if (!getMessage()
+            .equals(other.getMessage())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + TOUSERID_FIELD_NUMBER;
+        hash = (53 * hash) + getToUserId().hashCode();
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessage().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static UserMessage parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static UserMessage parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static UserMessage parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static UserMessage parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static UserMessage parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static UserMessage parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static UserMessage parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static UserMessage parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static UserMessage parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static UserMessage parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static UserMessage parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static UserMessage parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(UserMessage prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.UserMessage}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.UserMessage)
+          UserMessageOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  UserMessage.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.UserMessage.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          toUserId_ = "";
+
+          message_ = "";
+
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_descriptor;
+        }
+
+        @Override
+        public UserMessage getDefaultInstanceForType() {
+          return UserMessage.getDefaultInstance();
+        }
+
+        @Override
+        public UserMessage build() {
+          UserMessage result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public UserMessage buildPartial() {
+          UserMessage result = new UserMessage(this);
+          result.toUserId_ = toUserId_;
+          result.message_ = message_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof UserMessage) {
+            return mergeFrom((UserMessage)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(UserMessage other) {
+          if (other == UserMessage.getDefaultInstance()) return this;
+          if (!other.getToUserId().isEmpty()) {
+            toUserId_ = other.toUserId_;
+            onChanged();
+          }
+          if (!other.getMessage().isEmpty()) {
+            message_ = other.message_;
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          UserMessage parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (UserMessage) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private Object toUserId_ = "";
+        /**
+         * <code>string toUserId = 1;</code>
+         * @return The toUserId.
+         */
+        public String getToUserId() {
+          Object ref = toUserId_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            toUserId_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string toUserId = 1;</code>
+         * @return The bytes for toUserId.
+         */
+        public com.google.protobuf.ByteString
+            getToUserIdBytes() {
+          Object ref = toUserId_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            toUserId_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string toUserId = 1;</code>
+         * @param value The toUserId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setToUserId(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          toUserId_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string toUserId = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearToUserId() {
+          
+          toUserId_ = getDefaultInstance().getToUserId();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string toUserId = 1;</code>
+         * @param value The bytes for toUserId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setToUserIdBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          toUserId_ = value;
+          onChanged();
+          return this;
+        }
+
+        private Object message_ = "";
+        /**
+         * <code>string message = 2;</code>
+         * @return The message.
+         */
+        public String getMessage() {
+          Object ref = message_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            message_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @return The bytes for message.
+         */
+        public com.google.protobuf.ByteString
+            getMessageBytes() {
+          Object ref = message_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            message_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @param value The message to set.
+         * @return This builder for chaining.
+         */
+        public Builder setMessage(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          message_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearMessage() {
+          
+          message_ = getDefaultInstance().getMessage();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @param value The bytes for message to set.
+         * @return This builder for chaining.
+         */
+        public Builder setMessageBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          message_ = value;
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.UserMessage)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.UserMessage)
+      private static final UserMessage DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new UserMessage();
+      }
+
+      public static UserMessage getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<UserMessage>
+          PARSER = new com.google.protobuf.AbstractParser<UserMessage>() {
+        @Override
+        public UserMessage parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new UserMessage(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<UserMessage> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<UserMessage> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public UserMessage getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface SignOutOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.SignOut)
+        com.google.protobuf.MessageOrBuilder {
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.SignOut}
+     */
+    public static final class SignOut extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.SignOut)
+        SignOutOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use SignOut.newBuilder() to construct.
+      private SignOut(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private SignOut() {
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new SignOut();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private SignOut(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                SignOut.class, Builder.class);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof SignOut)) {
+          return super.equals(obj);
+        }
+        SignOut other = (SignOut) obj;
+
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static SignOut parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static SignOut parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static SignOut parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static SignOut parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static SignOut parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static SignOut parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static SignOut parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static SignOut parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static SignOut parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static SignOut parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static SignOut parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static SignOut parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(SignOut prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.SignOut}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.SignOut)
+          SignOutOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  SignOut.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.SignOut.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_descriptor;
+        }
+
+        @Override
+        public SignOut getDefaultInstanceForType() {
+          return SignOut.getDefaultInstance();
+        }
+
+        @Override
+        public SignOut build() {
+          SignOut result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public SignOut buildPartial() {
+          SignOut result = new SignOut(this);
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof SignOut) {
+            return mergeFrom((SignOut)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(SignOut other) {
+          if (other == SignOut.getDefaultInstance()) return this;
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          SignOut parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (SignOut) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.SignOut)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.SignOut)
+      private static final SignOut DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new SignOut();
+      }
+
+      public static SignOut getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<SignOut>
+          PARSER = new com.google.protobuf.AbstractParser<SignOut>() {
+        @Override
+        public SignOut parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new SignOut(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<SignOut> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<SignOut> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public SignOut getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface CreateGroupOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.CreateGroup)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @return A list containing the userIds.
+       */
+      java.util.List<String>
+          getUserIdsList();
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @return The count of userIds.
+       */
+      int getUserIdsCount();
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @param index The index of the element to return.
+       * @return The userIds at the given index.
+       */
+      String getUserIds(int index);
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @param index The index of the value to return.
+       * @return The bytes of the userIds at the given index.
+       */
+      com.google.protobuf.ByteString
+          getUserIdsBytes(int index);
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.CreateGroup}
+     */
+    public static final class CreateGroup extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.CreateGroup)
+        CreateGroupOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use CreateGroup.newBuilder() to construct.
+      private CreateGroup(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private CreateGroup() {
+        userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new CreateGroup();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private CreateGroup(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        int mutable_bitField0_ = 0;
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+                if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                  userIds_ = new com.google.protobuf.LazyStringArrayList();
+                  mutable_bitField0_ |= 0x00000001;
+                }
+                userIds_.add(s);
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          if (((mutable_bitField0_ & 0x00000001) != 0)) {
+            userIds_ = userIds_.getUnmodifiableView();
+          }
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                CreateGroup.class, Builder.class);
+      }
+
+      public static final int USERIDS_FIELD_NUMBER = 1;
+      private com.google.protobuf.LazyStringList userIds_;
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @return A list containing the userIds.
+       */
+      public com.google.protobuf.ProtocolStringList
+          getUserIdsList() {
+        return userIds_;
+      }
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @return The count of userIds.
+       */
+      public int getUserIdsCount() {
+        return userIds_.size();
+      }
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @param index The index of the element to return.
+       * @return The userIds at the given index.
+       */
+      public String getUserIds(int index) {
+        return userIds_.get(index);
+      }
+      /**
+       * <code>repeated string userIds = 1;</code>
+       * @param index The index of the value to return.
+       * @return The bytes of the userIds at the given index.
+       */
+      public com.google.protobuf.ByteString
+          getUserIdsBytes(int index) {
+        return userIds_.getByteString(index);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        for (int i = 0; i < userIds_.size(); i++) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, userIds_.getRaw(i));
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        {
+          int dataSize = 0;
+          for (int i = 0; i < userIds_.size(); i++) {
+            dataSize += computeStringSizeNoTag(userIds_.getRaw(i));
+          }
+          size += dataSize;
+          size += 1 * getUserIdsList().size();
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof CreateGroup)) {
+          return super.equals(obj);
+        }
+        CreateGroup other = (CreateGroup) obj;
+
+        if (!getUserIdsList()
+            .equals(other.getUserIdsList())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        if (getUserIdsCount() > 0) {
+          hash = (37 * hash) + USERIDS_FIELD_NUMBER;
+          hash = (53 * hash) + getUserIdsList().hashCode();
+        }
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static CreateGroup parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static CreateGroup parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static CreateGroup parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static CreateGroup parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static CreateGroup parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static CreateGroup parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static CreateGroup parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static CreateGroup parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static CreateGroup parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static CreateGroup parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static CreateGroup parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static CreateGroup parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(CreateGroup prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.CreateGroup}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.CreateGroup)
+          CreateGroupOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  CreateGroup.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.CreateGroup.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+          bitField0_ = (bitField0_ & ~0x00000001);
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_descriptor;
+        }
+
+        @Override
+        public CreateGroup getDefaultInstanceForType() {
+          return CreateGroup.getDefaultInstance();
+        }
+
+        @Override
+        public CreateGroup build() {
+          CreateGroup result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public CreateGroup buildPartial() {
+          CreateGroup result = new CreateGroup(this);
+          int from_bitField0_ = bitField0_;
+          if (((bitField0_ & 0x00000001) != 0)) {
+            userIds_ = userIds_.getUnmodifiableView();
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.userIds_ = userIds_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof CreateGroup) {
+            return mergeFrom((CreateGroup)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(CreateGroup other) {
+          if (other == CreateGroup.getDefaultInstance()) return this;
+          if (!other.userIds_.isEmpty()) {
+            if (userIds_.isEmpty()) {
+              userIds_ = other.userIds_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureUserIdsIsMutable();
+              userIds_.addAll(other.userIds_);
+            }
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          CreateGroup parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (CreateGroup) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        private int bitField0_;
+
+        private com.google.protobuf.LazyStringList userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        private void ensureUserIdsIsMutable() {
+          if (!((bitField0_ & 0x00000001) != 0)) {
+            userIds_ = new com.google.protobuf.LazyStringArrayList(userIds_);
+            bitField0_ |= 0x00000001;
+           }
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @return A list containing the userIds.
+         */
+        public com.google.protobuf.ProtocolStringList
+            getUserIdsList() {
+          return userIds_.getUnmodifiableView();
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @return The count of userIds.
+         */
+        public int getUserIdsCount() {
+          return userIds_.size();
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @param index The index of the element to return.
+         * @return The userIds at the given index.
+         */
+        public String getUserIds(int index) {
+          return userIds_.get(index);
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @param index The index of the value to return.
+         * @return The bytes of the userIds at the given index.
+         */
+        public com.google.protobuf.ByteString
+            getUserIdsBytes(int index) {
+          return userIds_.getByteString(index);
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @param index The index to set the value at.
+         * @param value The userIds to set.
+         * @return This builder for chaining.
+         */
+        public Builder setUserIds(
+            int index, String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureUserIdsIsMutable();
+          userIds_.set(index, value);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @param value The userIds to add.
+         * @return This builder for chaining.
+         */
+        public Builder addUserIds(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureUserIdsIsMutable();
+          userIds_.add(value);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @param values The userIds to add.
+         * @return This builder for chaining.
+         */
+        public Builder addAllUserIds(
+            Iterable<String> values) {
+          ensureUserIdsIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, userIds_);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearUserIds() {
+          userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string userIds = 1;</code>
+         * @param value The bytes of the userIds to add.
+         * @return This builder for chaining.
+         */
+        public Builder addUserIdsBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          ensureUserIdsIsMutable();
+          userIds_.add(value);
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.CreateGroup)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.CreateGroup)
+      private static final CreateGroup DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new CreateGroup();
+      }
+
+      public static CreateGroup getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<CreateGroup>
+          PARSER = new com.google.protobuf.AbstractParser<CreateGroup>() {
+        @Override
+        public CreateGroup parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new CreateGroup(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<CreateGroup> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<CreateGroup> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public CreateGroup getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface ListGroupMembersOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.ListGroupMembers)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The groupId.
+       */
+      String getGroupId();
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The bytes for groupId.
+       */
+      com.google.protobuf.ByteString
+          getGroupIdBytes();
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.ListGroupMembers}
+     */
+    public static final class ListGroupMembers extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.ListGroupMembers)
+        ListGroupMembersOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use ListGroupMembers.newBuilder() to construct.
+      private ListGroupMembers(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private ListGroupMembers() {
+        groupId_ = "";
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new ListGroupMembers();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private ListGroupMembers(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                groupId_ = s;
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                ListGroupMembers.class, Builder.class);
+      }
+
+      public static final int GROUPID_FIELD_NUMBER = 1;
+      private volatile Object groupId_;
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The groupId.
+       */
+      @Override
+      public String getGroupId() {
+        Object ref = groupId_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          groupId_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The bytes for groupId.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getGroupIdBytes() {
+        Object ref = groupId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          groupId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getGroupIdBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, groupId_);
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getGroupIdBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, groupId_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof ListGroupMembers)) {
+          return super.equals(obj);
+        }
+        ListGroupMembers other = (ListGroupMembers) obj;
+
+        if (!getGroupId()
+            .equals(other.getGroupId())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + GROUPID_FIELD_NUMBER;
+        hash = (53 * hash) + getGroupId().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static ListGroupMembers parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static ListGroupMembers parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static ListGroupMembers parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static ListGroupMembers parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static ListGroupMembers parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static ListGroupMembers parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static ListGroupMembers parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static ListGroupMembers parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static ListGroupMembers parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static ListGroupMembers parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static ListGroupMembers parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static ListGroupMembers parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(ListGroupMembers prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.ListGroupMembers}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.ListGroupMembers)
+          ListGroupMembersOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  ListGroupMembers.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.ListGroupMembers.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          groupId_ = "";
+
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_descriptor;
+        }
+
+        @Override
+        public ListGroupMembers getDefaultInstanceForType() {
+          return ListGroupMembers.getDefaultInstance();
+        }
+
+        @Override
+        public ListGroupMembers build() {
+          ListGroupMembers result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public ListGroupMembers buildPartial() {
+          ListGroupMembers result = new ListGroupMembers(this);
+          result.groupId_ = groupId_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof ListGroupMembers) {
+            return mergeFrom((ListGroupMembers)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(ListGroupMembers other) {
+          if (other == ListGroupMembers.getDefaultInstance()) return this;
+          if (!other.getGroupId().isEmpty()) {
+            groupId_ = other.groupId_;
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          ListGroupMembers parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (ListGroupMembers) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private Object groupId_ = "";
+        /**
+         * <code>string groupId = 1;</code>
+         * @return The groupId.
+         */
+        public String getGroupId() {
+          Object ref = groupId_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            groupId_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @return The bytes for groupId.
+         */
+        public com.google.protobuf.ByteString
+            getGroupIdBytes() {
+          Object ref = groupId_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            groupId_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @param value The groupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setGroupId(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          groupId_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearGroupId() {
+          
+          groupId_ = getDefaultInstance().getGroupId();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @param value The bytes for groupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setGroupIdBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          groupId_ = value;
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.ListGroupMembers)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.ListGroupMembers)
+      private static final ListGroupMembers DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new ListGroupMembers();
+      }
+
+      public static ListGroupMembers getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<ListGroupMembers>
+          PARSER = new com.google.protobuf.AbstractParser<ListGroupMembers>() {
+        @Override
+        public ListGroupMembers parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new ListGroupMembers(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<ListGroupMembers> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<ListGroupMembers> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public ListGroupMembers getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface JoinGroupOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.JoinGroup)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The groupId.
+       */
+      String getGroupId();
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The bytes for groupId.
+       */
+      com.google.protobuf.ByteString
+          getGroupIdBytes();
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.JoinGroup}
+     */
+    public static final class JoinGroup extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.JoinGroup)
+        JoinGroupOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use JoinGroup.newBuilder() to construct.
+      private JoinGroup(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private JoinGroup() {
+        groupId_ = "";
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new JoinGroup();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private JoinGroup(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                groupId_ = s;
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                JoinGroup.class, Builder.class);
+      }
+
+      public static final int GROUPID_FIELD_NUMBER = 1;
+      private volatile Object groupId_;
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The groupId.
+       */
+      @Override
+      public String getGroupId() {
+        Object ref = groupId_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          groupId_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The bytes for groupId.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getGroupIdBytes() {
+        Object ref = groupId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          groupId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getGroupIdBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, groupId_);
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getGroupIdBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, groupId_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof JoinGroup)) {
+          return super.equals(obj);
+        }
+        JoinGroup other = (JoinGroup) obj;
+
+        if (!getGroupId()
+            .equals(other.getGroupId())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + GROUPID_FIELD_NUMBER;
+        hash = (53 * hash) + getGroupId().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static JoinGroup parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static JoinGroup parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static JoinGroup parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static JoinGroup parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static JoinGroup parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static JoinGroup parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static JoinGroup parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static JoinGroup parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static JoinGroup parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static JoinGroup parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static JoinGroup parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static JoinGroup parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(JoinGroup prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.JoinGroup}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.JoinGroup)
+          JoinGroupOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  JoinGroup.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.JoinGroup.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          groupId_ = "";
+
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_descriptor;
+        }
+
+        @Override
+        public JoinGroup getDefaultInstanceForType() {
+          return JoinGroup.getDefaultInstance();
+        }
+
+        @Override
+        public JoinGroup build() {
+          JoinGroup result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public JoinGroup buildPartial() {
+          JoinGroup result = new JoinGroup(this);
+          result.groupId_ = groupId_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof JoinGroup) {
+            return mergeFrom((JoinGroup)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(JoinGroup other) {
+          if (other == JoinGroup.getDefaultInstance()) return this;
+          if (!other.getGroupId().isEmpty()) {
+            groupId_ = other.groupId_;
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          JoinGroup parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (JoinGroup) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private Object groupId_ = "";
+        /**
+         * <code>string groupId = 1;</code>
+         * @return The groupId.
+         */
+        public String getGroupId() {
+          Object ref = groupId_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            groupId_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @return The bytes for groupId.
+         */
+        public com.google.protobuf.ByteString
+            getGroupIdBytes() {
+          Object ref = groupId_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            groupId_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @param value The groupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setGroupId(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          groupId_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearGroupId() {
+          
+          groupId_ = getDefaultInstance().getGroupId();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @param value The bytes for groupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setGroupIdBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          groupId_ = value;
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.JoinGroup)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.JoinGroup)
+      private static final JoinGroup DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new JoinGroup();
+      }
+
+      public static JoinGroup getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<JoinGroup>
+          PARSER = new com.google.protobuf.AbstractParser<JoinGroup>() {
+        @Override
+        public JoinGroup parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new JoinGroup(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<JoinGroup> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<JoinGroup> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public JoinGroup getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface QuitGroupOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.QuitGroup)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The groupId.
+       */
+      String getGroupId();
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The bytes for groupId.
+       */
+      com.google.protobuf.ByteString
+          getGroupIdBytes();
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.QuitGroup}
+     */
+    public static final class QuitGroup extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.QuitGroup)
+        QuitGroupOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use QuitGroup.newBuilder() to construct.
+      private QuitGroup(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private QuitGroup() {
+        groupId_ = "";
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new QuitGroup();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private QuitGroup(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                groupId_ = s;
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                QuitGroup.class, Builder.class);
+      }
+
+      public static final int GROUPID_FIELD_NUMBER = 1;
+      private volatile Object groupId_;
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The groupId.
+       */
+      @Override
+      public String getGroupId() {
+        Object ref = groupId_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          groupId_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string groupId = 1;</code>
+       * @return The bytes for groupId.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getGroupIdBytes() {
+        Object ref = groupId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          groupId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getGroupIdBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, groupId_);
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getGroupIdBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, groupId_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof QuitGroup)) {
+          return super.equals(obj);
+        }
+        QuitGroup other = (QuitGroup) obj;
+
+        if (!getGroupId()
+            .equals(other.getGroupId())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + GROUPID_FIELD_NUMBER;
+        hash = (53 * hash) + getGroupId().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static QuitGroup parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static QuitGroup parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static QuitGroup parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static QuitGroup parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static QuitGroup parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static QuitGroup parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static QuitGroup parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static QuitGroup parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static QuitGroup parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static QuitGroup parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static QuitGroup parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static QuitGroup parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(QuitGroup prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.QuitGroup}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.QuitGroup)
+          QuitGroupOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  QuitGroup.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.QuitGroup.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          groupId_ = "";
+
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_descriptor;
+        }
+
+        @Override
+        public QuitGroup getDefaultInstanceForType() {
+          return QuitGroup.getDefaultInstance();
+        }
+
+        @Override
+        public QuitGroup build() {
+          QuitGroup result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public QuitGroup buildPartial() {
+          QuitGroup result = new QuitGroup(this);
+          result.groupId_ = groupId_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof QuitGroup) {
+            return mergeFrom((QuitGroup)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(QuitGroup other) {
+          if (other == QuitGroup.getDefaultInstance()) return this;
+          if (!other.getGroupId().isEmpty()) {
+            groupId_ = other.groupId_;
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          QuitGroup parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (QuitGroup) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private Object groupId_ = "";
+        /**
+         * <code>string groupId = 1;</code>
+         * @return The groupId.
+         */
+        public String getGroupId() {
+          Object ref = groupId_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            groupId_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @return The bytes for groupId.
+         */
+        public com.google.protobuf.ByteString
+            getGroupIdBytes() {
+          Object ref = groupId_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            groupId_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @param value The groupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setGroupId(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          groupId_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearGroupId() {
+          
+          groupId_ = getDefaultInstance().getGroupId();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string groupId = 1;</code>
+         * @param value The bytes for groupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setGroupIdBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          groupId_ = value;
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.QuitGroup)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.QuitGroup)
+      private static final QuitGroup DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new QuitGroup();
+      }
+
+      public static QuitGroup getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<QuitGroup>
+          PARSER = new com.google.protobuf.AbstractParser<QuitGroup>() {
+        @Override
+        public QuitGroup parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new QuitGroup(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<QuitGroup> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<QuitGroup> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public QuitGroup getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface GroupMessageOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.GroupMessage)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>string toGroupId = 1;</code>
+       * @return The toGroupId.
+       */
+      String getToGroupId();
+      /**
+       * <code>string toGroupId = 1;</code>
+       * @return The bytes for toGroupId.
+       */
+      com.google.protobuf.ByteString
+          getToGroupIdBytes();
+
+      /**
+       * <code>string message = 2;</code>
+       * @return The message.
+       */
+      String getMessage();
+      /**
+       * <code>string message = 2;</code>
+       * @return The bytes for message.
+       */
+      com.google.protobuf.ByteString
+          getMessageBytes();
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.GroupMessage}
+     */
+    public static final class GroupMessage extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.GroupMessage)
+        GroupMessageOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use GroupMessage.newBuilder() to construct.
+      private GroupMessage(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private GroupMessage() {
+        toGroupId_ = "";
+        message_ = "";
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new GroupMessage();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private GroupMessage(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                toGroupId_ = s;
+                break;
+              }
+              case 18: {
+                String s = input.readStringRequireUtf8();
+
+                message_ = s;
+                break;
+              }
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                GroupMessage.class, Builder.class);
+      }
+
+      public static final int TOGROUPID_FIELD_NUMBER = 1;
+      private volatile Object toGroupId_;
+      /**
+       * <code>string toGroupId = 1;</code>
+       * @return The toGroupId.
+       */
+      @Override
+      public String getToGroupId() {
+        Object ref = toGroupId_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          toGroupId_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string toGroupId = 1;</code>
+       * @return The bytes for toGroupId.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getToGroupIdBytes() {
+        Object ref = toGroupId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          toGroupId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      public static final int MESSAGE_FIELD_NUMBER = 2;
+      private volatile Object message_;
+      /**
+       * <code>string message = 2;</code>
+       * @return The message.
+       */
+      @Override
+      public String getMessage() {
+        Object ref = message_;
+        if (ref instanceof String) {
+          return (String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          String s = bs.toStringUtf8();
+          message_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>string message = 2;</code>
+       * @return The bytes for message.
+       */
+      @Override
+      public com.google.protobuf.ByteString
+          getMessageBytes() {
+        Object ref = message_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (String) ref);
+          message_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getToGroupIdBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 1, toGroupId_);
+        }
+        if (!getMessageBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessageV3.writeString(output, 2, message_);
+        }
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getToGroupIdBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, toGroupId_);
+        }
+        if (!getMessageBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, message_);
+        }
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof GroupMessage)) {
+          return super.equals(obj);
+        }
+        GroupMessage other = (GroupMessage) obj;
+
+        if (!getToGroupId()
+            .equals(other.getToGroupId())) return false;
+        if (!getMessage()
+            .equals(other.getMessage())) return false;
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + TOGROUPID_FIELD_NUMBER;
+        hash = (53 * hash) + getToGroupId().hashCode();
+        hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
+        hash = (53 * hash) + getMessage().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static GroupMessage parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static GroupMessage parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static GroupMessage parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static GroupMessage parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static GroupMessage parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static GroupMessage parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static GroupMessage parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static GroupMessage parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static GroupMessage parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static GroupMessage parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static GroupMessage parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static GroupMessage parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(GroupMessage prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.GroupMessage}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.GroupMessage)
+          GroupMessageOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  GroupMessage.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.GroupMessage.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          toGroupId_ = "";
+
+          message_ = "";
+
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_descriptor;
+        }
+
+        @Override
+        public GroupMessage getDefaultInstanceForType() {
+          return GroupMessage.getDefaultInstance();
+        }
+
+        @Override
+        public GroupMessage build() {
+          GroupMessage result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public GroupMessage buildPartial() {
+          GroupMessage result = new GroupMessage(this);
+          result.toGroupId_ = toGroupId_;
+          result.message_ = message_;
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof GroupMessage) {
+            return mergeFrom((GroupMessage)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(GroupMessage other) {
+          if (other == GroupMessage.getDefaultInstance()) return this;
+          if (!other.getToGroupId().isEmpty()) {
+            toGroupId_ = other.toGroupId_;
+            onChanged();
+          }
+          if (!other.getMessage().isEmpty()) {
+            message_ = other.message_;
+            onChanged();
+          }
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          GroupMessage parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (GroupMessage) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private Object toGroupId_ = "";
+        /**
+         * <code>string toGroupId = 1;</code>
+         * @return The toGroupId.
+         */
+        public String getToGroupId() {
+          Object ref = toGroupId_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            toGroupId_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string toGroupId = 1;</code>
+         * @return The bytes for toGroupId.
+         */
+        public com.google.protobuf.ByteString
+            getToGroupIdBytes() {
+          Object ref = toGroupId_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            toGroupId_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string toGroupId = 1;</code>
+         * @param value The toGroupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setToGroupId(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          toGroupId_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string toGroupId = 1;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearToGroupId() {
+          
+          toGroupId_ = getDefaultInstance().getToGroupId();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string toGroupId = 1;</code>
+         * @param value The bytes for toGroupId to set.
+         * @return This builder for chaining.
+         */
+        public Builder setToGroupIdBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          toGroupId_ = value;
+          onChanged();
+          return this;
+        }
+
+        private Object message_ = "";
+        /**
+         * <code>string message = 2;</code>
+         * @return The message.
+         */
+        public String getMessage() {
+          Object ref = message_;
+          if (!(ref instanceof String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            String s = bs.toStringUtf8();
+            message_ = s;
+            return s;
+          } else {
+            return (String) ref;
+          }
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @return The bytes for message.
+         */
+        public com.google.protobuf.ByteString
+            getMessageBytes() {
+          Object ref = message_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (String) ref);
+            message_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @param value The message to set.
+         * @return This builder for chaining.
+         */
+        public Builder setMessage(
+            String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          message_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearMessage() {
+          
+          message_ = getDefaultInstance().getMessage();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>string message = 2;</code>
+         * @param value The bytes for message to set.
+         * @return This builder for chaining.
+         */
+        public Builder setMessageBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          message_ = value;
+          onChanged();
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.GroupMessage)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.GroupMessage)
+      private static final GroupMessage DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new GroupMessage();
+      }
+
+      public static GroupMessage getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<GroupMessage>
+          PARSER = new com.google.protobuf.AbstractParser<GroupMessage>() {
+        @Override
+        public GroupMessage parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new GroupMessage(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<GroupMessage> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<GroupMessage> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public GroupMessage getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface HeartbeatOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.RequestMsg.Heartbeat)
+        com.google.protobuf.MessageOrBuilder {
+    }
+    /**
+     * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.Heartbeat}
+     */
+    public static final class Heartbeat extends
+        com.google.protobuf.GeneratedMessageV3 implements
+        // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.RequestMsg.Heartbeat)
+        HeartbeatOrBuilder {
+    private static final long serialVersionUID = 0L;
+      // Use Heartbeat.newBuilder() to construct.
+      private Heartbeat(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+        super(builder);
+      }
+      private Heartbeat() {
+      }
+
+      @Override
+      @SuppressWarnings({"unused"})
+      protected Object newInstance(
+          UnusedPrivateParameter unused) {
+        return new Heartbeat();
+      }
+
+      @Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return this.unknownFields;
+      }
+      private Heartbeat(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        this();
+        if (extensionRegistry == null) {
+          throw new NullPointerException();
+        }
+        com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+            com.google.protobuf.UnknownFieldSet.newBuilder();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!parseUnknownField(
+                    input, unknownFields, extensionRegistry, tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw e.setUnfinishedMessage(this);
+        } catch (java.io.IOException e) {
+          throw new com.google.protobuf.InvalidProtocolBufferException(
+              e).setUnfinishedMessage(this);
+        } finally {
+          this.unknownFields = unknownFields.build();
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_descriptor;
+      }
+
+      @Override
+      protected FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                Heartbeat.class, Builder.class);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      @Override
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      @Override
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        unknownFields.writeTo(output);
+      }
+
+      @Override
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        size += unknownFields.getSerializedSize();
+        memoizedSize = size;
+        return size;
+      }
+
+      @Override
+      public boolean equals(final Object obj) {
+        if (obj == this) {
+         return true;
+        }
+        if (!(obj instanceof Heartbeat)) {
+          return super.equals(obj);
+        }
+        Heartbeat other = (Heartbeat) obj;
+
+        if (!unknownFields.equals(other.unknownFields)) return false;
+        return true;
+      }
+
+      @Override
+      public int hashCode() {
+        if (memoizedHashCode != 0) {
+          return memoizedHashCode;
+        }
+        int hash = 41;
+        hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (29 * hash) + unknownFields.hashCode();
+        memoizedHashCode = hash;
+        return hash;
+      }
+
+      public static Heartbeat parseFrom(
+          java.nio.ByteBuffer data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static Heartbeat parseFrom(
+          java.nio.ByteBuffer data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static Heartbeat parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static Heartbeat parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static Heartbeat parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static Heartbeat parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static Heartbeat parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static Heartbeat parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static Heartbeat parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input);
+      }
+      public static Heartbeat parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+      }
+      public static Heartbeat parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input);
+      }
+      public static Heartbeat parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return com.google.protobuf.GeneratedMessageV3
+            .parseWithIOException(PARSER, input, extensionRegistry);
+      }
+
+      @Override
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(Heartbeat prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      @Override
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @Override
+      protected Builder newBuilderForType(
+          BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code happy.chat.common.protobuf.RequestMsg.Heartbeat}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg.Heartbeat)
+          HeartbeatOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_descriptor;
+        }
+
+        @Override
+        protected FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  Heartbeat.class, Builder.class);
+        }
+
+        // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.Heartbeat.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessageV3
+                  .alwaysUseFieldBuilders) {
+          }
+        }
+        @Override
+        public Builder clear() {
+          super.clear();
+          return this;
+        }
+
+        @Override
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_descriptor;
+        }
+
+        @Override
+        public Heartbeat getDefaultInstanceForType() {
+          return Heartbeat.getDefaultInstance();
+        }
+
+        @Override
+        public Heartbeat build() {
+          Heartbeat result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        @Override
+        public Heartbeat buildPartial() {
+          Heartbeat result = new Heartbeat(this);
+          onBuilt();
+          return result;
+        }
+
+        @Override
+        public Builder clone() {
+          return super.clone();
+        }
+        @Override
+        public Builder setField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.setField(field, value);
+        }
+        @Override
+        public Builder clearField(
+            com.google.protobuf.Descriptors.FieldDescriptor field) {
+          return super.clearField(field);
+        }
+        @Override
+        public Builder clearOneof(
+            com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+          return super.clearOneof(oneof);
+        }
+        @Override
+        public Builder setRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            int index, Object value) {
+          return super.setRepeatedField(field, index, value);
+        }
+        @Override
+        public Builder addRepeatedField(
+            com.google.protobuf.Descriptors.FieldDescriptor field,
+            Object value) {
+          return super.addRepeatedField(field, value);
+        }
+        @Override
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof Heartbeat) {
+            return mergeFrom((Heartbeat)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(Heartbeat other) {
+          if (other == Heartbeat.getDefaultInstance()) return this;
+          this.mergeUnknownFields(other.unknownFields);
+          onChanged();
+          return this;
+        }
+
+        @Override
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        @Override
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          Heartbeat parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (Heartbeat) e.getUnfinishedMessage();
+            throw e.unwrapIOException();
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        @Override
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.setUnknownFields(unknownFields);
+        }
+
+        @Override
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return super.mergeUnknownFields(unknownFields);
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.RequestMsg.Heartbeat)
+      }
+
+      // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg.Heartbeat)
+      private static final Heartbeat DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new Heartbeat();
+      }
+
+      public static Heartbeat getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<Heartbeat>
+          PARSER = new com.google.protobuf.AbstractParser<Heartbeat>() {
+        @Override
+        public Heartbeat parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          return new Heartbeat(input, extensionRegistry);
+        }
+      };
+
+      public static com.google.protobuf.Parser<Heartbeat> parser() {
+        return PARSER;
+      }
+
+      @Override
+      public com.google.protobuf.Parser<Heartbeat> getParserForType() {
+        return PARSER;
+      }
+
+      @Override
+      public Heartbeat getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
     private int requestBodyCase_ = 0;
-    private java.lang.Object requestBody_;
+    private Object requestBody_;
     public enum RequestBodyCase
         implements com.google.protobuf.Internal.EnumLite,
-            com.google.protobuf.AbstractMessage.InternalOneOfEnum {
+            InternalOneOfEnum {
       SIGNIN(2),
       USERMESSAGE(3),
       SIGNOUT(4),
@@ -571,7 +5903,7 @@ public final class RequestBody {
        * @return The enum associated with the given number.
        * @deprecated Use {@link #forNumber(int)} instead.
        */
-      @java.lang.Deprecated
+      @Deprecated
       public static RequestBodyCase valueOf(int value) {
         return forNumber(value);
       }
@@ -608,300 +5940,300 @@ public final class RequestBody {
      * <code>.happy.chat.common.protobuf.RequestMsg.Command command = 1;</code>
      * @return The enum numeric value on the wire for command.
      */
-    @java.lang.Override public int getCommandValue() {
+    @Override public int getCommandValue() {
       return command_;
     }
     /**
      * <code>.happy.chat.common.protobuf.RequestMsg.Command command = 1;</code>
      * @return The command.
      */
-    @java.lang.Override public happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command getCommand() {
+    @Override public Command getCommand() {
       @SuppressWarnings("deprecation")
-      happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command result = happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command.valueOf(command_);
-      return result == null ? happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command.UNRECOGNIZED : result;
+      Command result = Command.valueOf(command_);
+      return result == null ? Command.UNRECOGNIZED : result;
     }
 
     public static final int SIGNIN_FIELD_NUMBER = 2;
     /**
-     * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
      * @return Whether the signIn field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasSignIn() {
       return requestBodyCase_ == 2;
     }
     /**
-     * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
      * @return The signIn.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.SignIn getSignIn() {
+    @Override
+    public SignIn getSignIn() {
       if (requestBodyCase_ == 2) {
-         return (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_;
+         return (SignIn) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
+      return SignIn.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder getSignInOrBuilder() {
+    @Override
+    public SignInOrBuilder getSignInOrBuilder() {
       if (requestBodyCase_ == 2) {
-         return (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_;
+         return (SignIn) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
+      return SignIn.getDefaultInstance();
     }
 
     public static final int USERMESSAGE_FIELD_NUMBER = 3;
     /**
-     * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
      * @return Whether the userMessage field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasUserMessage() {
       return requestBodyCase_ == 3;
     }
     /**
-     * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
      * @return The userMessage.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.UserMessage getUserMessage() {
+    @Override
+    public UserMessage getUserMessage() {
       if (requestBodyCase_ == 3) {
-         return (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_;
+         return (UserMessage) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
+      return UserMessage.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder getUserMessageOrBuilder() {
+    @Override
+    public UserMessageOrBuilder getUserMessageOrBuilder() {
       if (requestBodyCase_ == 3) {
-         return (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_;
+         return (UserMessage) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
+      return UserMessage.getDefaultInstance();
     }
 
     public static final int SIGNOUT_FIELD_NUMBER = 4;
     /**
-     * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
      * @return Whether the signOut field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasSignOut() {
       return requestBodyCase_ == 4;
     }
     /**
-     * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
      * @return The signOut.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.SignOut getSignOut() {
+    @Override
+    public SignOut getSignOut() {
       if (requestBodyCase_ == 4) {
-         return (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_;
+         return (SignOut) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
+      return SignOut.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder getSignOutOrBuilder() {
+    @Override
+    public SignOutOrBuilder getSignOutOrBuilder() {
       if (requestBodyCase_ == 4) {
-         return (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_;
+         return (SignOut) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
+      return SignOut.getDefaultInstance();
     }
 
     public static final int CREATEGROUP_FIELD_NUMBER = 5;
     /**
-     * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
      * @return Whether the createGroup field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasCreateGroup() {
       return requestBodyCase_ == 5;
     }
     /**
-     * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
      * @return The createGroup.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.CreateGroup getCreateGroup() {
+    @Override
+    public CreateGroup getCreateGroup() {
       if (requestBodyCase_ == 5) {
-         return (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_;
+         return (CreateGroup) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
+      return CreateGroup.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder getCreateGroupOrBuilder() {
+    @Override
+    public CreateGroupOrBuilder getCreateGroupOrBuilder() {
       if (requestBodyCase_ == 5) {
-         return (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_;
+         return (CreateGroup) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
+      return CreateGroup.getDefaultInstance();
     }
 
     public static final int LISTGROUPMEMBERS_FIELD_NUMBER = 6;
     /**
-     * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
      * @return Whether the listGroupMembers field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasListGroupMembers() {
       return requestBodyCase_ == 6;
     }
     /**
-     * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
      * @return The listGroupMembers.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers getListGroupMembers() {
+    @Override
+    public ListGroupMembers getListGroupMembers() {
       if (requestBodyCase_ == 6) {
-         return (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_;
+         return (ListGroupMembers) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
+      return ListGroupMembers.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder getListGroupMembersOrBuilder() {
+    @Override
+    public ListGroupMembersOrBuilder getListGroupMembersOrBuilder() {
       if (requestBodyCase_ == 6) {
-         return (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_;
+         return (ListGroupMembers) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
+      return ListGroupMembers.getDefaultInstance();
     }
 
     public static final int JOINGROUP_FIELD_NUMBER = 7;
     /**
-     * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
      * @return Whether the joinGroup field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasJoinGroup() {
       return requestBodyCase_ == 7;
     }
     /**
-     * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
      * @return The joinGroup.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.JoinGroup getJoinGroup() {
+    @Override
+    public JoinGroup getJoinGroup() {
       if (requestBodyCase_ == 7) {
-         return (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_;
+         return (JoinGroup) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
+      return JoinGroup.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder getJoinGroupOrBuilder() {
+    @Override
+    public JoinGroupOrBuilder getJoinGroupOrBuilder() {
       if (requestBodyCase_ == 7) {
-         return (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_;
+         return (JoinGroup) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
+      return JoinGroup.getDefaultInstance();
     }
 
     public static final int QUITGROUP_FIELD_NUMBER = 8;
     /**
-     * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
      * @return Whether the quitGroup field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasQuitGroup() {
       return requestBodyCase_ == 8;
     }
     /**
-     * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
      * @return The quitGroup.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.QuitGroup getQuitGroup() {
+    @Override
+    public QuitGroup getQuitGroup() {
       if (requestBodyCase_ == 8) {
-         return (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_;
+         return (QuitGroup) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
+      return QuitGroup.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder getQuitGroupOrBuilder() {
+    @Override
+    public QuitGroupOrBuilder getQuitGroupOrBuilder() {
       if (requestBodyCase_ == 8) {
-         return (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_;
+         return (QuitGroup) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
+      return QuitGroup.getDefaultInstance();
     }
 
     public static final int GROUPMESSAGE_FIELD_NUMBER = 9;
     /**
-     * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
      * @return Whether the groupMessage field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasGroupMessage() {
       return requestBodyCase_ == 9;
     }
     /**
-     * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
      * @return The groupMessage.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.GroupMessage getGroupMessage() {
+    @Override
+    public GroupMessage getGroupMessage() {
       if (requestBodyCase_ == 9) {
-         return (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_;
+         return (GroupMessage) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
+      return GroupMessage.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder getGroupMessageOrBuilder() {
+    @Override
+    public GroupMessageOrBuilder getGroupMessageOrBuilder() {
       if (requestBodyCase_ == 9) {
-         return (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_;
+         return (GroupMessage) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
+      return GroupMessage.getDefaultInstance();
     }
 
     public static final int HEARTBEAT_FIELD_NUMBER = 10;
     /**
-     * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
      * @return Whether the heartbeat field is set.
      */
-    @java.lang.Override
+    @Override
     public boolean hasHeartbeat() {
       return requestBodyCase_ == 10;
     }
     /**
-     * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
      * @return The heartbeat.
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.Heartbeat getHeartbeat() {
+    @Override
+    public Heartbeat getHeartbeat() {
       if (requestBodyCase_ == 10) {
-         return (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_;
+         return (Heartbeat) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
+      return Heartbeat.getDefaultInstance();
     }
     /**
-     * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+     * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
      */
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder getHeartbeatOrBuilder() {
+    @Override
+    public HeartbeatOrBuilder getHeartbeatOrBuilder() {
       if (requestBodyCase_ == 10) {
-         return (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_;
+         return (Heartbeat) requestBody_;
       }
-      return happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
+      return Heartbeat.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
-    @java.lang.Override
+    @Override
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
       if (isInitialized == 1) return true;
@@ -911,102 +6243,102 @@ public final class RequestBody {
       return true;
     }
 
-    @java.lang.Override
+    @Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (command_ != happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command.SIGN_IN.getNumber()) {
+      if (command_ != Command.SIGN_IN.getNumber()) {
         output.writeEnum(1, command_);
       }
       if (requestBodyCase_ == 2) {
-        output.writeMessage(2, (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_);
+        output.writeMessage(2, (SignIn) requestBody_);
       }
       if (requestBodyCase_ == 3) {
-        output.writeMessage(3, (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_);
+        output.writeMessage(3, (UserMessage) requestBody_);
       }
       if (requestBodyCase_ == 4) {
-        output.writeMessage(4, (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_);
+        output.writeMessage(4, (SignOut) requestBody_);
       }
       if (requestBodyCase_ == 5) {
-        output.writeMessage(5, (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_);
+        output.writeMessage(5, (CreateGroup) requestBody_);
       }
       if (requestBodyCase_ == 6) {
-        output.writeMessage(6, (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_);
+        output.writeMessage(6, (ListGroupMembers) requestBody_);
       }
       if (requestBodyCase_ == 7) {
-        output.writeMessage(7, (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_);
+        output.writeMessage(7, (JoinGroup) requestBody_);
       }
       if (requestBodyCase_ == 8) {
-        output.writeMessage(8, (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_);
+        output.writeMessage(8, (QuitGroup) requestBody_);
       }
       if (requestBodyCase_ == 9) {
-        output.writeMessage(9, (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_);
+        output.writeMessage(9, (GroupMessage) requestBody_);
       }
       if (requestBodyCase_ == 10) {
-        output.writeMessage(10, (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_);
+        output.writeMessage(10, (Heartbeat) requestBody_);
       }
       unknownFields.writeTo(output);
     }
 
-    @java.lang.Override
+    @Override
     public int getSerializedSize() {
       int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
-      if (command_ != happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command.SIGN_IN.getNumber()) {
+      if (command_ != Command.SIGN_IN.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, command_);
       }
       if (requestBodyCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_);
+          .computeMessageSize(2, (SignIn) requestBody_);
       }
       if (requestBodyCase_ == 3) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_);
+          .computeMessageSize(3, (UserMessage) requestBody_);
       }
       if (requestBodyCase_ == 4) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_);
+          .computeMessageSize(4, (SignOut) requestBody_);
       }
       if (requestBodyCase_ == 5) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_);
+          .computeMessageSize(5, (CreateGroup) requestBody_);
       }
       if (requestBodyCase_ == 6) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_);
+          .computeMessageSize(6, (ListGroupMembers) requestBody_);
       }
       if (requestBodyCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_);
+          .computeMessageSize(7, (JoinGroup) requestBody_);
       }
       if (requestBodyCase_ == 8) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_);
+          .computeMessageSize(8, (QuitGroup) requestBody_);
       }
       if (requestBodyCase_ == 9) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_);
+          .computeMessageSize(9, (GroupMessage) requestBody_);
       }
       if (requestBodyCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_);
+          .computeMessageSize(10, (Heartbeat) requestBody_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
     }
 
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
+    @Override
+    public boolean equals(final Object obj) {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.RequestMsg)) {
+      if (!(obj instanceof RequestMsg)) {
         return super.equals(obj);
       }
-      happy.chat.common.protobuf.request.RequestBody.RequestMsg other = (happy.chat.common.protobuf.request.RequestBody.RequestMsg) obj;
+      RequestMsg other = (RequestMsg) obj;
 
       if (command_ != other.command_) return false;
       if (!getRequestBodyCase().equals(other.getRequestBodyCase())) return false;
@@ -1054,7 +6386,7 @@ public final class RequestBody {
       return true;
     }
 
-    @java.lang.Override
+    @Override
     public int hashCode() {
       if (memoizedHashCode != 0) {
         return memoizedHashCode;
@@ -1108,69 +6440,69 @@ public final class RequestBody {
       return hash;
     }
 
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(byte[] data)
+    public static RequestMsg parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(java.io.InputStream input)
+    public static RequestMsg parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseDelimitedFrom(java.io.InputStream input)
+    public static RequestMsg parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseDelimitedFrom(
+    public static RequestMsg parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg parseFrom(
+    public static RequestMsg parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1178,23 +6510,23 @@ public final class RequestBody {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    @java.lang.Override
+    @Override
     public Builder newBuilderForType() { return newBuilder(); }
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.RequestMsg prototype) {
+    public static Builder newBuilder(RequestMsg prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
-    @java.lang.Override
+    @Override
     public Builder toBuilder() {
       return this == DEFAULT_INSTANCE
           ? new Builder() : new Builder().mergeFrom(this);
     }
 
-    @java.lang.Override
+    @Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -1204,18 +6536,18 @@ public final class RequestBody {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.RequestMsg)
-        happy.chat.common.protobuf.request.RequestBody.RequestMsgOrBuilder {
+        RequestMsgOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_descriptor;
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_descriptor;
       }
 
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      @Override
+      protected FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_fieldAccessorTable
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.RequestMsg.class, happy.chat.common.protobuf.request.RequestBody.RequestMsg.Builder.class);
+                RequestMsg.class, Builder.class);
       }
 
       // Construct using happy.chat.common.protobuf.request.RequestBody.RequestMsg.newBuilder()
@@ -1224,7 +6556,7 @@ public final class RequestBody {
       }
 
       private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+          BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
@@ -1233,7 +6565,7 @@ public final class RequestBody {
                 .alwaysUseFieldBuilders) {
         }
       }
-      @java.lang.Override
+      @Override
       public Builder clear() {
         super.clear();
         command_ = 0;
@@ -1243,29 +6575,29 @@ public final class RequestBody {
         return this;
       }
 
-      @java.lang.Override
+      @Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_descriptor;
+        return RequestBody.internal_static_happy_chat_common_protobuf_RequestMsg_descriptor;
       }
 
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.RequestMsg getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.RequestMsg.getDefaultInstance();
+      @Override
+      public RequestMsg getDefaultInstanceForType() {
+        return RequestMsg.getDefaultInstance();
       }
 
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.RequestMsg build() {
-        happy.chat.common.protobuf.request.RequestBody.RequestMsg result = buildPartial();
+      @Override
+      public RequestMsg build() {
+        RequestMsg result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.RequestMsg buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.RequestMsg result = new happy.chat.common.protobuf.request.RequestBody.RequestMsg(this);
+      @Override
+      public RequestMsg buildPartial() {
+        RequestMsg result = new RequestMsg(this);
         result.command_ = command_;
         if (requestBodyCase_ == 2) {
           if (signInBuilder_ == null) {
@@ -1335,50 +6667,50 @@ public final class RequestBody {
         return result;
       }
 
-      @java.lang.Override
+      @Override
       public Builder clone() {
         return super.clone();
       }
-      @java.lang.Override
+      @Override
       public Builder setField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
+          Object value) {
         return super.setField(field, value);
       }
-      @java.lang.Override
+      @Override
       public Builder clearField(
           com.google.protobuf.Descriptors.FieldDescriptor field) {
         return super.clearField(field);
       }
-      @java.lang.Override
+      @Override
       public Builder clearOneof(
           com.google.protobuf.Descriptors.OneofDescriptor oneof) {
         return super.clearOneof(oneof);
       }
-      @java.lang.Override
+      @Override
       public Builder setRepeatedField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
+          int index, Object value) {
         return super.setRepeatedField(field, index, value);
       }
-      @java.lang.Override
+      @Override
       public Builder addRepeatedField(
           com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
+          Object value) {
         return super.addRepeatedField(field, value);
       }
-      @java.lang.Override
+      @Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.RequestMsg) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.RequestMsg)other);
+        if (other instanceof RequestMsg) {
+          return mergeFrom((RequestMsg)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.RequestMsg other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.RequestMsg.getDefaultInstance()) return this;
+      public Builder mergeFrom(RequestMsg other) {
+        if (other == RequestMsg.getDefaultInstance()) return this;
         if (other.command_ != 0) {
           setCommandValue(other.getCommandValue());
         }
@@ -1428,21 +6760,21 @@ public final class RequestBody {
         return this;
       }
 
-      @java.lang.Override
+      @Override
       public final boolean isInitialized() {
         return true;
       }
 
-      @java.lang.Override
+      @Override
       public Builder mergeFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.RequestMsg parsedMessage = null;
+        RequestMsg parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.RequestMsg) e.getUnfinishedMessage();
+          parsedMessage = (RequestMsg) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1452,7 +6784,7 @@ public final class RequestBody {
         return this;
       }
       private int requestBodyCase_ = 0;
-      private java.lang.Object requestBody_;
+      private Object requestBody_;
       public RequestBodyCase
           getRequestBodyCase() {
         return RequestBodyCase.forNumber(
@@ -1472,7 +6804,7 @@ public final class RequestBody {
        * <code>.happy.chat.common.protobuf.RequestMsg.Command command = 1;</code>
        * @return The enum numeric value on the wire for command.
        */
-      @java.lang.Override public int getCommandValue() {
+      @Override public int getCommandValue() {
         return command_;
       }
       /**
@@ -1490,18 +6822,18 @@ public final class RequestBody {
        * <code>.happy.chat.common.protobuf.RequestMsg.Command command = 1;</code>
        * @return The command.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command getCommand() {
+      @Override
+      public Command getCommand() {
         @SuppressWarnings("deprecation")
-        happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command result = happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command.valueOf(command_);
-        return result == null ? happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command.UNRECOGNIZED : result;
+        Command result = Command.valueOf(command_);
+        return result == null ? Command.UNRECOGNIZED : result;
       }
       /**
        * <code>.happy.chat.common.protobuf.RequestMsg.Command command = 1;</code>
        * @param value The command to set.
        * @return This builder for chaining.
        */
-      public Builder setCommand(happy.chat.common.protobuf.request.RequestBody.RequestMsg.Command value) {
+      public Builder setCommand(Command value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1522,37 +6854,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.SignIn, happy.chat.common.protobuf.request.RequestBody.SignIn.Builder, happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder> signInBuilder_;
+          SignIn, SignIn.Builder, SignInOrBuilder> signInBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        * @return Whether the signIn field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasSignIn() {
         return requestBodyCase_ == 2;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        * @return The signIn.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignIn getSignIn() {
+      @Override
+      public SignIn getSignIn() {
         if (signInBuilder_ == null) {
           if (requestBodyCase_ == 2) {
-            return (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_;
+            return (SignIn) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
+          return SignIn.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 2) {
             return signInBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
+          return SignIn.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
-      public Builder setSignIn(happy.chat.common.protobuf.request.RequestBody.SignIn value) {
+      public Builder setSignIn(SignIn value) {
         if (signInBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1566,10 +6898,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
       public Builder setSignIn(
-          happy.chat.common.protobuf.request.RequestBody.SignIn.Builder builderForValue) {
+          SignIn.Builder builderForValue) {
         if (signInBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -1580,13 +6912,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
-      public Builder mergeSignIn(happy.chat.common.protobuf.request.RequestBody.SignIn value) {
+      public Builder mergeSignIn(SignIn value) {
         if (signInBuilder_ == null) {
           if (requestBodyCase_ == 2 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.SignIn.newBuilder((happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_)
+              requestBody_ != SignIn.getDefaultInstance()) {
+            requestBody_ = SignIn.newBuilder((SignIn) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -1602,7 +6934,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
       public Builder clearSignIn() {
         if (signInBuilder_ == null) {
@@ -1621,38 +6953,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.SignIn.Builder getSignInBuilder() {
+      public SignIn.Builder getSignInBuilder() {
         return getSignInFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder getSignInOrBuilder() {
+      @Override
+      public SignInOrBuilder getSignInOrBuilder() {
         if ((requestBodyCase_ == 2) && (signInBuilder_ != null)) {
           return signInBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 2) {
-            return (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_;
+            return (SignIn) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
+          return SignIn.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignIn signIn = 2;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignIn signIn = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.SignIn, happy.chat.common.protobuf.request.RequestBody.SignIn.Builder, happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder> 
+          SignIn, SignIn.Builder, SignInOrBuilder>
           getSignInFieldBuilder() {
         if (signInBuilder_ == null) {
           if (!(requestBodyCase_ == 2)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
+            requestBody_ = SignIn.getDefaultInstance();
           }
           signInBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.SignIn, happy.chat.common.protobuf.request.RequestBody.SignIn.Builder, happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.SignIn) requestBody_,
+              SignIn, SignIn.Builder, SignInOrBuilder>(
+                  (SignIn) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -1663,37 +6995,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.UserMessage, happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder, happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder> userMessageBuilder_;
+          UserMessage, UserMessage.Builder, UserMessageOrBuilder> userMessageBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        * @return Whether the userMessage field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasUserMessage() {
         return requestBodyCase_ == 3;
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        * @return The userMessage.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.UserMessage getUserMessage() {
+      @Override
+      public UserMessage getUserMessage() {
         if (userMessageBuilder_ == null) {
           if (requestBodyCase_ == 3) {
-            return (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_;
+            return (UserMessage) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
+          return UserMessage.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 3) {
             return userMessageBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
+          return UserMessage.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
-      public Builder setUserMessage(happy.chat.common.protobuf.request.RequestBody.UserMessage value) {
+      public Builder setUserMessage(UserMessage value) {
         if (userMessageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1707,10 +7039,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
       public Builder setUserMessage(
-          happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder builderForValue) {
+          UserMessage.Builder builderForValue) {
         if (userMessageBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -1721,13 +7053,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
-      public Builder mergeUserMessage(happy.chat.common.protobuf.request.RequestBody.UserMessage value) {
+      public Builder mergeUserMessage(UserMessage value) {
         if (userMessageBuilder_ == null) {
           if (requestBodyCase_ == 3 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.UserMessage.newBuilder((happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_)
+              requestBody_ != UserMessage.getDefaultInstance()) {
+            requestBody_ = UserMessage.newBuilder((UserMessage) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -1743,7 +7075,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
       public Builder clearUserMessage() {
         if (userMessageBuilder_ == null) {
@@ -1762,38 +7094,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder getUserMessageBuilder() {
+      public UserMessage.Builder getUserMessageBuilder() {
         return getUserMessageFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder getUserMessageOrBuilder() {
+      @Override
+      public UserMessageOrBuilder getUserMessageOrBuilder() {
         if ((requestBodyCase_ == 3) && (userMessageBuilder_ != null)) {
           return userMessageBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 3) {
-            return (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_;
+            return (UserMessage) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
+          return UserMessage.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.UserMessage userMessage = 3;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.UserMessage userMessage = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.UserMessage, happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder, happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder> 
+          UserMessage, UserMessage.Builder, UserMessageOrBuilder>
           getUserMessageFieldBuilder() {
         if (userMessageBuilder_ == null) {
           if (!(requestBodyCase_ == 3)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
+            requestBody_ = UserMessage.getDefaultInstance();
           }
           userMessageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.UserMessage, happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder, happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.UserMessage) requestBody_,
+              UserMessage, UserMessage.Builder, UserMessageOrBuilder>(
+                  (UserMessage) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -1804,37 +7136,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.SignOut, happy.chat.common.protobuf.request.RequestBody.SignOut.Builder, happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder> signOutBuilder_;
+          SignOut, SignOut.Builder, SignOutOrBuilder> signOutBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        * @return Whether the signOut field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasSignOut() {
         return requestBodyCase_ == 4;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        * @return The signOut.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignOut getSignOut() {
+      @Override
+      public SignOut getSignOut() {
         if (signOutBuilder_ == null) {
           if (requestBodyCase_ == 4) {
-            return (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_;
+            return (SignOut) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
+          return SignOut.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 4) {
             return signOutBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
+          return SignOut.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
-      public Builder setSignOut(happy.chat.common.protobuf.request.RequestBody.SignOut value) {
+      public Builder setSignOut(SignOut value) {
         if (signOutBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1848,10 +7180,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
       public Builder setSignOut(
-          happy.chat.common.protobuf.request.RequestBody.SignOut.Builder builderForValue) {
+          SignOut.Builder builderForValue) {
         if (signOutBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -1862,13 +7194,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
-      public Builder mergeSignOut(happy.chat.common.protobuf.request.RequestBody.SignOut value) {
+      public Builder mergeSignOut(SignOut value) {
         if (signOutBuilder_ == null) {
           if (requestBodyCase_ == 4 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.SignOut.newBuilder((happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_)
+              requestBody_ != SignOut.getDefaultInstance()) {
+            requestBody_ = SignOut.newBuilder((SignOut) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -1884,7 +7216,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
       public Builder clearSignOut() {
         if (signOutBuilder_ == null) {
@@ -1903,38 +7235,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.SignOut.Builder getSignOutBuilder() {
+      public SignOut.Builder getSignOutBuilder() {
         return getSignOutFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder getSignOutOrBuilder() {
+      @Override
+      public SignOutOrBuilder getSignOutOrBuilder() {
         if ((requestBodyCase_ == 4) && (signOutBuilder_ != null)) {
           return signOutBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 4) {
-            return (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_;
+            return (SignOut) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
+          return SignOut.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.SignOut signOut = 4;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.SignOut signOut = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.SignOut, happy.chat.common.protobuf.request.RequestBody.SignOut.Builder, happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder> 
+          SignOut, SignOut.Builder, SignOutOrBuilder>
           getSignOutFieldBuilder() {
         if (signOutBuilder_ == null) {
           if (!(requestBodyCase_ == 4)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
+            requestBody_ = SignOut.getDefaultInstance();
           }
           signOutBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.SignOut, happy.chat.common.protobuf.request.RequestBody.SignOut.Builder, happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.SignOut) requestBody_,
+              SignOut, SignOut.Builder, SignOutOrBuilder>(
+                  (SignOut) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -1945,37 +7277,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.CreateGroup, happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder, happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder> createGroupBuilder_;
+          CreateGroup, CreateGroup.Builder, CreateGroupOrBuilder> createGroupBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        * @return Whether the createGroup field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasCreateGroup() {
         return requestBodyCase_ == 5;
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        * @return The createGroup.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.CreateGroup getCreateGroup() {
+      @Override
+      public CreateGroup getCreateGroup() {
         if (createGroupBuilder_ == null) {
           if (requestBodyCase_ == 5) {
-            return (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_;
+            return (CreateGroup) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
+          return CreateGroup.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 5) {
             return createGroupBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
+          return CreateGroup.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
-      public Builder setCreateGroup(happy.chat.common.protobuf.request.RequestBody.CreateGroup value) {
+      public Builder setCreateGroup(CreateGroup value) {
         if (createGroupBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1989,10 +7321,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
       public Builder setCreateGroup(
-          happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder builderForValue) {
+          CreateGroup.Builder builderForValue) {
         if (createGroupBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -2003,13 +7335,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
-      public Builder mergeCreateGroup(happy.chat.common.protobuf.request.RequestBody.CreateGroup value) {
+      public Builder mergeCreateGroup(CreateGroup value) {
         if (createGroupBuilder_ == null) {
           if (requestBodyCase_ == 5 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.CreateGroup.newBuilder((happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_)
+              requestBody_ != CreateGroup.getDefaultInstance()) {
+            requestBody_ = CreateGroup.newBuilder((CreateGroup) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -2025,7 +7357,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
       public Builder clearCreateGroup() {
         if (createGroupBuilder_ == null) {
@@ -2044,38 +7376,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder getCreateGroupBuilder() {
+      public CreateGroup.Builder getCreateGroupBuilder() {
         return getCreateGroupFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder getCreateGroupOrBuilder() {
+      @Override
+      public CreateGroupOrBuilder getCreateGroupOrBuilder() {
         if ((requestBodyCase_ == 5) && (createGroupBuilder_ != null)) {
           return createGroupBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 5) {
-            return (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_;
+            return (CreateGroup) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
+          return CreateGroup.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.CreateGroup createGroup = 5;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.CreateGroup createGroup = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.CreateGroup, happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder, happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder> 
+          CreateGroup, CreateGroup.Builder, CreateGroupOrBuilder>
           getCreateGroupFieldBuilder() {
         if (createGroupBuilder_ == null) {
           if (!(requestBodyCase_ == 5)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
+            requestBody_ = CreateGroup.getDefaultInstance();
           }
           createGroupBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.CreateGroup, happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder, happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.CreateGroup) requestBody_,
+              CreateGroup, CreateGroup.Builder, CreateGroupOrBuilder>(
+                  (CreateGroup) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -2086,37 +7418,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.ListGroupMembers, happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder, happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder> listGroupMembersBuilder_;
+          ListGroupMembers, ListGroupMembers.Builder, ListGroupMembersOrBuilder> listGroupMembersBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        * @return Whether the listGroupMembers field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasListGroupMembers() {
         return requestBodyCase_ == 6;
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        * @return The listGroupMembers.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers getListGroupMembers() {
+      @Override
+      public ListGroupMembers getListGroupMembers() {
         if (listGroupMembersBuilder_ == null) {
           if (requestBodyCase_ == 6) {
-            return (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_;
+            return (ListGroupMembers) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
+          return ListGroupMembers.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 6) {
             return listGroupMembersBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
+          return ListGroupMembers.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
-      public Builder setListGroupMembers(happy.chat.common.protobuf.request.RequestBody.ListGroupMembers value) {
+      public Builder setListGroupMembers(ListGroupMembers value) {
         if (listGroupMembersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2130,10 +7462,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
       public Builder setListGroupMembers(
-          happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder builderForValue) {
+          ListGroupMembers.Builder builderForValue) {
         if (listGroupMembersBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -2144,13 +7476,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
-      public Builder mergeListGroupMembers(happy.chat.common.protobuf.request.RequestBody.ListGroupMembers value) {
+      public Builder mergeListGroupMembers(ListGroupMembers value) {
         if (listGroupMembersBuilder_ == null) {
           if (requestBodyCase_ == 6 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.newBuilder((happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_)
+              requestBody_ != ListGroupMembers.getDefaultInstance()) {
+            requestBody_ = ListGroupMembers.newBuilder((ListGroupMembers) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -2166,7 +7498,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
       public Builder clearListGroupMembers() {
         if (listGroupMembersBuilder_ == null) {
@@ -2185,38 +7517,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder getListGroupMembersBuilder() {
+      public ListGroupMembers.Builder getListGroupMembersBuilder() {
         return getListGroupMembersFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder getListGroupMembersOrBuilder() {
+      @Override
+      public ListGroupMembersOrBuilder getListGroupMembersOrBuilder() {
         if ((requestBodyCase_ == 6) && (listGroupMembersBuilder_ != null)) {
           return listGroupMembersBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 6) {
-            return (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_;
+            return (ListGroupMembers) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
+          return ListGroupMembers.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.ListGroupMembers listGroupMembers = 6;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.ListGroupMembers listGroupMembers = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.ListGroupMembers, happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder, happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder> 
+          ListGroupMembers, ListGroupMembers.Builder, ListGroupMembersOrBuilder>
           getListGroupMembersFieldBuilder() {
         if (listGroupMembersBuilder_ == null) {
           if (!(requestBodyCase_ == 6)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
+            requestBody_ = ListGroupMembers.getDefaultInstance();
           }
           listGroupMembersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.ListGroupMembers, happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder, happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) requestBody_,
+              ListGroupMembers, ListGroupMembers.Builder, ListGroupMembersOrBuilder>(
+                  (ListGroupMembers) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -2227,37 +7559,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.JoinGroup, happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder, happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder> joinGroupBuilder_;
+          JoinGroup, JoinGroup.Builder, JoinGroupOrBuilder> joinGroupBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        * @return Whether the joinGroup field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasJoinGroup() {
         return requestBodyCase_ == 7;
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        * @return The joinGroup.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.JoinGroup getJoinGroup() {
+      @Override
+      public JoinGroup getJoinGroup() {
         if (joinGroupBuilder_ == null) {
           if (requestBodyCase_ == 7) {
-            return (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_;
+            return (JoinGroup) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
+          return JoinGroup.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 7) {
             return joinGroupBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
+          return JoinGroup.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
-      public Builder setJoinGroup(happy.chat.common.protobuf.request.RequestBody.JoinGroup value) {
+      public Builder setJoinGroup(JoinGroup value) {
         if (joinGroupBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2271,10 +7603,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
       public Builder setJoinGroup(
-          happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder builderForValue) {
+          JoinGroup.Builder builderForValue) {
         if (joinGroupBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -2285,13 +7617,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
-      public Builder mergeJoinGroup(happy.chat.common.protobuf.request.RequestBody.JoinGroup value) {
+      public Builder mergeJoinGroup(JoinGroup value) {
         if (joinGroupBuilder_ == null) {
           if (requestBodyCase_ == 7 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.JoinGroup.newBuilder((happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_)
+              requestBody_ != JoinGroup.getDefaultInstance()) {
+            requestBody_ = JoinGroup.newBuilder((JoinGroup) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -2307,7 +7639,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
       public Builder clearJoinGroup() {
         if (joinGroupBuilder_ == null) {
@@ -2326,38 +7658,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder getJoinGroupBuilder() {
+      public JoinGroup.Builder getJoinGroupBuilder() {
         return getJoinGroupFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder getJoinGroupOrBuilder() {
+      @Override
+      public JoinGroupOrBuilder getJoinGroupOrBuilder() {
         if ((requestBodyCase_ == 7) && (joinGroupBuilder_ != null)) {
           return joinGroupBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 7) {
-            return (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_;
+            return (JoinGroup) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
+          return JoinGroup.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.JoinGroup joinGroup = 7;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.JoinGroup joinGroup = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.JoinGroup, happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder, happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder> 
+          JoinGroup, JoinGroup.Builder, JoinGroupOrBuilder>
           getJoinGroupFieldBuilder() {
         if (joinGroupBuilder_ == null) {
           if (!(requestBodyCase_ == 7)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
+            requestBody_ = JoinGroup.getDefaultInstance();
           }
           joinGroupBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.JoinGroup, happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder, happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.JoinGroup) requestBody_,
+              JoinGroup, JoinGroup.Builder, JoinGroupOrBuilder>(
+                  (JoinGroup) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -2368,37 +7700,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.QuitGroup, happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder, happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder> quitGroupBuilder_;
+          QuitGroup, QuitGroup.Builder, QuitGroupOrBuilder> quitGroupBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        * @return Whether the quitGroup field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasQuitGroup() {
         return requestBodyCase_ == 8;
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        * @return The quitGroup.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.QuitGroup getQuitGroup() {
+      @Override
+      public QuitGroup getQuitGroup() {
         if (quitGroupBuilder_ == null) {
           if (requestBodyCase_ == 8) {
-            return (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_;
+            return (QuitGroup) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
+          return QuitGroup.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 8) {
             return quitGroupBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
+          return QuitGroup.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
-      public Builder setQuitGroup(happy.chat.common.protobuf.request.RequestBody.QuitGroup value) {
+      public Builder setQuitGroup(QuitGroup value) {
         if (quitGroupBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2412,10 +7744,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
       public Builder setQuitGroup(
-          happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder builderForValue) {
+          QuitGroup.Builder builderForValue) {
         if (quitGroupBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -2426,13 +7758,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
-      public Builder mergeQuitGroup(happy.chat.common.protobuf.request.RequestBody.QuitGroup value) {
+      public Builder mergeQuitGroup(QuitGroup value) {
         if (quitGroupBuilder_ == null) {
           if (requestBodyCase_ == 8 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.QuitGroup.newBuilder((happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_)
+              requestBody_ != QuitGroup.getDefaultInstance()) {
+            requestBody_ = QuitGroup.newBuilder((QuitGroup) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -2448,7 +7780,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
       public Builder clearQuitGroup() {
         if (quitGroupBuilder_ == null) {
@@ -2467,38 +7799,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder getQuitGroupBuilder() {
+      public QuitGroup.Builder getQuitGroupBuilder() {
         return getQuitGroupFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder getQuitGroupOrBuilder() {
+      @Override
+      public QuitGroupOrBuilder getQuitGroupOrBuilder() {
         if ((requestBodyCase_ == 8) && (quitGroupBuilder_ != null)) {
           return quitGroupBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 8) {
-            return (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_;
+            return (QuitGroup) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
+          return QuitGroup.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.QuitGroup quitGroup = 8;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.QuitGroup quitGroup = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.QuitGroup, happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder, happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder> 
+          QuitGroup, QuitGroup.Builder, QuitGroupOrBuilder>
           getQuitGroupFieldBuilder() {
         if (quitGroupBuilder_ == null) {
           if (!(requestBodyCase_ == 8)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
+            requestBody_ = QuitGroup.getDefaultInstance();
           }
           quitGroupBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.QuitGroup, happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder, happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.QuitGroup) requestBody_,
+              QuitGroup, QuitGroup.Builder, QuitGroupOrBuilder>(
+                  (QuitGroup) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -2509,37 +7841,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.GroupMessage, happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder, happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder> groupMessageBuilder_;
+          GroupMessage, GroupMessage.Builder, GroupMessageOrBuilder> groupMessageBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        * @return Whether the groupMessage field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasGroupMessage() {
         return requestBodyCase_ == 9;
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        * @return The groupMessage.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.GroupMessage getGroupMessage() {
+      @Override
+      public GroupMessage getGroupMessage() {
         if (groupMessageBuilder_ == null) {
           if (requestBodyCase_ == 9) {
-            return (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_;
+            return (GroupMessage) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
+          return GroupMessage.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 9) {
             return groupMessageBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
+          return GroupMessage.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
-      public Builder setGroupMessage(happy.chat.common.protobuf.request.RequestBody.GroupMessage value) {
+      public Builder setGroupMessage(GroupMessage value) {
         if (groupMessageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2553,10 +7885,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
       public Builder setGroupMessage(
-          happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder builderForValue) {
+          GroupMessage.Builder builderForValue) {
         if (groupMessageBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -2567,13 +7899,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
-      public Builder mergeGroupMessage(happy.chat.common.protobuf.request.RequestBody.GroupMessage value) {
+      public Builder mergeGroupMessage(GroupMessage value) {
         if (groupMessageBuilder_ == null) {
           if (requestBodyCase_ == 9 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.GroupMessage.newBuilder((happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_)
+              requestBody_ != GroupMessage.getDefaultInstance()) {
+            requestBody_ = GroupMessage.newBuilder((GroupMessage) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -2589,7 +7921,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
       public Builder clearGroupMessage() {
         if (groupMessageBuilder_ == null) {
@@ -2608,38 +7940,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder getGroupMessageBuilder() {
+      public GroupMessage.Builder getGroupMessageBuilder() {
         return getGroupMessageFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder getGroupMessageOrBuilder() {
+      @Override
+      public GroupMessageOrBuilder getGroupMessageOrBuilder() {
         if ((requestBodyCase_ == 9) && (groupMessageBuilder_ != null)) {
           return groupMessageBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 9) {
-            return (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_;
+            return (GroupMessage) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
+          return GroupMessage.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.GroupMessage groupMessage = 9;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.GroupMessage groupMessage = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.GroupMessage, happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder, happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder> 
+          GroupMessage, GroupMessage.Builder, GroupMessageOrBuilder>
           getGroupMessageFieldBuilder() {
         if (groupMessageBuilder_ == null) {
           if (!(requestBodyCase_ == 9)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
+            requestBody_ = GroupMessage.getDefaultInstance();
           }
           groupMessageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.GroupMessage, happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder, happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.GroupMessage) requestBody_,
+              GroupMessage, GroupMessage.Builder, GroupMessageOrBuilder>(
+                  (GroupMessage) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -2650,37 +7982,37 @@ public final class RequestBody {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.Heartbeat, happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder, happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder> heartbeatBuilder_;
+          Heartbeat, Heartbeat.Builder, HeartbeatOrBuilder> heartbeatBuilder_;
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        * @return Whether the heartbeat field is set.
        */
-      @java.lang.Override
+      @Override
       public boolean hasHeartbeat() {
         return requestBodyCase_ == 10;
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        * @return The heartbeat.
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.Heartbeat getHeartbeat() {
+      @Override
+      public Heartbeat getHeartbeat() {
         if (heartbeatBuilder_ == null) {
           if (requestBodyCase_ == 10) {
-            return (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_;
+            return (Heartbeat) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
+          return Heartbeat.getDefaultInstance();
         } else {
           if (requestBodyCase_ == 10) {
             return heartbeatBuilder_.getMessage();
           }
-          return happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
+          return Heartbeat.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
-      public Builder setHeartbeat(happy.chat.common.protobuf.request.RequestBody.Heartbeat value) {
+      public Builder setHeartbeat(Heartbeat value) {
         if (heartbeatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2694,10 +8026,10 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
       public Builder setHeartbeat(
-          happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder builderForValue) {
+          Heartbeat.Builder builderForValue) {
         if (heartbeatBuilder_ == null) {
           requestBody_ = builderForValue.build();
           onChanged();
@@ -2708,13 +8040,13 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
-      public Builder mergeHeartbeat(happy.chat.common.protobuf.request.RequestBody.Heartbeat value) {
+      public Builder mergeHeartbeat(Heartbeat value) {
         if (heartbeatBuilder_ == null) {
           if (requestBodyCase_ == 10 &&
-              requestBody_ != happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance()) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.Heartbeat.newBuilder((happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_)
+              requestBody_ != Heartbeat.getDefaultInstance()) {
+            requestBody_ = Heartbeat.newBuilder((Heartbeat) requestBody_)
                 .mergeFrom(value).buildPartial();
           } else {
             requestBody_ = value;
@@ -2730,7 +8062,7 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
       public Builder clearHeartbeat() {
         if (heartbeatBuilder_ == null) {
@@ -2749,38 +8081,38 @@ public final class RequestBody {
         return this;
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
-      public happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder getHeartbeatBuilder() {
+      public Heartbeat.Builder getHeartbeatBuilder() {
         return getHeartbeatFieldBuilder().getBuilder();
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder getHeartbeatOrBuilder() {
+      @Override
+      public HeartbeatOrBuilder getHeartbeatOrBuilder() {
         if ((requestBodyCase_ == 10) && (heartbeatBuilder_ != null)) {
           return heartbeatBuilder_.getMessageOrBuilder();
         } else {
           if (requestBodyCase_ == 10) {
-            return (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_;
+            return (Heartbeat) requestBody_;
           }
-          return happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
+          return Heartbeat.getDefaultInstance();
         }
       }
       /**
-       * <code>.happy.chat.common.protobuf.Heartbeat heartbeat = 10;</code>
+       * <code>.happy.chat.common.protobuf.RequestMsg.Heartbeat heartbeat = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          happy.chat.common.protobuf.request.RequestBody.Heartbeat, happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder, happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder> 
+          Heartbeat, Heartbeat.Builder, HeartbeatOrBuilder>
           getHeartbeatFieldBuilder() {
         if (heartbeatBuilder_ == null) {
           if (!(requestBodyCase_ == 10)) {
-            requestBody_ = happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
+            requestBody_ = Heartbeat.getDefaultInstance();
           }
           heartbeatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              happy.chat.common.protobuf.request.RequestBody.Heartbeat, happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder, happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder>(
-                  (happy.chat.common.protobuf.request.RequestBody.Heartbeat) requestBody_,
+              Heartbeat, Heartbeat.Builder, HeartbeatOrBuilder>(
+                  (Heartbeat) requestBody_,
                   getParentForChildren(),
                   isClean());
           requestBody_ = null;
@@ -2789,13 +8121,13 @@ public final class RequestBody {
         onChanged();;
         return heartbeatBuilder_;
       }
-      @java.lang.Override
+      @Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.setUnknownFields(unknownFields);
       }
 
-      @java.lang.Override
+      @Override
       public final Builder mergeUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
@@ -2806,18 +8138,18 @@ public final class RequestBody {
     }
 
     // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.RequestMsg)
-    private static final happy.chat.common.protobuf.request.RequestBody.RequestMsg DEFAULT_INSTANCE;
+    private static final RequestMsg DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.RequestMsg();
+      DEFAULT_INSTANCE = new RequestMsg();
     }
 
-    public static happy.chat.common.protobuf.request.RequestBody.RequestMsg getDefaultInstance() {
+    public static RequestMsg getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
     private static final com.google.protobuf.Parser<RequestMsg>
         PARSER = new com.google.protobuf.AbstractParser<RequestMsg>() {
-      @java.lang.Override
+      @Override
       public RequestMsg parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2830,5345 +8162,13 @@ public final class RequestBody {
       return PARSER;
     }
 
-    @java.lang.Override
+    @Override
     public com.google.protobuf.Parser<RequestMsg> getParserForType() {
       return PARSER;
     }
 
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.RequestMsg getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface SignInOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.SignIn)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string username = 1;</code>
-     * @return The username.
-     */
-    java.lang.String getUsername();
-    /**
-     * <code>string username = 1;</code>
-     * @return The bytes for username.
-     */
-    com.google.protobuf.ByteString
-        getUsernameBytes();
-
-    /**
-     * <code>string password = 2;</code>
-     * @return The password.
-     */
-    java.lang.String getPassword();
-    /**
-     * <code>string password = 2;</code>
-     * @return The bytes for password.
-     */
-    com.google.protobuf.ByteString
-        getPasswordBytes();
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.SignIn}
-   */
-  public static final class SignIn extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.SignIn)
-      SignInOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use SignIn.newBuilder() to construct.
-    private SignIn(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private SignIn() {
-      username_ = "";
-      password_ = "";
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new SignIn();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private SignIn(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              username_ = s;
-              break;
-            }
-            case 18: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              password_ = s;
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignIn_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignIn_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.SignIn.class, happy.chat.common.protobuf.request.RequestBody.SignIn.Builder.class);
-    }
-
-    public static final int USERNAME_FIELD_NUMBER = 1;
-    private volatile java.lang.Object username_;
-    /**
-     * <code>string username = 1;</code>
-     * @return The username.
-     */
-    @java.lang.Override
-    public java.lang.String getUsername() {
-      java.lang.Object ref = username_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        username_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string username = 1;</code>
-     * @return The bytes for username.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getUsernameBytes() {
-      java.lang.Object ref = username_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        username_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int PASSWORD_FIELD_NUMBER = 2;
-    private volatile java.lang.Object password_;
-    /**
-     * <code>string password = 2;</code>
-     * @return The password.
-     */
-    @java.lang.Override
-    public java.lang.String getPassword() {
-      java.lang.Object ref = password_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        password_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string password = 2;</code>
-     * @return The bytes for password.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getPasswordBytes() {
-      java.lang.Object ref = password_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        password_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (!getUsernameBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, username_);
-      }
-      if (!getPasswordBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, password_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (!getUsernameBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, username_);
-      }
-      if (!getPasswordBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, password_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.SignIn)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.SignIn other = (happy.chat.common.protobuf.request.RequestBody.SignIn) obj;
-
-      if (!getUsername()
-          .equals(other.getUsername())) return false;
-      if (!getPassword()
-          .equals(other.getPassword())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + USERNAME_FIELD_NUMBER;
-      hash = (53 * hash) + getUsername().hashCode();
-      hash = (37 * hash) + PASSWORD_FIELD_NUMBER;
-      hash = (53 * hash) + getPassword().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.SignIn prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.SignIn}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.SignIn)
-        happy.chat.common.protobuf.request.RequestBody.SignInOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignIn_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignIn_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.SignIn.class, happy.chat.common.protobuf.request.RequestBody.SignIn.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.SignIn.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        username_ = "";
-
-        password_ = "";
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignIn_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignIn getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignIn build() {
-        happy.chat.common.protobuf.request.RequestBody.SignIn result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignIn buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.SignIn result = new happy.chat.common.protobuf.request.RequestBody.SignIn(this);
-        result.username_ = username_;
-        result.password_ = password_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.SignIn) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.SignIn)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.SignIn other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.SignIn.getDefaultInstance()) return this;
-        if (!other.getUsername().isEmpty()) {
-          username_ = other.username_;
-          onChanged();
-        }
-        if (!other.getPassword().isEmpty()) {
-          password_ = other.password_;
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.SignIn parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.SignIn) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private java.lang.Object username_ = "";
-      /**
-       * <code>string username = 1;</code>
-       * @return The username.
-       */
-      public java.lang.String getUsername() {
-        java.lang.Object ref = username_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          username_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string username = 1;</code>
-       * @return The bytes for username.
-       */
-      public com.google.protobuf.ByteString
-          getUsernameBytes() {
-        java.lang.Object ref = username_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          username_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string username = 1;</code>
-       * @param value The username to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUsername(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        username_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string username = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearUsername() {
-        
-        username_ = getDefaultInstance().getUsername();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string username = 1;</code>
-       * @param value The bytes for username to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUsernameBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        username_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object password_ = "";
-      /**
-       * <code>string password = 2;</code>
-       * @return The password.
-       */
-      public java.lang.String getPassword() {
-        java.lang.Object ref = password_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          password_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string password = 2;</code>
-       * @return The bytes for password.
-       */
-      public com.google.protobuf.ByteString
-          getPasswordBytes() {
-        java.lang.Object ref = password_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          password_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string password = 2;</code>
-       * @param value The password to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPassword(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        password_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string password = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPassword() {
-        
-        password_ = getDefaultInstance().getPassword();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string password = 2;</code>
-       * @param value The bytes for password to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPasswordBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        password_ = value;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.SignIn)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.SignIn)
-    private static final happy.chat.common.protobuf.request.RequestBody.SignIn DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.SignIn();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.SignIn getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<SignIn>
-        PARSER = new com.google.protobuf.AbstractParser<SignIn>() {
-      @java.lang.Override
-      public SignIn parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new SignIn(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<SignIn> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<SignIn> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.SignIn getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface UserMessageOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.UserMessage)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string toUserId = 1;</code>
-     * @return The toUserId.
-     */
-    java.lang.String getToUserId();
-    /**
-     * <code>string toUserId = 1;</code>
-     * @return The bytes for toUserId.
-     */
-    com.google.protobuf.ByteString
-        getToUserIdBytes();
-
-    /**
-     * <code>string message = 2;</code>
-     * @return The message.
-     */
-    java.lang.String getMessage();
-    /**
-     * <code>string message = 2;</code>
-     * @return The bytes for message.
-     */
-    com.google.protobuf.ByteString
-        getMessageBytes();
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.UserMessage}
-   */
-  public static final class UserMessage extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.UserMessage)
-      UserMessageOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use UserMessage.newBuilder() to construct.
-    private UserMessage(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private UserMessage() {
-      toUserId_ = "";
-      message_ = "";
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new UserMessage();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private UserMessage(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              toUserId_ = s;
-              break;
-            }
-            case 18: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              message_ = s;
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_UserMessage_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_UserMessage_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.UserMessage.class, happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder.class);
-    }
-
-    public static final int TOUSERID_FIELD_NUMBER = 1;
-    private volatile java.lang.Object toUserId_;
-    /**
-     * <code>string toUserId = 1;</code>
-     * @return The toUserId.
-     */
-    @java.lang.Override
-    public java.lang.String getToUserId() {
-      java.lang.Object ref = toUserId_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        toUserId_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string toUserId = 1;</code>
-     * @return The bytes for toUserId.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getToUserIdBytes() {
-      java.lang.Object ref = toUserId_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        toUserId_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int MESSAGE_FIELD_NUMBER = 2;
-    private volatile java.lang.Object message_;
-    /**
-     * <code>string message = 2;</code>
-     * @return The message.
-     */
-    @java.lang.Override
-    public java.lang.String getMessage() {
-      java.lang.Object ref = message_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        message_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string message = 2;</code>
-     * @return The bytes for message.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getMessageBytes() {
-      java.lang.Object ref = message_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        message_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (!getToUserIdBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, toUserId_);
-      }
-      if (!getMessageBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, message_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (!getToUserIdBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, toUserId_);
-      }
-      if (!getMessageBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, message_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.UserMessage)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.UserMessage other = (happy.chat.common.protobuf.request.RequestBody.UserMessage) obj;
-
-      if (!getToUserId()
-          .equals(other.getToUserId())) return false;
-      if (!getMessage()
-          .equals(other.getMessage())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + TOUSERID_FIELD_NUMBER;
-      hash = (53 * hash) + getToUserId().hashCode();
-      hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
-      hash = (53 * hash) + getMessage().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.UserMessage prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.UserMessage}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.UserMessage)
-        happy.chat.common.protobuf.request.RequestBody.UserMessageOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_UserMessage_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_UserMessage_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.UserMessage.class, happy.chat.common.protobuf.request.RequestBody.UserMessage.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.UserMessage.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        toUserId_ = "";
-
-        message_ = "";
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_UserMessage_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.UserMessage getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.UserMessage build() {
-        happy.chat.common.protobuf.request.RequestBody.UserMessage result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.UserMessage buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.UserMessage result = new happy.chat.common.protobuf.request.RequestBody.UserMessage(this);
-        result.toUserId_ = toUserId_;
-        result.message_ = message_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.UserMessage) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.UserMessage)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.UserMessage other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.UserMessage.getDefaultInstance()) return this;
-        if (!other.getToUserId().isEmpty()) {
-          toUserId_ = other.toUserId_;
-          onChanged();
-        }
-        if (!other.getMessage().isEmpty()) {
-          message_ = other.message_;
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.UserMessage parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.UserMessage) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private java.lang.Object toUserId_ = "";
-      /**
-       * <code>string toUserId = 1;</code>
-       * @return The toUserId.
-       */
-      public java.lang.String getToUserId() {
-        java.lang.Object ref = toUserId_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          toUserId_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string toUserId = 1;</code>
-       * @return The bytes for toUserId.
-       */
-      public com.google.protobuf.ByteString
-          getToUserIdBytes() {
-        java.lang.Object ref = toUserId_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          toUserId_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string toUserId = 1;</code>
-       * @param value The toUserId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setToUserId(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        toUserId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string toUserId = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearToUserId() {
-        
-        toUserId_ = getDefaultInstance().getToUserId();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string toUserId = 1;</code>
-       * @param value The bytes for toUserId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setToUserIdBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        toUserId_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object message_ = "";
-      /**
-       * <code>string message = 2;</code>
-       * @return The message.
-       */
-      public java.lang.String getMessage() {
-        java.lang.Object ref = message_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          message_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @return The bytes for message.
-       */
-      public com.google.protobuf.ByteString
-          getMessageBytes() {
-        java.lang.Object ref = message_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          message_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @param value The message to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMessage(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        message_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMessage() {
-        
-        message_ = getDefaultInstance().getMessage();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @param value The bytes for message to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMessageBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        message_ = value;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.UserMessage)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.UserMessage)
-    private static final happy.chat.common.protobuf.request.RequestBody.UserMessage DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.UserMessage();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.UserMessage getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<UserMessage>
-        PARSER = new com.google.protobuf.AbstractParser<UserMessage>() {
-      @java.lang.Override
-      public UserMessage parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new UserMessage(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<UserMessage> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<UserMessage> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.UserMessage getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface SignOutOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.SignOut)
-      com.google.protobuf.MessageOrBuilder {
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.SignOut}
-   */
-  public static final class SignOut extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.SignOut)
-      SignOutOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use SignOut.newBuilder() to construct.
-    private SignOut(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private SignOut() {
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new SignOut();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private SignOut(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignOut_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignOut_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.SignOut.class, happy.chat.common.protobuf.request.RequestBody.SignOut.Builder.class);
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.SignOut)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.SignOut other = (happy.chat.common.protobuf.request.RequestBody.SignOut) obj;
-
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.SignOut prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.SignOut}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.SignOut)
-        happy.chat.common.protobuf.request.RequestBody.SignOutOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignOut_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignOut_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.SignOut.class, happy.chat.common.protobuf.request.RequestBody.SignOut.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.SignOut.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_SignOut_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignOut getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignOut build() {
-        happy.chat.common.protobuf.request.RequestBody.SignOut result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.SignOut buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.SignOut result = new happy.chat.common.protobuf.request.RequestBody.SignOut(this);
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.SignOut) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.SignOut)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.SignOut other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.SignOut.getDefaultInstance()) return this;
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.SignOut parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.SignOut) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.SignOut)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.SignOut)
-    private static final happy.chat.common.protobuf.request.RequestBody.SignOut DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.SignOut();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.SignOut getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<SignOut>
-        PARSER = new com.google.protobuf.AbstractParser<SignOut>() {
-      @java.lang.Override
-      public SignOut parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new SignOut(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<SignOut> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<SignOut> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.SignOut getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface CreateGroupOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.CreateGroup)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @return A list containing the userIds.
-     */
-    java.util.List<java.lang.String>
-        getUserIdsList();
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @return The count of userIds.
-     */
-    int getUserIdsCount();
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @param index The index of the element to return.
-     * @return The userIds at the given index.
-     */
-    java.lang.String getUserIds(int index);
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @param index The index of the value to return.
-     * @return The bytes of the userIds at the given index.
-     */
-    com.google.protobuf.ByteString
-        getUserIdsBytes(int index);
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.CreateGroup}
-   */
-  public static final class CreateGroup extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.CreateGroup)
-      CreateGroupOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use CreateGroup.newBuilder() to construct.
-    private CreateGroup(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private CreateGroup() {
-      userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new CreateGroup();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private CreateGroup(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      int mutable_bitField0_ = 0;
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                userIds_ = new com.google.protobuf.LazyStringArrayList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              userIds_.add(s);
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          userIds_ = userIds_.getUnmodifiableView();
-        }
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_CreateGroup_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_CreateGroup_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.CreateGroup.class, happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder.class);
-    }
-
-    public static final int USERIDS_FIELD_NUMBER = 1;
-    private com.google.protobuf.LazyStringList userIds_;
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @return A list containing the userIds.
-     */
-    public com.google.protobuf.ProtocolStringList
-        getUserIdsList() {
-      return userIds_;
-    }
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @return The count of userIds.
-     */
-    public int getUserIdsCount() {
-      return userIds_.size();
-    }
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @param index The index of the element to return.
-     * @return The userIds at the given index.
-     */
-    public java.lang.String getUserIds(int index) {
-      return userIds_.get(index);
-    }
-    /**
-     * <code>repeated string userIds = 1;</code>
-     * @param index The index of the value to return.
-     * @return The bytes of the userIds at the given index.
-     */
-    public com.google.protobuf.ByteString
-        getUserIdsBytes(int index) {
-      return userIds_.getByteString(index);
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      for (int i = 0; i < userIds_.size(); i++) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, userIds_.getRaw(i));
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < userIds_.size(); i++) {
-          dataSize += computeStringSizeNoTag(userIds_.getRaw(i));
-        }
-        size += dataSize;
-        size += 1 * getUserIdsList().size();
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.CreateGroup)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.CreateGroup other = (happy.chat.common.protobuf.request.RequestBody.CreateGroup) obj;
-
-      if (!getUserIdsList()
-          .equals(other.getUserIdsList())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      if (getUserIdsCount() > 0) {
-        hash = (37 * hash) + USERIDS_FIELD_NUMBER;
-        hash = (53 * hash) + getUserIdsList().hashCode();
-      }
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.CreateGroup prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.CreateGroup}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.CreateGroup)
-        happy.chat.common.protobuf.request.RequestBody.CreateGroupOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_CreateGroup_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_CreateGroup_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.CreateGroup.class, happy.chat.common.protobuf.request.RequestBody.CreateGroup.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.CreateGroup.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-        bitField0_ = (bitField0_ & ~0x00000001);
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_CreateGroup_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.CreateGroup getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.CreateGroup build() {
-        happy.chat.common.protobuf.request.RequestBody.CreateGroup result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.CreateGroup buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.CreateGroup result = new happy.chat.common.protobuf.request.RequestBody.CreateGroup(this);
-        int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          userIds_ = userIds_.getUnmodifiableView();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.userIds_ = userIds_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.CreateGroup) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.CreateGroup)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.CreateGroup other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.CreateGroup.getDefaultInstance()) return this;
-        if (!other.userIds_.isEmpty()) {
-          if (userIds_.isEmpty()) {
-            userIds_ = other.userIds_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureUserIdsIsMutable();
-            userIds_.addAll(other.userIds_);
-          }
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.CreateGroup parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.CreateGroup) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-      private int bitField0_;
-
-      private com.google.protobuf.LazyStringList userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-      private void ensureUserIdsIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          userIds_ = new com.google.protobuf.LazyStringArrayList(userIds_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @return A list containing the userIds.
-       */
-      public com.google.protobuf.ProtocolStringList
-          getUserIdsList() {
-        return userIds_.getUnmodifiableView();
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @return The count of userIds.
-       */
-      public int getUserIdsCount() {
-        return userIds_.size();
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @param index The index of the element to return.
-       * @return The userIds at the given index.
-       */
-      public java.lang.String getUserIds(int index) {
-        return userIds_.get(index);
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @param index The index of the value to return.
-       * @return The bytes of the userIds at the given index.
-       */
-      public com.google.protobuf.ByteString
-          getUserIdsBytes(int index) {
-        return userIds_.getByteString(index);
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @param index The index to set the value at.
-       * @param value The userIds to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUserIds(
-          int index, java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureUserIdsIsMutable();
-        userIds_.set(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @param value The userIds to add.
-       * @return This builder for chaining.
-       */
-      public Builder addUserIds(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureUserIdsIsMutable();
-        userIds_.add(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @param values The userIds to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllUserIds(
-          java.lang.Iterable<java.lang.String> values) {
-        ensureUserIdsIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, userIds_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearUserIds() {
-        userIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string userIds = 1;</code>
-       * @param value The bytes of the userIds to add.
-       * @return This builder for chaining.
-       */
-      public Builder addUserIdsBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        ensureUserIdsIsMutable();
-        userIds_.add(value);
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.CreateGroup)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.CreateGroup)
-    private static final happy.chat.common.protobuf.request.RequestBody.CreateGroup DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.CreateGroup();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.CreateGroup getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<CreateGroup>
-        PARSER = new com.google.protobuf.AbstractParser<CreateGroup>() {
-      @java.lang.Override
-      public CreateGroup parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new CreateGroup(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<CreateGroup> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<CreateGroup> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.CreateGroup getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface ListGroupMembersOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.ListGroupMembers)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The groupId.
-     */
-    java.lang.String getGroupId();
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The bytes for groupId.
-     */
-    com.google.protobuf.ByteString
-        getGroupIdBytes();
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.ListGroupMembers}
-   */
-  public static final class ListGroupMembers extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.ListGroupMembers)
-      ListGroupMembersOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use ListGroupMembers.newBuilder() to construct.
-    private ListGroupMembers(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private ListGroupMembers() {
-      groupId_ = "";
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new ListGroupMembers();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private ListGroupMembers(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              groupId_ = s;
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_ListGroupMembers_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_ListGroupMembers_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.class, happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder.class);
-    }
-
-    public static final int GROUPID_FIELD_NUMBER = 1;
-    private volatile java.lang.Object groupId_;
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The groupId.
-     */
-    @java.lang.Override
-    public java.lang.String getGroupId() {
-      java.lang.Object ref = groupId_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        groupId_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The bytes for groupId.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getGroupIdBytes() {
-      java.lang.Object ref = groupId_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        groupId_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (!getGroupIdBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, groupId_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (!getGroupIdBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, groupId_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.ListGroupMembers)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.ListGroupMembers other = (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) obj;
-
-      if (!getGroupId()
-          .equals(other.getGroupId())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + GROUPID_FIELD_NUMBER;
-      hash = (53 * hash) + getGroupId().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.ListGroupMembers prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.ListGroupMembers}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.ListGroupMembers)
-        happy.chat.common.protobuf.request.RequestBody.ListGroupMembersOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_ListGroupMembers_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_ListGroupMembers_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.class, happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        groupId_ = "";
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_ListGroupMembers_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers build() {
-        happy.chat.common.protobuf.request.RequestBody.ListGroupMembers result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.ListGroupMembers result = new happy.chat.common.protobuf.request.RequestBody.ListGroupMembers(this);
-        result.groupId_ = groupId_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.ListGroupMembers)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.ListGroupMembers other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.ListGroupMembers.getDefaultInstance()) return this;
-        if (!other.getGroupId().isEmpty()) {
-          groupId_ = other.groupId_;
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.ListGroupMembers parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.ListGroupMembers) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private java.lang.Object groupId_ = "";
-      /**
-       * <code>string groupId = 1;</code>
-       * @return The groupId.
-       */
-      public java.lang.String getGroupId() {
-        java.lang.Object ref = groupId_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          groupId_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @return The bytes for groupId.
-       */
-      public com.google.protobuf.ByteString
-          getGroupIdBytes() {
-        java.lang.Object ref = groupId_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          groupId_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @param value The groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupId(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGroupId() {
-        
-        groupId_ = getDefaultInstance().getGroupId();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @param value The bytes for groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupIdBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.ListGroupMembers)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.ListGroupMembers)
-    private static final happy.chat.common.protobuf.request.RequestBody.ListGroupMembers DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.ListGroupMembers();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.ListGroupMembers getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<ListGroupMembers>
-        PARSER = new com.google.protobuf.AbstractParser<ListGroupMembers>() {
-      @java.lang.Override
-      public ListGroupMembers parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new ListGroupMembers(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<ListGroupMembers> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<ListGroupMembers> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.ListGroupMembers getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface JoinGroupOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.JoinGroup)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The groupId.
-     */
-    java.lang.String getGroupId();
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The bytes for groupId.
-     */
-    com.google.protobuf.ByteString
-        getGroupIdBytes();
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.JoinGroup}
-   */
-  public static final class JoinGroup extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.JoinGroup)
-      JoinGroupOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use JoinGroup.newBuilder() to construct.
-    private JoinGroup(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private JoinGroup() {
-      groupId_ = "";
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new JoinGroup();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private JoinGroup(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              groupId_ = s;
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_JoinGroup_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_JoinGroup_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.JoinGroup.class, happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder.class);
-    }
-
-    public static final int GROUPID_FIELD_NUMBER = 1;
-    private volatile java.lang.Object groupId_;
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The groupId.
-     */
-    @java.lang.Override
-    public java.lang.String getGroupId() {
-      java.lang.Object ref = groupId_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        groupId_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The bytes for groupId.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getGroupIdBytes() {
-      java.lang.Object ref = groupId_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        groupId_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (!getGroupIdBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, groupId_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (!getGroupIdBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, groupId_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.JoinGroup)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.JoinGroup other = (happy.chat.common.protobuf.request.RequestBody.JoinGroup) obj;
-
-      if (!getGroupId()
-          .equals(other.getGroupId())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + GROUPID_FIELD_NUMBER;
-      hash = (53 * hash) + getGroupId().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.JoinGroup prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.JoinGroup}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.JoinGroup)
-        happy.chat.common.protobuf.request.RequestBody.JoinGroupOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_JoinGroup_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_JoinGroup_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.JoinGroup.class, happy.chat.common.protobuf.request.RequestBody.JoinGroup.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.JoinGroup.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        groupId_ = "";
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_JoinGroup_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.JoinGroup getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.JoinGroup build() {
-        happy.chat.common.protobuf.request.RequestBody.JoinGroup result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.JoinGroup buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.JoinGroup result = new happy.chat.common.protobuf.request.RequestBody.JoinGroup(this);
-        result.groupId_ = groupId_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.JoinGroup) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.JoinGroup)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.JoinGroup other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.JoinGroup.getDefaultInstance()) return this;
-        if (!other.getGroupId().isEmpty()) {
-          groupId_ = other.groupId_;
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.JoinGroup parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.JoinGroup) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private java.lang.Object groupId_ = "";
-      /**
-       * <code>string groupId = 1;</code>
-       * @return The groupId.
-       */
-      public java.lang.String getGroupId() {
-        java.lang.Object ref = groupId_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          groupId_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @return The bytes for groupId.
-       */
-      public com.google.protobuf.ByteString
-          getGroupIdBytes() {
-        java.lang.Object ref = groupId_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          groupId_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @param value The groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupId(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGroupId() {
-        
-        groupId_ = getDefaultInstance().getGroupId();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @param value The bytes for groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupIdBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.JoinGroup)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.JoinGroup)
-    private static final happy.chat.common.protobuf.request.RequestBody.JoinGroup DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.JoinGroup();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.JoinGroup getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<JoinGroup>
-        PARSER = new com.google.protobuf.AbstractParser<JoinGroup>() {
-      @java.lang.Override
-      public JoinGroup parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new JoinGroup(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<JoinGroup> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<JoinGroup> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.JoinGroup getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface QuitGroupOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.QuitGroup)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The groupId.
-     */
-    java.lang.String getGroupId();
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The bytes for groupId.
-     */
-    com.google.protobuf.ByteString
-        getGroupIdBytes();
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.QuitGroup}
-   */
-  public static final class QuitGroup extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.QuitGroup)
-      QuitGroupOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use QuitGroup.newBuilder() to construct.
-    private QuitGroup(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private QuitGroup() {
-      groupId_ = "";
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new QuitGroup();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private QuitGroup(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              groupId_ = s;
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_QuitGroup_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_QuitGroup_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.QuitGroup.class, happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder.class);
-    }
-
-    public static final int GROUPID_FIELD_NUMBER = 1;
-    private volatile java.lang.Object groupId_;
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The groupId.
-     */
-    @java.lang.Override
-    public java.lang.String getGroupId() {
-      java.lang.Object ref = groupId_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        groupId_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string groupId = 1;</code>
-     * @return The bytes for groupId.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getGroupIdBytes() {
-      java.lang.Object ref = groupId_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        groupId_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (!getGroupIdBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, groupId_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (!getGroupIdBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, groupId_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.QuitGroup)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.QuitGroup other = (happy.chat.common.protobuf.request.RequestBody.QuitGroup) obj;
-
-      if (!getGroupId()
-          .equals(other.getGroupId())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + GROUPID_FIELD_NUMBER;
-      hash = (53 * hash) + getGroupId().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.QuitGroup prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.QuitGroup}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.QuitGroup)
-        happy.chat.common.protobuf.request.RequestBody.QuitGroupOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_QuitGroup_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_QuitGroup_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.QuitGroup.class, happy.chat.common.protobuf.request.RequestBody.QuitGroup.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.QuitGroup.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        groupId_ = "";
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_QuitGroup_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.QuitGroup getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.QuitGroup build() {
-        happy.chat.common.protobuf.request.RequestBody.QuitGroup result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.QuitGroup buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.QuitGroup result = new happy.chat.common.protobuf.request.RequestBody.QuitGroup(this);
-        result.groupId_ = groupId_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.QuitGroup) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.QuitGroup)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.QuitGroup other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.QuitGroup.getDefaultInstance()) return this;
-        if (!other.getGroupId().isEmpty()) {
-          groupId_ = other.groupId_;
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.QuitGroup parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.QuitGroup) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private java.lang.Object groupId_ = "";
-      /**
-       * <code>string groupId = 1;</code>
-       * @return The groupId.
-       */
-      public java.lang.String getGroupId() {
-        java.lang.Object ref = groupId_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          groupId_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @return The bytes for groupId.
-       */
-      public com.google.protobuf.ByteString
-          getGroupIdBytes() {
-        java.lang.Object ref = groupId_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          groupId_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @param value The groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupId(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGroupId() {
-        
-        groupId_ = getDefaultInstance().getGroupId();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string groupId = 1;</code>
-       * @param value The bytes for groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupIdBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.QuitGroup)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.QuitGroup)
-    private static final happy.chat.common.protobuf.request.RequestBody.QuitGroup DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.QuitGroup();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.QuitGroup getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<QuitGroup>
-        PARSER = new com.google.protobuf.AbstractParser<QuitGroup>() {
-      @java.lang.Override
-      public QuitGroup parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new QuitGroup(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<QuitGroup> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<QuitGroup> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.QuitGroup getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface GroupMessageOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.GroupMessage)
-      com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string toGroupId = 1;</code>
-     * @return The toGroupId.
-     */
-    java.lang.String getToGroupId();
-    /**
-     * <code>string toGroupId = 1;</code>
-     * @return The bytes for toGroupId.
-     */
-    com.google.protobuf.ByteString
-        getToGroupIdBytes();
-
-    /**
-     * <code>string message = 2;</code>
-     * @return The message.
-     */
-    java.lang.String getMessage();
-    /**
-     * <code>string message = 2;</code>
-     * @return The bytes for message.
-     */
-    com.google.protobuf.ByteString
-        getMessageBytes();
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.GroupMessage}
-   */
-  public static final class GroupMessage extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.GroupMessage)
-      GroupMessageOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use GroupMessage.newBuilder() to construct.
-    private GroupMessage(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private GroupMessage() {
-      toGroupId_ = "";
-      message_ = "";
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new GroupMessage();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private GroupMessage(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              toGroupId_ = s;
-              break;
-            }
-            case 18: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              message_ = s;
-              break;
-            }
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_GroupMessage_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_GroupMessage_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.GroupMessage.class, happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder.class);
-    }
-
-    public static final int TOGROUPID_FIELD_NUMBER = 1;
-    private volatile java.lang.Object toGroupId_;
-    /**
-     * <code>string toGroupId = 1;</code>
-     * @return The toGroupId.
-     */
-    @java.lang.Override
-    public java.lang.String getToGroupId() {
-      java.lang.Object ref = toGroupId_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        toGroupId_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string toGroupId = 1;</code>
-     * @return The bytes for toGroupId.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getToGroupIdBytes() {
-      java.lang.Object ref = toGroupId_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        toGroupId_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    public static final int MESSAGE_FIELD_NUMBER = 2;
-    private volatile java.lang.Object message_;
-    /**
-     * <code>string message = 2;</code>
-     * @return The message.
-     */
-    @java.lang.Override
-    public java.lang.String getMessage() {
-      java.lang.Object ref = message_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        message_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string message = 2;</code>
-     * @return The bytes for message.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getMessageBytes() {
-      java.lang.Object ref = message_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        message_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      if (!getToGroupIdBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, toGroupId_);
-      }
-      if (!getMessageBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, message_);
-      }
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      if (!getToGroupIdBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, toGroupId_);
-      }
-      if (!getMessageBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, message_);
-      }
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.GroupMessage)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.GroupMessage other = (happy.chat.common.protobuf.request.RequestBody.GroupMessage) obj;
-
-      if (!getToGroupId()
-          .equals(other.getToGroupId())) return false;
-      if (!getMessage()
-          .equals(other.getMessage())) return false;
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + TOGROUPID_FIELD_NUMBER;
-      hash = (53 * hash) + getToGroupId().hashCode();
-      hash = (37 * hash) + MESSAGE_FIELD_NUMBER;
-      hash = (53 * hash) + getMessage().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.GroupMessage prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.GroupMessage}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.GroupMessage)
-        happy.chat.common.protobuf.request.RequestBody.GroupMessageOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_GroupMessage_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_GroupMessage_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.GroupMessage.class, happy.chat.common.protobuf.request.RequestBody.GroupMessage.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.GroupMessage.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        toGroupId_ = "";
-
-        message_ = "";
-
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_GroupMessage_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.GroupMessage getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.GroupMessage build() {
-        happy.chat.common.protobuf.request.RequestBody.GroupMessage result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.GroupMessage buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.GroupMessage result = new happy.chat.common.protobuf.request.RequestBody.GroupMessage(this);
-        result.toGroupId_ = toGroupId_;
-        result.message_ = message_;
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.GroupMessage) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.GroupMessage)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.GroupMessage other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.GroupMessage.getDefaultInstance()) return this;
-        if (!other.getToGroupId().isEmpty()) {
-          toGroupId_ = other.toGroupId_;
-          onChanged();
-        }
-        if (!other.getMessage().isEmpty()) {
-          message_ = other.message_;
-          onChanged();
-        }
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.GroupMessage parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.GroupMessage) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-
-      private java.lang.Object toGroupId_ = "";
-      /**
-       * <code>string toGroupId = 1;</code>
-       * @return The toGroupId.
-       */
-      public java.lang.String getToGroupId() {
-        java.lang.Object ref = toGroupId_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          toGroupId_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string toGroupId = 1;</code>
-       * @return The bytes for toGroupId.
-       */
-      public com.google.protobuf.ByteString
-          getToGroupIdBytes() {
-        java.lang.Object ref = toGroupId_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          toGroupId_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string toGroupId = 1;</code>
-       * @param value The toGroupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setToGroupId(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        toGroupId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string toGroupId = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearToGroupId() {
-        
-        toGroupId_ = getDefaultInstance().getToGroupId();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string toGroupId = 1;</code>
-       * @param value The bytes for toGroupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setToGroupIdBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        toGroupId_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object message_ = "";
-      /**
-       * <code>string message = 2;</code>
-       * @return The message.
-       */
-      public java.lang.String getMessage() {
-        java.lang.Object ref = message_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          message_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @return The bytes for message.
-       */
-      public com.google.protobuf.ByteString
-          getMessageBytes() {
-        java.lang.Object ref = message_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          message_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @param value The message to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMessage(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        message_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMessage() {
-        
-        message_ = getDefaultInstance().getMessage();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string message = 2;</code>
-       * @param value The bytes for message to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMessageBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        message_ = value;
-        onChanged();
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.GroupMessage)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.GroupMessage)
-    private static final happy.chat.common.protobuf.request.RequestBody.GroupMessage DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.GroupMessage();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.GroupMessage getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<GroupMessage>
-        PARSER = new com.google.protobuf.AbstractParser<GroupMessage>() {
-      @java.lang.Override
-      public GroupMessage parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new GroupMessage(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<GroupMessage> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<GroupMessage> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.GroupMessage getDefaultInstanceForType() {
-      return DEFAULT_INSTANCE;
-    }
-
-  }
-
-  public interface HeartbeatOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:happy.chat.common.protobuf.Heartbeat)
-      com.google.protobuf.MessageOrBuilder {
-  }
-  /**
-   * Protobuf type {@code happy.chat.common.protobuf.Heartbeat}
-   */
-  public static final class Heartbeat extends
-      com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:happy.chat.common.protobuf.Heartbeat)
-      HeartbeatOrBuilder {
-  private static final long serialVersionUID = 0L;
-    // Use Heartbeat.newBuilder() to construct.
-    private Heartbeat(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-      super(builder);
-    }
-    private Heartbeat() {
-    }
-
-    @java.lang.Override
-    @SuppressWarnings({"unused"})
-    protected java.lang.Object newInstance(
-        UnusedPrivateParameter unused) {
-      return new Heartbeat();
-    }
-
-    @java.lang.Override
-    public final com.google.protobuf.UnknownFieldSet
-    getUnknownFields() {
-      return this.unknownFields;
-    }
-    private Heartbeat(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      this();
-      if (extensionRegistry == null) {
-        throw new java.lang.NullPointerException();
-      }
-      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-          com.google.protobuf.UnknownFieldSet.newBuilder();
-      try {
-        boolean done = false;
-        while (!done) {
-          int tag = input.readTag();
-          switch (tag) {
-            case 0:
-              done = true;
-              break;
-            default: {
-              if (!parseUnknownField(
-                  input, unknownFields, extensionRegistry, tag)) {
-                done = true;
-              }
-              break;
-            }
-          }
-        }
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        throw e.setUnfinishedMessage(this);
-      } catch (java.io.IOException e) {
-        throw new com.google.protobuf.InvalidProtocolBufferException(
-            e).setUnfinishedMessage(this);
-      } finally {
-        this.unknownFields = unknownFields.build();
-        makeExtensionsImmutable();
-      }
-    }
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_Heartbeat_descriptor;
-    }
-
-    @java.lang.Override
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_Heartbeat_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              happy.chat.common.protobuf.request.RequestBody.Heartbeat.class, happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder.class);
-    }
-
-    private byte memoizedIsInitialized = -1;
-    @java.lang.Override
-    public final boolean isInitialized() {
-      byte isInitialized = memoizedIsInitialized;
-      if (isInitialized == 1) return true;
-      if (isInitialized == 0) return false;
-
-      memoizedIsInitialized = 1;
-      return true;
-    }
-
-    @java.lang.Override
-    public void writeTo(com.google.protobuf.CodedOutputStream output)
-                        throws java.io.IOException {
-      unknownFields.writeTo(output);
-    }
-
-    @java.lang.Override
-    public int getSerializedSize() {
-      int size = memoizedSize;
-      if (size != -1) return size;
-
-      size = 0;
-      size += unknownFields.getSerializedSize();
-      memoizedSize = size;
-      return size;
-    }
-
-    @java.lang.Override
-    public boolean equals(final java.lang.Object obj) {
-      if (obj == this) {
-       return true;
-      }
-      if (!(obj instanceof happy.chat.common.protobuf.request.RequestBody.Heartbeat)) {
-        return super.equals(obj);
-      }
-      happy.chat.common.protobuf.request.RequestBody.Heartbeat other = (happy.chat.common.protobuf.request.RequestBody.Heartbeat) obj;
-
-      if (!unknownFields.equals(other.unknownFields)) return false;
-      return true;
-    }
-
-    @java.lang.Override
-    public int hashCode() {
-      if (memoizedHashCode != 0) {
-        return memoizedHashCode;
-      }
-      int hash = 41;
-      hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (29 * hash) + unknownFields.hashCode();
-      memoizedHashCode = hash;
-      return hash;
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        java.nio.ByteBuffer data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        java.nio.ByteBuffer data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        com.google.protobuf.ByteString data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        com.google.protobuf.ByteString data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(byte[] data)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        byte[] data,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return PARSER.parseFrom(data, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseDelimitedFrom(java.io.InputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseDelimitedFrom(
-        java.io.InputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        com.google.protobuf.CodedInputStream input)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input);
-    }
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat parseFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      return com.google.protobuf.GeneratedMessageV3
-          .parseWithIOException(PARSER, input, extensionRegistry);
-    }
-
-    @java.lang.Override
-    public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder() {
-      return DEFAULT_INSTANCE.toBuilder();
-    }
-    public static Builder newBuilder(happy.chat.common.protobuf.request.RequestBody.Heartbeat prototype) {
-      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-    }
-    @java.lang.Override
-    public Builder toBuilder() {
-      return this == DEFAULT_INSTANCE
-          ? new Builder() : new Builder().mergeFrom(this);
-    }
-
-    @java.lang.Override
-    protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      Builder builder = new Builder(parent);
-      return builder;
-    }
-    /**
-     * Protobuf type {@code happy.chat.common.protobuf.Heartbeat}
-     */
-    public static final class Builder extends
-        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:happy.chat.common.protobuf.Heartbeat)
-        happy.chat.common.protobuf.request.RequestBody.HeartbeatOrBuilder {
-      public static final com.google.protobuf.Descriptors.Descriptor
-          getDescriptor() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_Heartbeat_descriptor;
-      }
-
-      @java.lang.Override
-      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-          internalGetFieldAccessorTable() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_Heartbeat_fieldAccessorTable
-            .ensureFieldAccessorsInitialized(
-                happy.chat.common.protobuf.request.RequestBody.Heartbeat.class, happy.chat.common.protobuf.request.RequestBody.Heartbeat.Builder.class);
-      }
-
-      // Construct using happy.chat.common.protobuf.request.RequestBody.Heartbeat.newBuilder()
-      private Builder() {
-        maybeForceBuilderInitialization();
-      }
-
-      private Builder(
-          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-        super(parent);
-        maybeForceBuilderInitialization();
-      }
-      private void maybeForceBuilderInitialization() {
-        if (com.google.protobuf.GeneratedMessageV3
-                .alwaysUseFieldBuilders) {
-        }
-      }
-      @java.lang.Override
-      public Builder clear() {
-        super.clear();
-        return this;
-      }
-
-      @java.lang.Override
-      public com.google.protobuf.Descriptors.Descriptor
-          getDescriptorForType() {
-        return happy.chat.common.protobuf.request.RequestBody.internal_static_happy_chat_common_protobuf_Heartbeat_descriptor;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.Heartbeat getDefaultInstanceForType() {
-        return happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance();
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.Heartbeat build() {
-        happy.chat.common.protobuf.request.RequestBody.Heartbeat result = buildPartial();
-        if (!result.isInitialized()) {
-          throw newUninitializedMessageException(result);
-        }
-        return result;
-      }
-
-      @java.lang.Override
-      public happy.chat.common.protobuf.request.RequestBody.Heartbeat buildPartial() {
-        happy.chat.common.protobuf.request.RequestBody.Heartbeat result = new happy.chat.common.protobuf.request.RequestBody.Heartbeat(this);
-        onBuilt();
-        return result;
-      }
-
-      @java.lang.Override
-      public Builder clone() {
-        return super.clone();
-      }
-      @java.lang.Override
-      public Builder setField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.setField(field, value);
-      }
-      @java.lang.Override
-      public Builder clearField(
-          com.google.protobuf.Descriptors.FieldDescriptor field) {
-        return super.clearField(field);
-      }
-      @java.lang.Override
-      public Builder clearOneof(
-          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-        return super.clearOneof(oneof);
-      }
-      @java.lang.Override
-      public Builder setRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          int index, java.lang.Object value) {
-        return super.setRepeatedField(field, index, value);
-      }
-      @java.lang.Override
-      public Builder addRepeatedField(
-          com.google.protobuf.Descriptors.FieldDescriptor field,
-          java.lang.Object value) {
-        return super.addRepeatedField(field, value);
-      }
-      @java.lang.Override
-      public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof happy.chat.common.protobuf.request.RequestBody.Heartbeat) {
-          return mergeFrom((happy.chat.common.protobuf.request.RequestBody.Heartbeat)other);
-        } else {
-          super.mergeFrom(other);
-          return this;
-        }
-      }
-
-      public Builder mergeFrom(happy.chat.common.protobuf.request.RequestBody.Heartbeat other) {
-        if (other == happy.chat.common.protobuf.request.RequestBody.Heartbeat.getDefaultInstance()) return this;
-        this.mergeUnknownFields(other.unknownFields);
-        onChanged();
-        return this;
-      }
-
-      @java.lang.Override
-      public final boolean isInitialized() {
-        return true;
-      }
-
-      @java.lang.Override
-      public Builder mergeFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws java.io.IOException {
-        happy.chat.common.protobuf.request.RequestBody.Heartbeat parsedMessage = null;
-        try {
-          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (happy.chat.common.protobuf.request.RequestBody.Heartbeat) e.getUnfinishedMessage();
-          throw e.unwrapIOException();
-        } finally {
-          if (parsedMessage != null) {
-            mergeFrom(parsedMessage);
-          }
-        }
-        return this;
-      }
-      @java.lang.Override
-      public final Builder setUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.setUnknownFields(unknownFields);
-      }
-
-      @java.lang.Override
-      public final Builder mergeUnknownFields(
-          final com.google.protobuf.UnknownFieldSet unknownFields) {
-        return super.mergeUnknownFields(unknownFields);
-      }
-
-
-      // @@protoc_insertion_point(builder_scope:happy.chat.common.protobuf.Heartbeat)
-    }
-
-    // @@protoc_insertion_point(class_scope:happy.chat.common.protobuf.Heartbeat)
-    private static final happy.chat.common.protobuf.request.RequestBody.Heartbeat DEFAULT_INSTANCE;
-    static {
-      DEFAULT_INSTANCE = new happy.chat.common.protobuf.request.RequestBody.Heartbeat();
-    }
-
-    public static happy.chat.common.protobuf.request.RequestBody.Heartbeat getDefaultInstance() {
-      return DEFAULT_INSTANCE;
-    }
-
-    private static final com.google.protobuf.Parser<Heartbeat>
-        PARSER = new com.google.protobuf.AbstractParser<Heartbeat>() {
-      @java.lang.Override
-      public Heartbeat parsePartialFrom(
-          com.google.protobuf.CodedInputStream input,
-          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-          throws com.google.protobuf.InvalidProtocolBufferException {
-        return new Heartbeat(input, extensionRegistry);
-      }
-    };
-
-    public static com.google.protobuf.Parser<Heartbeat> parser() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Parser<Heartbeat> getParserForType() {
-      return PARSER;
-    }
-
-    @java.lang.Override
-    public happy.chat.common.protobuf.request.RequestBody.Heartbeat getDefaultInstanceForType() {
+    @Override
+    public RequestMsg getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8180,50 +8180,50 @@ public final class RequestBody {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_happy_chat_common_protobuf_RequestMsg_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_SignIn_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_SignIn_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_UserMessage_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_UserMessage_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_SignOut_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_SignOut_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_CreateGroup_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_CreateGroup_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_ListGroupMembers_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_ListGroupMembers_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_JoinGroup_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_JoinGroup_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_QuitGroup_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_QuitGroup_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_GroupMessage_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_GroupMessage_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_happy_chat_common_protobuf_Heartbeat_descriptor;
+    internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_happy_chat_common_protobuf_Heartbeat_fieldAccessorTable;
+      internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -8232,38 +8232,41 @@ public final class RequestBody {
   private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
-    java.lang.String[] descriptorData = {
+    String[] descriptorData = {
       "\n\024RequestBodyBuf.proto\022\032happy.chat.commo" +
-      "n.protobuf\"\252\006\n\nRequestMsg\022?\n\007command\030\001 \001" +
+      "n.protobuf\"\272\t\n\nRequestMsg\022?\n\007command\030\001 \001" +
       "(\0162..happy.chat.common.protobuf.RequestM" +
-      "sg.Command\0224\n\006signIn\030\002 \001(\0132\".happy.chat." +
-      "common.protobuf.SignInH\000\022>\n\013userMessage\030" +
-      "\003 \001(\0132\'.happy.chat.common.protobuf.UserM" +
-      "essageH\000\0226\n\007signOut\030\004 \001(\0132#.happy.chat.c" +
-      "ommon.protobuf.SignOutH\000\022>\n\013createGroup\030" +
-      "\005 \001(\0132\'.happy.chat.common.protobuf.Creat" +
-      "eGroupH\000\022H\n\020listGroupMembers\030\006 \001(\0132,.hap" +
-      "py.chat.common.protobuf.ListGroupMembers" +
-      "H\000\022:\n\tjoinGroup\030\007 \001(\0132%.happy.chat.commo" +
-      "n.protobuf.JoinGroupH\000\022:\n\tquitGroup\030\010 \001(" +
-      "\0132%.happy.chat.common.protobuf.QuitGroup" +
-      "H\000\022@\n\014groupMessage\030\t \001(\0132(.happy.chat.co" +
-      "mmon.protobuf.GroupMessageH\000\022:\n\theartbea" +
-      "t\030\n \001(\0132%.happy.chat.common.protobuf.Hea" +
-      "rtbeatH\000\"\235\001\n\007Command\022\013\n\007SIGN_IN\020\000\022\013\n\007MES" +
+      "sg.Command\022?\n\006signIn\030\002 \001(\0132-.happy.chat." +
+      "common.protobuf.RequestMsg.SignInH\000\022I\n\013u" +
+      "serMessage\030\003 \001(\01322.happy.chat.common.pro" +
+      "tobuf.RequestMsg.UserMessageH\000\022A\n\007signOu" +
+      "t\030\004 \001(\0132..happy.chat.common.protobuf.Req" +
+      "uestMsg.SignOutH\000\022I\n\013createGroup\030\005 \001(\01322" +
+      ".happy.chat.common.protobuf.RequestMsg.C" +
+      "reateGroupH\000\022S\n\020listGroupMembers\030\006 \001(\01327" +
+      ".happy.chat.common.protobuf.RequestMsg.L" +
+      "istGroupMembersH\000\022E\n\tjoinGroup\030\007 \001(\01320.h" +
+      "appy.chat.common.protobuf.RequestMsg.Joi" +
+      "nGroupH\000\022E\n\tquitGroup\030\010 \001(\01320.happy.chat" +
+      ".common.protobuf.RequestMsg.QuitGroupH\000\022" +
+      "K\n\014groupMessage\030\t \001(\01323.happy.chat.commo" +
+      "n.protobuf.RequestMsg.GroupMessageH\000\022E\n\t" +
+      "heartbeat\030\n \001(\01320.happy.chat.common.prot" +
+      "obuf.RequestMsg.HeartbeatH\000\032,\n\006SignIn\022\020\n" +
+      "\010username\030\001 \001(\t\022\020\n\010password\030\002 \001(\t\0320\n\013Use" +
+      "rMessage\022\020\n\010toUserId\030\001 \001(\t\022\017\n\007message\030\002 " +
+      "\001(\t\032\t\n\007SignOut\032\036\n\013CreateGroup\022\017\n\007userIds" +
+      "\030\001 \003(\t\032#\n\020ListGroupMembers\022\017\n\007groupId\030\001 " +
+      "\001(\t\032\034\n\tJoinGroup\022\017\n\007groupId\030\001 \001(\t\032\034\n\tQui" +
+      "tGroup\022\017\n\007groupId\030\001 \001(\t\0322\n\014GroupMessage\022" +
+      "\021\n\ttoGroupId\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\032\013\n\tH" +
+      "eartbeat\"\235\001\n\007Command\022\013\n\007SIGN_IN\020\000\022\013\n\007MES" +
       "SAGE\020\001\022\014\n\010SIGN_OUT\020\002\022\020\n\014CREATE_GROUP\020\003\022\026" +
       "\n\022LIST_GROUP_MEMBERS\020\004\022\016\n\nJOIN_GROUP\020\005\022\016" +
       "\n\nQUIT_GROUP\020\006\022\021\n\rGROUP_MESSAGE\020\007\022\r\n\tHEA" +
-      "RTBEAT\020\010B\r\n\013requestBody\",\n\006SignIn\022\020\n\010use" +
-      "rname\030\001 \001(\t\022\020\n\010password\030\002 \001(\t\"0\n\013UserMes" +
-      "sage\022\020\n\010toUserId\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\"" +
-      "\t\n\007SignOut\"\036\n\013CreateGroup\022\017\n\007userIds\030\001 \003" +
-      "(\t\"#\n\020ListGroupMembers\022\017\n\007groupId\030\001 \001(\t\"" +
-      "\034\n\tJoinGroup\022\017\n\007groupId\030\001 \001(\t\"\034\n\tQuitGro" +
-      "up\022\017\n\007groupId\030\001 \001(\t\"2\n\014GroupMessage\022\021\n\tt" +
-      "oGroupId\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\"\013\n\tHeart" +
-      "beatB1\n\"happy.chat.common.protobuf.reque" +
-      "stB\013RequestBodyb\006proto3"
+      "RTBEAT\020\010B\r\n\013requestBodyB1\n\"happy.chat.co" +
+      "mmon.protobuf.requestB\013RequestBodyb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -8274,61 +8277,61 @@ public final class RequestBody {
     internal_static_happy_chat_common_protobuf_RequestMsg_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_happy_chat_common_protobuf_RequestMsg_descriptor,
-        new java.lang.String[] { "Command", "SignIn", "UserMessage", "SignOut", "CreateGroup", "ListGroupMembers", "JoinGroup", "QuitGroup", "GroupMessage", "Heartbeat", "RequestBody", });
-    internal_static_happy_chat_common_protobuf_SignIn_descriptor =
-      getDescriptor().getMessageTypes().get(1);
-    internal_static_happy_chat_common_protobuf_SignIn_fieldAccessorTable = new
+        new String[] { "Command", "SignIn", "UserMessage", "SignOut", "CreateGroup", "ListGroupMembers", "JoinGroup", "QuitGroup", "GroupMessage", "Heartbeat", "RequestBody", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(0);
+    internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_SignIn_descriptor,
-        new java.lang.String[] { "Username", "Password", });
-    internal_static_happy_chat_common_protobuf_UserMessage_descriptor =
-      getDescriptor().getMessageTypes().get(2);
-    internal_static_happy_chat_common_protobuf_UserMessage_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_SignIn_descriptor,
+        new String[] { "Username", "Password", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(1);
+    internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_UserMessage_descriptor,
-        new java.lang.String[] { "ToUserId", "Message", });
-    internal_static_happy_chat_common_protobuf_SignOut_descriptor =
-      getDescriptor().getMessageTypes().get(3);
-    internal_static_happy_chat_common_protobuf_SignOut_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_UserMessage_descriptor,
+        new String[] { "ToUserId", "Message", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(2);
+    internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_SignOut_descriptor,
-        new java.lang.String[] { });
-    internal_static_happy_chat_common_protobuf_CreateGroup_descriptor =
-      getDescriptor().getMessageTypes().get(4);
-    internal_static_happy_chat_common_protobuf_CreateGroup_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_SignOut_descriptor,
+        new String[] { });
+    internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(3);
+    internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_CreateGroup_descriptor,
-        new java.lang.String[] { "UserIds", });
-    internal_static_happy_chat_common_protobuf_ListGroupMembers_descriptor =
-      getDescriptor().getMessageTypes().get(5);
-    internal_static_happy_chat_common_protobuf_ListGroupMembers_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_CreateGroup_descriptor,
+        new String[] { "UserIds", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(4);
+    internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_ListGroupMembers_descriptor,
-        new java.lang.String[] { "GroupId", });
-    internal_static_happy_chat_common_protobuf_JoinGroup_descriptor =
-      getDescriptor().getMessageTypes().get(6);
-    internal_static_happy_chat_common_protobuf_JoinGroup_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_ListGroupMembers_descriptor,
+        new String[] { "GroupId", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(5);
+    internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_JoinGroup_descriptor,
-        new java.lang.String[] { "GroupId", });
-    internal_static_happy_chat_common_protobuf_QuitGroup_descriptor =
-      getDescriptor().getMessageTypes().get(7);
-    internal_static_happy_chat_common_protobuf_QuitGroup_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_JoinGroup_descriptor,
+        new String[] { "GroupId", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(6);
+    internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_QuitGroup_descriptor,
-        new java.lang.String[] { "GroupId", });
-    internal_static_happy_chat_common_protobuf_GroupMessage_descriptor =
-      getDescriptor().getMessageTypes().get(8);
-    internal_static_happy_chat_common_protobuf_GroupMessage_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_QuitGroup_descriptor,
+        new String[] { "GroupId", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(7);
+    internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_GroupMessage_descriptor,
-        new java.lang.String[] { "ToGroupId", "Message", });
-    internal_static_happy_chat_common_protobuf_Heartbeat_descriptor =
-      getDescriptor().getMessageTypes().get(9);
-    internal_static_happy_chat_common_protobuf_Heartbeat_fieldAccessorTable = new
+        internal_static_happy_chat_common_protobuf_RequestMsg_GroupMessage_descriptor,
+        new String[] { "ToGroupId", "Message", });
+    internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_descriptor =
+      internal_static_happy_chat_common_protobuf_RequestMsg_descriptor.getNestedTypes().get(8);
+    internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_happy_chat_common_protobuf_Heartbeat_descriptor,
-        new java.lang.String[] { });
+        internal_static_happy_chat_common_protobuf_RequestMsg_Heartbeat_descriptor,
+        new String[] { });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

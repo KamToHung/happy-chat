@@ -1,5 +1,7 @@
 package happy.chat.server.handler;
 
+import happy.chat.common.protobuf.request.RequestBody;
+import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.handler.timeout.IdleStateHandler;
@@ -13,6 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @author Terry
  */
 @Component
+@ChannelHandler.Sharable
 public class ChatStateHandler extends IdleStateHandler {
 
     public ChatStateHandler() {
@@ -23,4 +26,5 @@ public class ChatStateHandler extends IdleStateHandler {
     protected void channelIdle(ChannelHandlerContext ctx, IdleStateEvent evt) throws Exception {
         ctx.channel().close();
     }
+
 }

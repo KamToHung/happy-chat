@@ -10,12 +10,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ChannelHandler.Sharable
-public class SignOutHandler extends SimpleChannelInboundHandler<ResponseBody.SignOut> {
+public class SignOutHandler extends SimpleChannelInboundHandler<ResponseBody.ResponseMsg.SignOut> {
 
     private static final Logger logger = LoggerFactory.getLogger(SignInHandler.class);
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.SignOut msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.ResponseMsg.SignOut msg) throws Exception {
         if (msg.getSuccess()) {
             logger.info("退出登录成功");
         } else {

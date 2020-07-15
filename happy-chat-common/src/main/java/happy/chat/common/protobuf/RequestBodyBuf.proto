@@ -38,45 +38,46 @@ message RequestMsg {
     GroupMessage groupMessage = 9;
     Heartbeat heartbeat = 10;
   }
-}
 
-message SignIn {
-  string username = 1;
-  string password = 2;
-}
+  message SignIn {
+    string username = 1;
+    string password = 2;
+  }
 
-message UserMessage {
-  string toUserId = 1;
-  string message = 2;
-}
+  message UserMessage {
+    string toUserId = 1;
+    string message = 2;
+  }
 
-message SignOut {
+  message SignOut {
 
-}
+  }
 
-message CreateGroup {
-  repeated string userIds = 1;
-}
+  message CreateGroup {
+    repeated string userIds = 1;
+  }
 
-message ListGroupMembers {
-  string groupId = 1;
-}
+  message ListGroupMembers {
+    string groupId = 1;
+  }
 
-message JoinGroup {
-  string groupId = 1;
-}
+  message JoinGroup {
+    string groupId = 1;
+  }
 
 
-message QuitGroup {
-  string groupId = 1;
-}
+  message QuitGroup {
+    string groupId = 1;
+  }
 
-message GroupMessage {
-  string toGroupId = 1;
-  string message = 2;
-}
+  message GroupMessage {
+    string toGroupId = 1;
+    string message = 2;
+  }
 
-message Heartbeat {
+  message Heartbeat {
+
+  }
 
 }
 

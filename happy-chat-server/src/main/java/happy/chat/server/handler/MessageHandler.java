@@ -19,12 +19,12 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ChannelHandler.Sharable
-public class MessageHandler extends SimpleChannelInboundHandler<RequestBody.UserMessage> {
+public class MessageHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg.UserMessage> {
 
     private static final Logger logger = LoggerFactory.getLogger(MessageHandler.class);
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.UserMessage userMessageRequest) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg.UserMessage userMessageRequest) throws Exception {
         //获取接收方channel
         Channel toUserChannel = SessionUtils.getChannel(userMessageRequest.getToUserId());
         if (toUserChannel == null) {
@@ -38,7 +38,7 @@ public class MessageHandler extends SimpleChannelInboundHandler<RequestBody.User
         Channel channel = ctx.channel();
         //获取请求中的session
         UserInfo userInfo = SessionUtils.getSession(channel);
-        ResponseBody.UserMessage.Builder messageResponse = ResponseBody.UserMessage.newBuilder();
+        ResponseBody.ResponseMsg.UserMessage.Builder messageResponse = ResponseBody.ResponseMsg.UserMessage.newBuilder();
         messageResponse.setFromUserId(userInfo.getUserId());
         messageResponse.setFromUsername(userInfo.getUsername());
         messageResponse.setMessage(userMessageRequest.getMessage());

@@ -15,11 +15,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ChannelHandler.Sharable
-public class SignOutHandler extends SimpleChannelInboundHandler<RequestBody.SignOut> {
+public class SignOutHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg.SignOut> {
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.SignOut signOutRequest) throws Exception {
-        ResponseBody.SignOut.Builder signOutResponse = ResponseBody.SignOut.newBuilder();
+    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg.SignOut signOutRequest) throws Exception {
+        ResponseBody.ResponseMsg.SignOut.Builder signOutResponse = ResponseBody.ResponseMsg.SignOut.newBuilder();
         signOutResponse.setSuccess(true);
         signOutResponse.setReason("退出成功");
         //移除用户信息

@@ -10,12 +10,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ChannelHandler.Sharable
-public class MessageHandler extends SimpleChannelInboundHandler<ResponseBody.UserMessage> {
+public class MessageHandler extends SimpleChannelInboundHandler<ResponseBody.ResponseMsg.UserMessage> {
 
     private static final Logger logger = LoggerFactory.getLogger(MessageHandler.class);
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.UserMessage msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.ResponseMsg.UserMessage msg) throws Exception {
         logger.info(msg.getFromUsername() + "(" + msg.getFromUserId() + ")->" + msg.getMessage());
     }
 

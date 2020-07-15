@@ -10,18 +10,20 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ChannelHandler.Sharable
-public class SignInHandler extends SimpleChannelInboundHandler<ResponseBody.SignIn> {
+public class SignInHandler extends SimpleChannelInboundHandler<ResponseBody.ResponseMsg> {
 
     private static final Logger logger = LoggerFactory.getLogger(SignInHandler.class);
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.SignIn msg) throws Exception {
-        String userId = msg.getUserId();
-        String username = msg.getUsername();
-        if (msg.getSuccess()) {
-            logger.info("用户:" + username + "(" + userId + ")" + "登录成功");
-        } else {
-            logger.info("用户:" + username + "(" + userId + ")" + "登录失败,原因为:" + msg.getReason());
+    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.ResponseMsg msg) throws Exception {
+        if (msg.getCommand() == ResponseBody.ResponseMsg.Command.SIGN_IN) {
+            String userId = msg.getSignIn().getUserId();
+            String username = msg.getSignIn().getUsername();
+            if (msg.getSignIn().getSuccess()) {
+                logger.info("用户:" + username + "(" + userId + ")" + "登录成功");
+            } else {
+                logger.info("用户:" + username + "(" + userId + ")" + "登录失败,原因为:" + msg.getSignIn().getReason());
+            }
         }
     }
 
