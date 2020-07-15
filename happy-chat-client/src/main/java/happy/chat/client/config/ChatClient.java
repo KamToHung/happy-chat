@@ -24,18 +24,21 @@ public class ChatClient {
 
     private static final Logger logger = LoggerFactory.getLogger(ChatClient.class);
 
-    @Autowired
-    private ClientInitHandler clientInitHandler;
+    private final ClientInitHandler clientInitHandler;
 
-    @Autowired
-    private HappyChatProperties happyChatProperties;
+    private final HappyChatProperties happyChatProperties;
 
-    @Autowired
-    private CommandInfo commandInfo;
+    private final CommandInfo commandInfo;
 
     private final EventLoopGroup group = new NioEventLoopGroup();
 
     private Channel channel;
+
+    public ChatClient(ClientInitHandler clientInitHandler, HappyChatProperties happyChatProperties, CommandInfo commandInfo) {
+        this.clientInitHandler = clientInitHandler;
+        this.happyChatProperties = happyChatProperties;
+        this.commandInfo = commandInfo;
+    }
 
     @PostConstruct
     public void start() {
