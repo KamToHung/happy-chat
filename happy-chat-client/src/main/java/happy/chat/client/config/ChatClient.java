@@ -1,5 +1,6 @@
 package happy.chat.client.config;
 
+import happy.chat.client.command.BaseCommand;
 import happy.chat.client.handler.ClientInitHandler;
 import happy.chat.common.HappyChatProperties;
 import happy.chat.common.protobuf.request.RequestBody;
@@ -28,6 +29,9 @@ public class ChatClient {
 
     @Autowired
     private HappyChatProperties happyChatProperties;
+
+    @Autowired
+    private CommandInfo commandInfo;
 
     private final EventLoopGroup group = new NioEventLoopGroup();
 
@@ -74,13 +78,11 @@ public class ChatClient {
         group.shutdownGracefully();
     }
 
-    private static void startConsoleThread(Channel channel) {
+    private void startConsoleThread(Channel channel) {
         Scanner scanner = new Scanner(System.in);
-
         new Thread(() -> {
-            while (!Thread.interrupted()) {
-                login(channel, scanner);
-            }
+            login(channel, scanner);
+            order(channel, scanner);
         }).start();
     }
 
@@ -90,7 +92,6 @@ public class ChatClient {
      * @param channel
      */
     private static void login(Channel channel, Scanner scanner) {
-//        RequestBody
         logger.info("开始登录,请输入用户名:");
         RequestBody.RequestMsg.SignIn.Builder signInBuilder = RequestBody.RequestMsg.SignIn.newBuilder();
         signInBuilder.setUsername(scanner.nextLine());
@@ -99,9 +100,14 @@ public class ChatClient {
         RequestBody.RequestMsg.Builder builder = RequestBody.RequestMsg.newBuilder();
         builder.setSignIn(signInBuilder);
         channel.writeAndFlush(builder.build());
-        try {
-            Thread.sleep(50000);
-        } catch (InterruptedException ignored) {
+    }
+
+    private void order(Channel channel, Scanner scanner) {
+        while (true) {
+            logger.info("请输入指令(1:发送信息,2:退出登录):");
+            String command = scanner.next();
+            BaseCommand infoCommand = commandInfo.getCommand(Integer.parseInt(command));
+            infoCommand.exec(channel, scanner);
         }
     }
 

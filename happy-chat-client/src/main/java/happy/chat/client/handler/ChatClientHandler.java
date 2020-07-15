@@ -35,6 +35,9 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<ResponseBody.
     @Autowired
     private SignOutHandler signOutHandler;
 
+    @Autowired
+    private HeartbeatHandler heartbeatHandler;
+
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.ResponseMsg msg) throws Exception {
         ResponseBody.ResponseMsg.Command command = msg.getCommand();
@@ -42,6 +45,8 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<ResponseBody.
             try {
                 if (command == ResponseBody.ResponseMsg.Command.SIGN_IN) {
                     signInHandler.channelRead(ctx, msg.getSignIn());
+                } else if (command == ResponseBody.ResponseMsg.Command.HEARTBEAT) {
+                    heartbeatHandler.channelRead(ctx, msg.getHeartbeat());
                 } else if (command == ResponseBody.ResponseMsg.Command.MESSAGE) {
                     messageHandler.channelRead(ctx, msg.getUserMessage());
                 } else if (command == ResponseBody.ResponseMsg.Command.SIGN_OUT) {

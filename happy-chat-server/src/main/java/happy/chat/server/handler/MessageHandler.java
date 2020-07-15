@@ -42,7 +42,8 @@ public class MessageHandler extends SimpleChannelInboundHandler<RequestBody.Requ
         messageResponse.setFromUserId(userInfo.getUserId());
         messageResponse.setFromUsername(userInfo.getUsername());
         messageResponse.setMessage(userMessageRequest.getMessage());
-        toUserChannel.writeAndFlush(messageResponse);
+        toUserChannel.writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setCommand(ResponseBody.ResponseMsg.Command.MESSAGE)
+        .setUserMessage(messageResponse));
     }
 
 }

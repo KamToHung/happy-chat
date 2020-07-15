@@ -24,7 +24,8 @@ public class SignOutHandler extends SimpleChannelInboundHandler<RequestBody.Requ
         signOutResponse.setReason("退出成功");
         //移除用户信息
         SessionUtils.delSession(ctx.channel());
-        ctx.channel().writeAndFlush(signOutResponse.build());
+        ctx.channel().writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setCommand(ResponseBody.ResponseMsg.Command.SIGN_OUT)
+                .setSignOut(signOutResponse));
     }
 
 }

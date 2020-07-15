@@ -42,7 +42,8 @@ public class SignInHandler extends SimpleChannelInboundHandler<RequestBody.Reque
             signInResponse.setSuccess(false);
             logger.error(LocalDateTime.now() + ": 用户[" + signInRequest.getUsername() + "]" + "登录失败");
         }
-        ctx.channel().writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setSignIn(signInResponse.build()).build());
+        ctx.channel().writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setCommand(ResponseBody.ResponseMsg.Command.SIGN_IN)
+                .setSignIn(signInResponse).build());
     }
 
     private boolean valid(RequestBody.RequestMsg.SignIn msg) {
