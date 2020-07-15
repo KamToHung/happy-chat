@@ -27,7 +27,10 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.R
 
     private static final Logger logger = LoggerFactory.getLogger(ChatServerHandler.class);
 
-    private static final ExecutorService SERVICE = new ThreadPoolExecutor(1, 10, 30L, TimeUnit.SECONDS,
+    /**
+     * 添加线程,多任务进行操作
+     */
+    private static final ExecutorService SERVICE = new ThreadPoolExecutor(1, 20, 30L, TimeUnit.SECONDS,
             new SynchronousQueue<>(), new ThreadFactoryBuilder().setDaemon(true).setNameFormat("ChatServerHandler-%d").build(),
             new ThreadPoolExecutor.CallerRunsPolicy());
 

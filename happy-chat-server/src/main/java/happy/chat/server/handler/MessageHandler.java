@@ -12,6 +12,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
 /**
  * 信息handler
  *
@@ -42,8 +45,10 @@ public class MessageHandler extends SimpleChannelInboundHandler<RequestBody.Requ
         messageResponse.setFromUserId(userInfo.getUserId());
         messageResponse.setFromUsername(userInfo.getUsername());
         messageResponse.setMessage(userMessageRequest.getMessage());
+        //测试耗时操作
+//        TimeUnit.SECONDS.sleep(10);
         toUserChannel.writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setCommand(ResponseBody.ResponseMsg.Command.MESSAGE)
-        .setUserMessage(messageResponse));
+                .setUserMessage(messageResponse));
     }
 
 }

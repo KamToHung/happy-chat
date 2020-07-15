@@ -37,7 +37,7 @@ public class ChatServer {
         this.happyChatProperties = happyChatProperties;
         this.serverInitHandler = serverInitHandler;
         this.bossGroup = new NioEventLoopGroup();
-        this.workerGroup = new NioEventLoopGroup();
+        this.workerGroup = new NioEventLoopGroup(10);
     }
 
     @PostConstruct

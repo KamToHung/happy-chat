@@ -12,7 +12,10 @@ public class SignOutCommand implements BaseCommand {
     @Override
     public void exec(Channel channel, Scanner scanner) {
         RequestBody.RequestMsg.SignOut.Builder signOutBuilder = RequestBody.RequestMsg.SignOut.newBuilder();
-        channel.writeAndFlush(RequestBody.RequestMsg.newBuilder().setCommand(RequestBody.RequestMsg.Command.SIGN_OUT).setSignOut(signOutBuilder).build());
+        channel.writeAndFlush(RequestBody.RequestMsg.newBuilder().
+                setCommand(RequestBody.RequestMsg.Command.SIGN_OUT)
+                .setSignOut(signOutBuilder)
+                .build());
     }
 
     @Override

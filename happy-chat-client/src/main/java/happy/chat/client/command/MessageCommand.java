@@ -1,6 +1,5 @@
 package happy.chat.client.command;
 
-import happy.chat.client.config.ChatClient;
 import happy.chat.common.protobuf.request.RequestBody;
 import io.netty.channel.Channel;
 import org.slf4j.Logger;
@@ -34,8 +33,12 @@ public class MessageCommand implements BaseCommand {
 
     private void exec(Channel channel, String toUserId, String message) {
         RequestBody.RequestMsg.UserMessage.Builder messageBuilder = RequestBody.RequestMsg.UserMessage.newBuilder()
-                .setToUserId(toUserId).setMessage(message);
-        channel.writeAndFlush(RequestBody.RequestMsg.newBuilder().setCommand(RequestBody.RequestMsg.Command.MESSAGE).setUserMessage(messageBuilder).build());
+                .setToUserId(toUserId)
+                .setMessage(message);
+        channel.writeAndFlush(RequestBody.RequestMsg.newBuilder()
+                .setCommand(RequestBody.RequestMsg.Command.MESSAGE)
+                .setUserMessage(messageBuilder)
+                .build());
     }
 
 }
