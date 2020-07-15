@@ -18,6 +18,6 @@ public class HeartbeatHandler extends SimpleChannelInboundHandler<RequestBody.Re
 
     protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg.Heartbeat heartbeatRequest) throws Exception {
         ResponseBody.ResponseMsg.Heartbeat.Builder heartbeatResponse = ResponseBody.ResponseMsg.Heartbeat.newBuilder();
-        ctx.writeAndFlush(heartbeatResponse.build());
+        ctx.writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setHeartbeat(heartbeatResponse.build()).build());
     }
 }

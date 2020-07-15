@@ -41,11 +41,11 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<ResponseBody.
         SERVICE.execute(() -> {
             try {
                 if (command == ResponseBody.ResponseMsg.Command.SIGN_IN) {
-                    signInHandler.channelRead(ctx, msg);
+                    signInHandler.channelRead(ctx, msg.getSignIn());
                 } else if (command == ResponseBody.ResponseMsg.Command.MESSAGE) {
-                    messageHandler.channelRead(ctx, msg);
+                    messageHandler.channelRead(ctx, msg.getUserMessage());
                 } else if (command == ResponseBody.ResponseMsg.Command.SIGN_OUT) {
-                    signOutHandler.channelRead(ctx, msg);
+                    signOutHandler.channelRead(ctx, msg.getSignOut());
                 }
             } catch (Exception e) {
                 logger.error(e.getMessage(), e);

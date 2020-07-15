@@ -8,3 +8,5 @@ happy:
       reconnect-time: 10
       # 重连次数
       reconnect-num: 3
+      # 重试时间间隔,单位秒
+      heartbeat-time: 5

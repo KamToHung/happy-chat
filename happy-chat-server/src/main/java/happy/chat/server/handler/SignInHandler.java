@@ -21,30 +21,28 @@ import java.util.UUID;
  */
 @Component
 @ChannelHandler.Sharable
-public class SignInHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg> {
+public class SignInHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg.SignIn> {
 
     private static final Logger logger = LoggerFactory.getLogger(SignInHandler.class);
 
-    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg signInRequest) throws Exception {
-        if (signInRequest.getCommand() == RequestBody.RequestMsg.Command.SIGN_IN) {
-            ResponseBody.ResponseMsg.SignIn.Builder signInResponse = ResponseBody.ResponseMsg.SignIn.newBuilder();
-            signInResponse.setUsername(signInRequest.getSignIn().getUsername());
-            // 处理登录response
-            if (valid(signInRequest.getSignIn())) {
-                String userId = UUID.randomUUID().toString();
-                signInResponse.setUserId(userId);
-                signInResponse.setSuccess(true);
-                logger.info(LocalDateTime.now() + ": 用户[" + signInRequest.getSignIn().getUsername() + "]" + "登录成功");
-                // 绑定用户信息
-                UserInfo userInfo = new UserInfo(userId, signInRequest.getSignIn().getUsername());
-                SessionUtils.addSession(userInfo, ctx.channel());
-            } else {
-                signInResponse.setReason("账号密码错误");
-                signInResponse.setSuccess(false);
-                logger.error(LocalDateTime.now() + ": 用户[" + signInRequest.getSignIn().getUsername() + "]" + "登录失败");
-            }
-            ctx.channel().writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setSignIn(signInResponse.build()).build());
+    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg.SignIn signInRequest) throws Exception {
+        ResponseBody.ResponseMsg.SignIn.Builder signInResponse = ResponseBody.ResponseMsg.SignIn.newBuilder();
+        signInResponse.setUsername(signInRequest.getUsername());
+        // 处理登录response
+        if (valid(signInRequest)) {
+            String userId = UUID.randomUUID().toString();
+            signInResponse.setUserId(userId);
+            signInResponse.setSuccess(true);
+            logger.info(LocalDateTime.now() + ": 用户[" + signInRequest.getUsername() + "]" + "登录成功");
+            // 绑定用户信息
+            UserInfo userInfo = new UserInfo(userId, signInRequest.getUsername());
+            SessionUtils.addSession(userInfo, ctx.channel());
+        } else {
+            signInResponse.setReason("账号密码错误");
+            signInResponse.setSuccess(false);
+            logger.error(LocalDateTime.now() + ": 用户[" + signInRequest.getUsername() + "]" + "登录失败");
         }
+        ctx.channel().writeAndFlush(ResponseBody.ResponseMsg.newBuilder().setSignIn(signInResponse.build()).build());
     }
 
     private boolean valid(RequestBody.RequestMsg.SignIn msg) {

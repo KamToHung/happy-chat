@@ -32,6 +32,12 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.R
             new ThreadPoolExecutor.CallerRunsPolicy());
 
     @Autowired
+    private SignInHandler signInHandler;
+
+    @Autowired
+    private HeartbeatHandler heartbeatHandler;
+
+    @Autowired
     private SignOutHandler signOutHandler;
 
     @Autowired
@@ -42,7 +48,11 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.R
         RequestBody.RequestMsg.Command command = msg.getCommand();
         SERVICE.execute(() -> {
             try {
-                if (command == RequestBody.RequestMsg.Command.MESSAGE) {
+                if (command == RequestBody.RequestMsg.Command.SIGN_IN) {
+                    signInHandler.channelRead(ctx, msg.getSignIn());
+                } else if (command == RequestBody.RequestMsg.Command.HEARTBEAT) {
+                    heartbeatHandler.channelRead(ctx, msg.getHeartbeat());
+                } else if (command == RequestBody.RequestMsg.Command.MESSAGE) {
                     messageHandler.channelRead(ctx, msg.getUserMessage());
                 } else if (command == RequestBody.RequestMsg.Command.SIGN_OUT) {
                     signOutHandler.channelRead(ctx, msg.getSignOut());

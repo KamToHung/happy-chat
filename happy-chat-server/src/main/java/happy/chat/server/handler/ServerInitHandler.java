@@ -21,17 +21,17 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
 
-    @Autowired
-    private ChatStateHandler chatStateHandler;
+//    @Autowired
+//    private ChatStateHandler chatStateHandler;
 
-    @Autowired
-    private SignInHandler signInHandler;
-
-    @Autowired
-    private HeartbeatHandler heartbeatHandler;
-
-    @Autowired
-    private AuthHandler authHandler;
+//    @Autowired
+//    private SignInHandler signInHandler;
+//
+//    @Autowired
+//    private HeartbeatHandler heartbeatHandler;
+//
+//    @Autowired
+//    private AuthHandler authHandler;
 
     @Autowired
     private ChatServerHandler chatServerHandler;
@@ -42,9 +42,6 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
                 .addLast(new ProtobufDecoder(RequestBody.RequestMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
-                .addLast(signInHandler)
-                .addLast(heartbeatHandler)
-                .addLast(authHandler)
                 .addLast(chatServerHandler);
     }
 }

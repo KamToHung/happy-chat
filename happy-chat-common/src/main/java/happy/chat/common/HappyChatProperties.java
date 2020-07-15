@@ -10,9 +10,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "happy.chat")
 public class HappyChatProperties {
 
-    private Server server;
+    private Server server = new Server();
 
-    private Client client;
+    private Client client = new Client();
 
     public Server getServer() {
         return server;
@@ -35,12 +35,12 @@ public class HappyChatProperties {
         /**
          * 主机
          */
-        private String host;
+        private String host = "127.0.0.1";
 
         /**
          * 端口
          */
-        private int port;
+        private int port = 8080;
 
         public String getHost() {
             return host;
@@ -64,12 +64,17 @@ public class HappyChatProperties {
         /**
          * 重连时间间隔,单位秒
          */
-        private int reconnectTime;
+        private int reconnectTime = 10;
 
         /**
          * 重连次数
          */
-        private int getReconnectNum;
+        private int reconnectNum = 3;
+
+        /**
+         * 心跳间隔,单位秒
+         */
+        private int heartbeatTime = 5;
 
         public int getReconnectTime() {
             return reconnectTime;
@@ -79,12 +84,20 @@ public class HappyChatProperties {
             this.reconnectTime = reconnectTime;
         }
 
-        public int getGetReconnectNum() {
-            return getReconnectNum;
+        public int getReconnectNum() {
+            return reconnectNum;
         }
 
-        public void setGetReconnectNum(int getReconnectNum) {
-            this.getReconnectNum = getReconnectNum;
+        public void setReconnectNum(int reconnectNum) {
+            this.reconnectNum = reconnectNum;
+        }
+
+        public int getHeartbeatTime() {
+            return heartbeatTime;
+        }
+
+        public void setHeartbeatTime(int heartbeatTime) {
+            this.heartbeatTime = heartbeatTime;
         }
     }
 }

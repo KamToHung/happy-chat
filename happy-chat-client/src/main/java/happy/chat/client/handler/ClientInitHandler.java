@@ -1,7 +1,6 @@
 package happy.chat.client.handler;
 
 import happy.chat.common.protobuf.response.ResponseBody;
-import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;
@@ -9,8 +8,6 @@ import io.netty.handler.codec.protobuf.ProtobufEncoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 import io.netty.handler.timeout.IdleStateHandler;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -22,6 +19,9 @@ public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
     @Autowired
     private ChatClientHandler chatClientHandler;
 
+    @Autowired
+    private HeartbeatHandler heartbeatHandler;
+
     @Override
     protected void initChannel(NioSocketChannel ch) throws Exception {
         ch.pipeline().addLast(new IdleStateHandler(10,0,0, TimeUnit.SECONDS))
@@ -29,6 +29,7 @@ public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
                 .addLast(new ProtobufDecoder(ResponseBody.ResponseMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
-                .addLast(chatClientHandler);
+                .addLast(chatClientHandler)
+                .addLast(heartbeatHandler);
     }
 }

@@ -42,11 +42,11 @@ public class ChatClient {
                 .option(ChannelOption.SO_KEEPALIVE, true)
                 .option(ChannelOption.TCP_NODELAY, true)
                 .handler(clientInitHandler);
-        connect(bootstrap, happyChatProperties.getClient().getGetReconnectNum());
+        connect(bootstrap, happyChatProperties.getClient().getReconnectNum());
     }
 
     private void connect(Bootstrap bootstrap, int retry) {
-        int reconnectNum = happyChatProperties.getClient().getGetReconnectNum();
+        int reconnectNum = happyChatProperties.getClient().getReconnectNum();
         bootstrap.connect(happyChatProperties.getServer().getHost(), happyChatProperties.getServer().getPort())
                 .addListener((ChannelFutureListener) future -> {
                     if (future.isSuccess()) {
