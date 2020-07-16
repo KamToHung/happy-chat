@@ -2,7 +2,6 @@ package happy.chat.server.util;
 
 import happy.chat.server.entity.UserInfo;
 import io.netty.channel.Channel;
-import io.netty.channel.group.ChannelGroup;
 import io.netty.util.AttributeKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
