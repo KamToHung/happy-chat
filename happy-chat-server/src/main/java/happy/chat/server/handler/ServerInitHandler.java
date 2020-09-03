@@ -24,7 +24,7 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
     @Autowired
     private ChatServerHandler chatServerHandler;
 
-    protected void initChannel(NioSocketChannel ch) throws Exception {
+    protected void initChannel(NioSocketChannel ch) {
         ch.pipeline().addLast(chatStateHandler)
                 .addLast(new ProtobufVarint32FrameDecoder())
                 .addLast(new ProtobufDecoder(RequestBody.RequestMsg.getDefaultInstance()))

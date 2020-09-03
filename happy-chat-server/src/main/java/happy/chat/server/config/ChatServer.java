@@ -1,5 +1,6 @@
 package happy.chat.server.config;
 
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import happy.chat.common.HappyChatProperties;
 import happy.chat.server.handler.ServerInitHandler;
 import io.netty.bootstrap.ServerBootstrap;
@@ -36,8 +37,8 @@ public class ChatServer {
     public ChatServer(HappyChatProperties happyChatProperties, ServerInitHandler serverInitHandler) {
         this.happyChatProperties = happyChatProperties;
         this.serverInitHandler = serverInitHandler;
-        this.bossGroup = new NioEventLoopGroup();
-        this.workerGroup = new NioEventLoopGroup(10);
+        this.bossGroup = new NioEventLoopGroup(10, new ThreadFactoryBuilder().setNameFormat("boss-group-thread-%d").build());
+        this.workerGroup = new NioEventLoopGroup(10, new ThreadFactoryBuilder().setNameFormat("worker-group-thread-%d").build());
     }
 
     @PostConstruct
@@ -46,7 +47,7 @@ public class ChatServer {
                 .channel(NioServerSocketChannel.class)
                 .option(ChannelOption.SO_BACKLOG, 1024)
                 .childOption(ChannelOption.SO_KEEPALIVE, true)
-                .childOption(ChannelOption.TCP_NODELAY, true)
+                .childOption(ChannelOption.TCP_NODELAY, false)
                 .childHandler(serverInitHandler);
         ChannelFuture future = bootstrap.bind(happyChatProperties.getServer().getPort()).sync();
         if (future.isSuccess()) {

@@ -1,6 +1,5 @@
-package happy.chat.server.handler;
+package happy.chat.client.handler;
 
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.handler.timeout.IdleStateHandler;
@@ -11,24 +10,19 @@ import org.springframework.stereotype.Component;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 判断空闲handler
+ * 检测是否超时
  *
  * @author Terry
+ * @since 2020/9/3 17:12
  */
 @Component
-@ChannelHandler.Sharable
 public class ChatStateHandler extends IdleStateHandler {
 
     private static final Logger logger = LoggerFactory.getLogger(ChatStateHandler.class);
 
-    public ChatStateHandler() {
-        super(20, 0, 0, TimeUnit.SECONDS);
-    }
 
-    @Override
-    protected void channelIdle(ChannelHandlerContext ctx, IdleStateEvent evt) throws Exception {
-        logger.info("10秒内没有信息,关闭连接");
-        ctx.channel().close();
+    public ChatStateHandler() {
+        super(10, 0, 0, TimeUnit.SECONDS);
     }
 
 }

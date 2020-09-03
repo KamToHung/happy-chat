@@ -16,20 +16,24 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
 
-    @Autowired
-    private ChatClientHandler chatClientHandler;
+    private final ChatStateHandler chatStateHandler;
+
+    private final ChatClientHandler chatClientHandler;
 
     @Autowired
-    private HeartbeatHandler heartbeatHandler;
+    public ClientInitHandler(ChatStateHandler chatStateHandler, ChatClientHandler chatClientHandler) {
+        this.chatStateHandler = chatStateHandler;
+        this.chatClientHandler = chatClientHandler;
+    }
+
 
     @Override
     protected void initChannel(NioSocketChannel ch) throws Exception {
-        ch.pipeline().addLast(new IdleStateHandler(10,0,0, TimeUnit.SECONDS))
+        ch.pipeline().addLast(chatStateHandler)
                 .addLast(new ProtobufVarint32FrameDecoder())
                 .addLast(new ProtobufDecoder(ResponseBody.ResponseMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
-                .addLast(chatClientHandler)
-                .addLast(heartbeatHandler);
+                .addLast(chatClientHandler);
     }
 }
