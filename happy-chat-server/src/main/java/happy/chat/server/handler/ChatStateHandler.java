@@ -22,7 +22,7 @@ public class ChatStateHandler extends IdleStateHandler {
     private static final Logger logger = LoggerFactory.getLogger(ChatStateHandler.class);
 
     public ChatStateHandler() {
-        super(20, 0, 0, TimeUnit.SECONDS);
+        super(20, 0, 0, TimeUnit.MINUTES);
     }
 
     @Override

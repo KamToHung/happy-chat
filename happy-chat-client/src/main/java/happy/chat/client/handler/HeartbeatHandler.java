@@ -18,7 +18,6 @@ public class HeartbeatHandler extends SimpleChannelInboundHandler<ResponseBody.R
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.ResponseMsg.Heartbeat msg) throws Exception {
         logger.info("客户端接收到心跳");
-        ctx.writeAndFlush(msg);
     }
 
 }

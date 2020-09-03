@@ -20,10 +20,13 @@ public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
 
     private final ChatClientHandler chatClientHandler;
 
+    private final NettyClientHandler nettyClientHandler;
+
     @Autowired
-    public ClientInitHandler(ChatStateHandler chatStateHandler, ChatClientHandler chatClientHandler) {
+    public ClientInitHandler(ChatStateHandler chatStateHandler, ChatClientHandler chatClientHandler, NettyClientHandler nettyClientHandler) {
         this.chatStateHandler = chatStateHandler;
         this.chatClientHandler = chatClientHandler;
+        this.nettyClientHandler = nettyClientHandler;
     }
 
 
@@ -34,6 +37,7 @@ public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
                 .addLast(new ProtobufDecoder(ResponseBody.ResponseMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
-                .addLast(chatClientHandler);
+                .addLast(chatClientHandler)
+                .addLast(nettyClientHandler);
     }
 }
