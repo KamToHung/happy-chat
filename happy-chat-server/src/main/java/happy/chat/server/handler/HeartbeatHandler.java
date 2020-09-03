@@ -32,6 +32,5 @@ public class HeartbeatHandler extends SimpleChannelInboundHandler<RequestBody.Re
         } else {
             logger.info("接收到心跳,channelId:" + ctx.channel().id());
         }
-        ctx.writeAndFlush(heartbeatRequest);
     }
 }
