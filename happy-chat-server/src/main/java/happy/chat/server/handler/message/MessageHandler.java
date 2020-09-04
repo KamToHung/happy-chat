@@ -43,6 +43,7 @@ public class MessageHandler extends SimpleChannelInboundHandler<RequestBody.Requ
         //如果某个业务逻辑导致其中一个handler链阻塞，其他分配到这个handler链的链接都会阻塞，但这个时候很有可能其他的handler链是空闲状态。
         //故如果有阻塞逻辑不采用自己的线程池就有可能造成在压力不大的情况下造成部分client阻塞
         //知道哪些业务阻塞就在哪个handler处理.两个不同handler不会互相阻塞
+        //如果阻塞了,比如例子中的心跳和发送信息,如果同一个channel正在处理信息handler(此时阻塞),那么心跳等处理信息handler处理完后才会执行
         service = new ThreadPoolExecutor(0, 20, 30L, TimeUnit.SECONDS,
                 new SynchronousQueue<>(), new ThreadFactoryBuilder().setDaemon(true).setNameFormat("ChatServerHandler-%d").build(),
                 new ThreadPoolExecutor.CallerRunsPolicy());
