@@ -1,4 +1,4 @@
-package happy.chat.server.handler;
+package happy.chat.server.handler.sign;
 
 import happy.chat.common.protobuf.request.RequestBody;
 import happy.chat.common.protobuf.response.ResponseBody;

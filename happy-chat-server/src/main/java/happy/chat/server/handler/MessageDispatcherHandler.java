@@ -1,6 +1,12 @@
 package happy.chat.server.handler;
 
 import happy.chat.common.protobuf.request.RequestBody;
+import happy.chat.server.handler.group.CreateGroupHandler;
+import happy.chat.server.handler.group.GroupMessageHandler;
+import happy.chat.server.handler.message.MessageHandler;
+import happy.chat.server.handler.status.HeartbeatHandler;
+import happy.chat.server.handler.sign.SignInHandler;
+import happy.chat.server.handler.sign.SignOutHandler;
 import happy.chat.server.util.SessionUtils;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
@@ -16,9 +22,9 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ChannelHandler.Sharable
-public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg> {
+public class MessageDispatcherHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg> {
 
-    private static final Logger logger = LoggerFactory.getLogger(ChatServerHandler.class);
+    private static final Logger logger = LoggerFactory.getLogger(MessageDispatcherHandler.class);
 
     private final SignInHandler signInHandler;
 
@@ -32,9 +38,9 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<RequestBody.R
 
     private final GroupMessageHandler groupMessageHandler;
 
-    public ChatServerHandler(SignInHandler signInHandler, HeartbeatHandler heartbeatHandler,
-                             SignOutHandler signOutHandler, MessageHandler messageHandler,
-                             CreateGroupHandler createGroupHandler, GroupMessageHandler groupMessageHandler) {
+    public MessageDispatcherHandler(SignInHandler signInHandler, HeartbeatHandler heartbeatHandler,
+                                    SignOutHandler signOutHandler, MessageHandler messageHandler,
+                                    CreateGroupHandler createGroupHandler, GroupMessageHandler groupMessageHandler) {
         this.signInHandler = signInHandler;
         this.heartbeatHandler = heartbeatHandler;
         this.signOutHandler = signOutHandler;

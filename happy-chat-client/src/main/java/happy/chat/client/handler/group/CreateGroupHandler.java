@@ -1,4 +1,4 @@
-package happy.chat.client.handler;
+package happy.chat.client.handler.group;
 
 import happy.chat.common.protobuf.request.RequestBody;
 import happy.chat.common.protobuf.response.ResponseBody;

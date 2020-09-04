@@ -1,4 +1,4 @@
-package happy.chat.server.handler;
+package happy.chat.server.handler.group;
 
 import com.google.protobuf.ProtocolStringList;
 import happy.chat.common.protobuf.request.RequestBody;

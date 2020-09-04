@@ -1,4 +1,4 @@
-package happy.chat.server.handler;
+package happy.chat.server.handler.message;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import happy.chat.common.protobuf.request.RequestBody;

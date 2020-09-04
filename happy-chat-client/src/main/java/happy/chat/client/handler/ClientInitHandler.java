@@ -1,5 +1,6 @@
 package happy.chat.client.handler;
 
+import happy.chat.client.handler.status.ChatStateHandler;
 import happy.chat.common.protobuf.response.ResponseBody;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.nio.NioSocketChannel;
@@ -7,26 +8,21 @@ import io.netty.handler.codec.protobuf.ProtobufDecoder;
 import io.netty.handler.codec.protobuf.ProtobufEncoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
-import io.netty.handler.timeout.IdleStateHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.concurrent.TimeUnit;
 
 @Component
 public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
 
     private final ChatStateHandler chatStateHandler;
 
-    private final ChatClientHandler chatClientHandler;
+    private final MessageDispatcherHandler messageDispatcherHandler;
 
-    private final NettyClientHandler nettyClientHandler;
 
     @Autowired
-    public ClientInitHandler(ChatStateHandler chatStateHandler, ChatClientHandler chatClientHandler, NettyClientHandler nettyClientHandler) {
+    public ClientInitHandler(ChatStateHandler chatStateHandler, MessageDispatcherHandler messageDispatcherHandler) {
         this.chatStateHandler = chatStateHandler;
-        this.chatClientHandler = chatClientHandler;
-        this.nettyClientHandler = nettyClientHandler;
+        this.messageDispatcherHandler = messageDispatcherHandler;
     }
 
 
@@ -37,7 +33,7 @@ public class ClientInitHandler extends ChannelInitializer<NioSocketChannel> {
                 .addLast(new ProtobufDecoder(ResponseBody.ResponseMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
-                .addLast(chatClientHandler)
-                .addLast(nettyClientHandler);
+                .addLast(messageDispatcherHandler);
     }
+
 }

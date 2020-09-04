@@ -1,6 +1,7 @@
 package happy.chat.server.handler;
 
 import happy.chat.common.protobuf.request.RequestBody;
+import happy.chat.server.handler.status.ChatStateHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;
@@ -22,7 +23,7 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
     private ChatStateHandler chatStateHandler;
 
     @Autowired
-    private ChatServerHandler chatServerHandler;
+    private MessageDispatcherHandler messageDispatcherHandler;
 
     protected void initChannel(NioSocketChannel ch) {
         ch.pipeline().addLast(chatStateHandler)
@@ -30,6 +31,6 @@ public class ServerInitHandler extends ChannelInitializer<NioSocketChannel> {
                 .addLast(new ProtobufDecoder(RequestBody.RequestMsg.getDefaultInstance()))
                 .addLast(new ProtobufVarint32LengthFieldPrepender())
                 .addLast(new ProtobufEncoder())
-                .addLast(chatServerHandler);
+                .addLast(messageDispatcherHandler);
     }
 }

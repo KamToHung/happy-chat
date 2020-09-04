@@ -1,4 +1,4 @@
-package happy.chat.server.handler;
+package happy.chat.server.handler.status;
 
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

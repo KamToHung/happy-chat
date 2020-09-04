@@ -1,4 +1,4 @@
-package happy.chat.client.handler;
+package happy.chat.client.handler.message;
 
 import happy.chat.common.protobuf.response.ResponseBody;
 import io.netty.channel.ChannelHandler;

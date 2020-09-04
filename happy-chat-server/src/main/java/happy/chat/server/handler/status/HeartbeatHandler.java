@@ -1,8 +1,9 @@
-package happy.chat.server.handler;
+package happy.chat.server.handler.status;
 
 import happy.chat.common.protobuf.request.RequestBody;
 import happy.chat.common.protobuf.response.ResponseBody;
 import happy.chat.server.entity.UserInfo;
+import happy.chat.server.handler.message.MessageHandler;
 import happy.chat.server.util.SessionUtils;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

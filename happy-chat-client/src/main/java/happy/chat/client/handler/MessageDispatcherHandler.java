@@ -1,6 +1,11 @@
 package happy.chat.client.handler;
 
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import happy.chat.client.handler.group.CreateGroupHandler;
+import happy.chat.client.handler.group.GroupMessageHandler;
+import happy.chat.client.handler.message.MessageHandler;
+import happy.chat.client.handler.sign.SignInHandler;
+import happy.chat.client.handler.sign.SignOutHandler;
+import happy.chat.client.handler.status.HeartbeatHandler;
 import happy.chat.common.protobuf.request.RequestBody;
 import happy.chat.common.protobuf.response.ResponseBody;
 import io.netty.channel.*;
@@ -9,17 +14,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PreDestroy;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
 @Component
 @ChannelHandler.Sharable
-public class ChatClientHandler extends SimpleChannelInboundHandler<ResponseBody.ResponseMsg> {
+public class MessageDispatcherHandler extends SimpleChannelInboundHandler<ResponseBody.ResponseMsg> {
 
-    private static final Logger logger = LoggerFactory.getLogger(ChatClientHandler.class);
+    private static final Logger logger = LoggerFactory.getLogger(MessageDispatcherHandler.class);
 
     private final SignInHandler signInHandler;
 
@@ -33,9 +32,9 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<ResponseBody.
 
     private final GroupMessageHandler groupMessageHandler;
 
-    public ChatClientHandler(SignInHandler signInHandler, MessageHandler messageHandler,
-                             SignOutHandler signOutHandler, HeartbeatHandler heartbeatHandler,
-                             CreateGroupHandler createGroupHandler, GroupMessageHandler groupMessageHandler) {
+    public MessageDispatcherHandler(SignInHandler signInHandler, MessageHandler messageHandler,
+                                    SignOutHandler signOutHandler, HeartbeatHandler heartbeatHandler,
+                                    CreateGroupHandler createGroupHandler, GroupMessageHandler groupMessageHandler) {
         this.signInHandler = signInHandler;
         this.messageHandler = messageHandler;
         this.signOutHandler = signOutHandler;
@@ -60,6 +59,26 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<ResponseBody.
         } else if (command == ResponseBody.ResponseMsg.Command.GROUP_MESSAGE) {
             groupMessageHandler.channelRead(ctx, msg.getSignOut());
         }
+    }
+
+    @Override
+    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
+        if (evt instanceof IdleStateEvent) {
+            logger.info("发起心跳");
+            RequestBody.RequestMsg.Heartbeat.Builder heartBuilder = RequestBody.RequestMsg.Heartbeat.newBuilder();
+            ctx.writeAndFlush(RequestBody.RequestMsg.newBuilder()
+                    .setCommandValue(RequestBody.RequestMsg.Command.HEARTBEAT_VALUE).setHeartbeat(heartBuilder.build()).build())
+                    .addListener(ChannelFutureListener.CLOSE_ON_FAILURE);
+        } else {
+            super.userEventTriggered(ctx, evt);
+        }
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        logger.error("channel:{}出异常", ctx.channel().id(), cause);
+        // 断开连接
+        ctx.channel().close();
     }
 
 }

@@ -1,7 +1,5 @@
-package happy.chat.client.handler;
+package happy.chat.client.handler.status;
 
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.handler.timeout.IdleStateHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,7 +1,6 @@
-package happy.chat.client.handler;
+package happy.chat.server.handler.group;
 
 import happy.chat.common.protobuf.request.RequestBody;
-import happy.chat.common.protobuf.response.ResponseBody;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -15,10 +14,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ChannelHandler.Sharable
-public class GroupMessageHandler extends SimpleChannelInboundHandler<ResponseBody.ResponseMsg.JoinGroup> {
+public class GroupMessageHandler extends SimpleChannelInboundHandler<RequestBody.RequestMsg.JoinGroup> {
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, ResponseBody.ResponseMsg.JoinGroup msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, RequestBody.RequestMsg.JoinGroup msg) throws Exception {
 
     }
 
