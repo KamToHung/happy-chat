@@ -42,6 +42,10 @@ public class HappyChatProperties {
          */
         private int port = 8080;
 
+        private int bossGroupThreadCount = 0;
+
+        private int workerGroupThreadCount = 0;
+
         public String getHost() {
             return host;
         }
@@ -56,6 +60,22 @@ public class HappyChatProperties {
 
         public void setPort(int port) {
             this.port = port;
+        }
+
+        public int getBossGroupThreadCount() {
+            return bossGroupThreadCount;
+        }
+
+        public void setBossGroupThreadCount(int bossGroupThreadCount) {
+            this.bossGroupThreadCount = bossGroupThreadCount;
+        }
+
+        public int getWorkerGroupThreadCount() {
+            return workerGroupThreadCount;
+        }
+
+        public void setWorkerGroupThreadCount(int workerGroupThreadCount) {
+            this.workerGroupThreadCount = workerGroupThreadCount;
         }
     }
 
